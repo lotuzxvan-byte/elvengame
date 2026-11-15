@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="id">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Taman Angka — Matematika di Taman Bintang</title><link rel="stylesheet" href="math.css"></head>
+<body>
+<main>
+<header class="math-heading"><div><span class="eyebrow">BELAJAR SAMBIL MAIN</span><h1>Taman Angka <span>✦</span></h1></div><button id="sound" aria-pressed="false">♫ Suara mati</button></header>
+<section class="garden" id="garden" aria-label="Taman matematika">
+<div class="scene-wash"></div><div class="fireflies" aria-hidden="true"><i>✦</i><i>✦</i><i>✦</i></div>
+<div class="garden-top"><span id="location">🌿 Gerbang sekolah</span><div class="stats"><span id="progress-label">12 soal · tanpa waktu</span><span id="score">⭐ 0 poin</span></div></div>
+<div class="character-guide"><span class="speech" id="speech">Yuk, main angka!</span><img src="../assets/character.png" alt="Si kecil, karakter asli Taman Bintang"></div>
+<div class="panel" id="setup"><span class="panel-icon">🌼</span><h2>Angka kecil,<br>petualangan besar.</h2><p>Jawab 12 soal sambil menjelajahi sekolah.<br>Tidak ada waktu habis. Kita belajar bersama!</p><div class="settings"><label for="operation">Mau belajar apa?<select id="operation"><option value="mix">Campuran + dan −</option><option value="add">Penjumlahan +</option><option value="subtract">Pengurangan −</option><option value="multiply">Perkalian ×</option><option value="divide">Pembagian ÷</option></select></label><label for="difficulty">Tingkat<select id="difficulty"><option value="easy">Pemula · hasil +/− sampai 10</option><option value="normal">Lanjutan · hasil +/− sampai 20</option></select></label><label for="atmosphere">Suasana<select id="atmosphere"><option value="morning">Pagi cerah</option><option value="sunset">Sore keemasan</option><option value="magic">Taman ajaib</option></select></label></div><small id="difficulty-note">Untuk × dan ÷: bilangan 1–5 (pemula) atau 1–10 (lanjutan).</small><div class="best" id="best">Rekor matematika: 0 poin</div><button class="primary" id="start">Ayo berhitung! →</button></div>
+<div class="panel question-panel" id="quiz" hidden><div class="question-heading"><span id="question-number">SOAL 1 / 12</span><span id="operation-name">Penjumlahan</span></div><h2 id="prompt">Berapa hasilnya?</h2><div class="equation" id="equation" aria-label="Soal matematika"></div><div id="counting" class="counting" hidden></div><div class="answers" id="answers" role="group" aria-label="Pilih jawaban"></div><p id="feedback" class="feedback" aria-live="polite" aria-atomic="true">Pilih angka yang menurutmu benar.</p><div class="question-actions"><button class="hint" id="hint">🌿 Bantu hitung</button><button class="primary" id="next" hidden>Soal berikutnya →</button></div><small class="keyboard-tip">Bisa pakai tombol 1–4 untuk memilih jawaban.</small></div>
+<div class="panel result-panel" id="result" hidden><div class="reward-garden" aria-hidden="true">🌟 🌼 🌟</div><h2>Hebat, tamanmu<br>penuh bintang!</h2><p>Semua 12 soal sudah selesai. Terima kasih sudah belajar bersama si kecil!</p><div class="result-stats"><div><b id="final-score">0</b><span>poin terkumpul</span></div><div><b id="first-try">0 / 12</b><span>benar di pilihan pertama</span></div></div><p id="result-message"></p><button class="primary" id="again">Main lagi →</button><button class="hint" id="change">Pilih jenis soal</button></div>
+<div class="garden-progress" id="garden-progress" aria-label="Progres soal"></div>
+</section>
+<footer>Jawaban keliru? Boleh coba lagi. <span>✦</span> Satu langkah kecil, satu hal baru.</footer>
+<a id="direct-home" href="../index.html">← Pilih game lain</a>
+</main>
+<script src="engine.js"></script><script src="math.js"></script>
+</body>
+</html>

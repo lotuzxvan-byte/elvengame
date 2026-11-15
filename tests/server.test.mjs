@@ -65,3 +65,10 @@ test("Bible story sessions validate books and scores and serve narration",async(
   assert.equal((await call("/bible/index.html")).status,200);
  }finally{await new Promise(resolve=>server.close(resolve))}
 });
+test('new episode IDs coexist with historical book IDs',async()=>{
+ const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Episode Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
+  for(const difficulty of ['jesus-birth','jesus-risen','mark']){const run=await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'bible',difficulty})});assert.equal(run.status,201)}
+ }finally{await new Promise(r=>server.close(r))}
+});

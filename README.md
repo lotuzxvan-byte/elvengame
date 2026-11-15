@@ -4,7 +4,15 @@ Versi ini menambahkan backend pencatatan skor dan dashboard admin. Panduan utama
 
 Game browser berbahasa Indonesia, dioptimalkan untuk HP.
 
-## Game keempat: Jejak Kasih — Perjanjian Baru
+## Jejak Kasih: kisah Yesus dalam 18 episode kartun
+
+Alur utama kini mengikuti perjalanan kehidupan Yesus dari kelahiran sampai kebangkitan, bukan lagi katalog 27 kitab. 18 episode: kelahiran, gembala, orang majus, Yesus kecil di Bait Allah, baptisan, murid pertama, Kana, orang lumpuh ditolong, badai, roti dan ikan, anak-anak, Zakeus, masuk Yerusalem, perjamuan, Getsemani, penyaliban, kubur kosong, dan Yesus menampakkan diri. Ini urutan belajar gabungan Injil, bukan klaim tanggal pasti semua peristiwa atau liputan lengkap Injil.
+
+Masing-masing episode mempunyai tiga adegan kartun SVG, narasi singkat, dua dialog pendek per adegan, dan dua pertanyaan. Tokoh kartun memakai karakter ilustrasi sendiri; foto wajah Elven dan ketiga game lama tidak diubah. Dialog merupakan dramatisasi/parafrasa anak, bukan kutipan terjemahan Alkitab. Satu suara sintetis Indonesia membacakan narasi dan nama pembicara/dialog; bukan sulih suara aktor profesional. Mode film memainkan narasi dan dialog berurutan, menyorot tokoh/balon dialog, lalu berpindah adegan otomatis dan berhenti di kuis. Mode manual, jeda/lanjut suara, pelan, jeda animasi, serta reduced motion tersedia. 162 MP3 baru disertakan (54 narasi + 108 dialog).
+
+Getsemani dan penyaliban disampaikan lembut: mengakui penderitaan, kematian, dan penguburan Yesus tanpa gambar luka atau kekerasan; dianjurkan pendamping. Tidak ada autoplay suara saat membuka episode. Audio berhenti saat navigasi, keluar game, atau tab disembunyikan. Progres episode lokal memakai kunci baru `elven-jesus-episodes-completed`, terpisah dari progres kitab lama; masih berbasis browser, bukan per profil. Backend menerima ID episode baru sekaligus ID kitab lama agar data admin tidak hilang. Pencatatan server hanya aktif pada deployment Node.js, bukan GitHub Pages. Berkas katalog lama dan 81 MP3 kitab tetap tersimpan sebagai arsip sumber; alur utama tidak menampilkannya. Uji: `npm test`.
+
+## Edisi pengenalan sebelumnya: 27 kitab
 
 Menu utama menyediakan **Jejak Kasih** di `bible/index.html`, edisi pengenalan berbahasa Indonesia dengan **satu bagian pilihan untuk masing-masing 27 kitab**, bukan rangkuman seluruh kitab. Urutan Matius–Wahyu dibagi menjadi Injil, Kisah Para Rasul, Surat-surat, dan Wahyu. Setiap kitab memiliki tiga adegan, audio narasi MP3, rujukan pasal/ayat, pesan sederhana, dan dua pertanyaan pemahaman. Cerita adalah parafrasa asli berbahasa anak; baca bersama pendamping dan Alkitab keluarga. Surat-surat disajikan sebagai pesan ajaran, bukan peristiwa yang dikarang; ilustrasi Wahyu menampilkan penglihatan secara simbolis.
 

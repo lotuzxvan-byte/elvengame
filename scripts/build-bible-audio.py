@@ -5,10 +5,15 @@ from concurrent.futures import ThreadPoolExecutor
 from gtts import gTTS
 
 root = Path(__file__).resolve().parents[1]
-books = json.loads(subprocess.check_output(['node', '-e', 'console.log(JSON.stringify(require("./bible/books.js").books))'], cwd=root))
+books = json.loads(subprocess.check_output(['node', '-e', 'console.log(JSON.stringify(require("./bible/episodes.js").books))'], cwd=root))
 folder = root / 'bible' / 'audio'
 folder.mkdir(parents=True, exist_ok=True)
-clips = [(folder / f'{book["id"]}-{i+1}.mp3', title + '. ' + narration) for book in books for i, (title, narration) in enumerate(book['scenes'])]
+clips = []
+for book in books:
+    for i, (title, narration, dialogue) in enumerate(book['scenes']):
+        clips.append((folder / f'{book["id"]}-{i+1}.mp3', title + '. ' + narration))
+        for j, (speaker, line) in enumerate(dialogue):
+            clips.append((folder / f'{book["id"]}-{i+1}-d{j+1}.mp3', speaker + '. ' + line))
 
 def build(clip):
     target, text = clip

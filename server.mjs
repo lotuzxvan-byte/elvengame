@@ -1,6 +1,7 @@
 import http from 'node:http';
 import {createRequire} from 'node:module';
-const bibleBooks=createRequire(import.meta.url)('./bible/books.js').books;
+const require=createRequire(import.meta.url);
+const bibleBooks=[...require('./bible/books.js').books,...require('./bible/episodes.js').books];
 import {DatabaseSync} from 'node:sqlite';
 import {randomBytes,createHash,scrypt,timingSafeEqual,randomUUID} from 'node:crypto';
 import {promisify} from 'node:util';

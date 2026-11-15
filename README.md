@@ -4,7 +4,15 @@ Versi ini menambahkan backend pencatatan skor dan dashboard admin. Panduan utama
 
 Game browser berbahasa Indonesia, dioptimalkan untuk HP.
 
-## Menu dan dua game
+## Game keempat: Jejak Kasih — Perjanjian Baru
+
+Menu utama menyediakan **Jejak Kasih** di `bible/index.html`, edisi pengenalan berbahasa Indonesia dengan **satu bagian pilihan untuk masing-masing 27 kitab**, bukan rangkuman seluruh kitab. Urutan Matius–Wahyu dibagi menjadi Injil, Kisah Para Rasul, Surat-surat, dan Wahyu. Setiap kitab memiliki tiga adegan, audio narasi MP3, rujukan pasal/ayat, pesan sederhana, dan dua pertanyaan pemahaman. Cerita adalah parafrasa asli berbahasa anak; baca bersama pendamping dan Alkitab keluarga. Surat-surat disajikan sebagai pesan ajaran, bukan peristiwa yang dikarang; ilustrasi Wahyu menampilkan penglihatan secara simbolis.
+
+Ilustrasi SVG bergerak mengikuti adegan (burung, bunga, badai/perahu, roti, pohon, dan lainnya). Navigasi manual tanpa timer, jeda animasi, dukungan reduced motion, serta audio pelan tersedia. 81 MP3 bahasa Indonesia sudah disertakan di `bible/audio`. Pemutaran memerlukan klik pengguna dan volume media; koneksi dibutuhkan bila berkas belum diunduh. Generator opsional `scripts/build-bible-audio.py` memakai gTTS hanya saat membangun ulang audio.
+
+Kuis memberi 100 poin untuk jawaban benar pertama atau 60 setelah mencoba ulang, maksimal 200. Ini skor pemahaman cerita, bukan ukuran iman. Kitab selesai ditandai lokal pada browser/perangkat yang sama (tidak dipisahkan per nama panggilan dan tidak disinkronkan lintas perangkat). Source backend dan dashboard mendukung hasil per kitab bila server Node.js telah dideploy; GitHub Pages tidak menjalankan backend ini. Game dan gambar karakter asli tetap tidak diubah. Uji data dan berkas narasi: `node --test tests/bible.test.cjs`; uji penuh: `npm test`.
+
+## Menu dan game sebelumnya
 
 ## Game ketiga: Taman Kata
 

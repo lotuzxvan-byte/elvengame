@@ -1,4 +1,6 @@
 import http from 'node:http';
+import {createRequire} from 'node:module';
+const bibleBooks=createRequire(import.meta.url)('./bible/books.js').books;
 import {DatabaseSync} from 'node:sqlite';
 import {randomBytes,createHash,scrypt,timingSafeEqual,randomUUID} from 'node:crypto';
 import {promisify} from 'node:util';
@@ -9,7 +11,7 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const derive=promisify(scrypt);
 const digest=value=>createHash('sha256').update(value).digest('hex');
 const token=()=>randomBytes(32).toString('base64url');
-const gameNames={adventure:'Berburu Bintang',math:'Taman Angka',alphabet:'Taman Kata'};
+const gameNames={adventure:'Berburu Bintang',math:'Taman Angka',alphabet:'Taman Kata',bible:'Jejak Kasih'};
 export function createApp(options={}){
  const dbPath=options.dbPath||process.env.DB_PATH||path.join(root,'data','elven.sqlite');
  if(dbPath!==':memory:')mkdirSync(path.dirname(dbPath),{recursive:true,mode:0o700});
@@ -66,13 +68,13 @@ export function createApp(options={}){
     if(route==='/api/player'&&req.method==='DELETE'){const p=player(req);if(p)db.prepare('DELETE FROM players WHERE id=?').run(p.id);setCookie(res,'elven_player','',0);return json(res,200,{ok:true})}
     if(route==='/api/runs'&&req.method==='POST'){
      rate(req,'runs',300);const p=player(req);if(!p)fail('Profil pemain belum terdaftar.',401);const b=await body(req);
-     const difficulties={adventure:['santai','waktu'],math:['easy:add','easy:subtract','easy:multiply','easy:divide','easy:mix','normal:add','normal:subtract','normal:multiply','normal:divide','normal:mix'],alphabet:['1:all','1:keluarga','1:sekolah','2:all','2:keluarga','2:sekolah','3:all','3:keluarga','3:sekolah']};
+     const difficulties={adventure:['santai','waktu'],math:['easy:add','easy:subtract','easy:multiply','easy:divide','easy:mix','normal:add','normal:subtract','normal:multiply','normal:divide','normal:mix'],alphabet:['1:all','1:keluarga','1:sekolah','2:all','2:keluarga','2:sekolah','3:all','3:keluarga','3:sekolah'],bible:bibleBooks.map(book=>book.id)};
      const checkedDifficulty=b.game==='alphabet'&&typeof b.difficulty==='string'&&b.difficulty.endsWith(':en')?b.difficulty.slice(0,-3):b.difficulty;
-     if(!difficulties[b.game]?.includes(checkedDifficulty))fail('Game atau tingkat tidak valid.');const id=randomUUID(),started_at=new Date().toISOString();db.prepare('INSERT INTO runs(id,player_id,game,difficulty,total,started_at) VALUES(?,?,?,?,?,?)').run(id,p.id,b.game,b.difficulty,b.game==='math'?12:b.game==='alphabet'?8:20,started_at);return json(res,201,{id,started_at});
+     if(!difficulties[b.game]?.includes(checkedDifficulty))fail('Game atau tingkat tidak valid.');const id=randomUUID(),started_at=new Date().toISOString();db.prepare('INSERT INTO runs(id,player_id,game,difficulty,total,started_at) VALUES(?,?,?,?,?,?)').run(id,p.id,b.game,b.difficulty,b.game==='math'?12:b.game==='alphabet'?8:b.game==='bible'?2:20,started_at);return json(res,201,{id,started_at});
     }
     if(/^\/api\/runs\/[a-f0-9-]{36}\/finish$/.test(route)&&req.method==='POST'){
      rate(req,'finish',300);const p=player(req);if(!p)fail('Profil tidak tersedia.',401);const id=route.split('/')[3];const run=db.prepare('SELECT * FROM runs WHERE id=? AND player_id=?').get(id,p.id);if(!run)fail('Sesi tidak ditemukan.',404);if(run.completed_at)return json(res,200,{saved:true,id,duplicate:true});
-     const b=await body(req),max=run.game==='math'?1200:run.game==='alphabet'?800:30000;
+     const b=await body(req),max=run.game==='math'?1200:run.game==='alphabet'?800:run.game==='bible'?200:30000;
      if(!Number.isInteger(b.score)||b.score<0||b.score>max)fail('Skor di luar batas.');if(run.game!=='adventure'&&(!Number.isInteger(b.firstTry)||b.firstTry<0||b.firstTry>run.total))fail('Jumlah jawaban tidak valid.');
      if(run.game==='adventure'?!['won','lost'].includes(b.status):b.status!=='completed')fail('Status sesi tidak valid.');
      const completed=new Date().toISOString();db.prepare('UPDATE runs SET completed_at=?,score=?,first_try=?,status=? WHERE id=?').run(completed,b.score,run.game==='adventure'?null:b.firstTry,b.status,id);return json(res,200,{saved:true,id,completed_at:completed});
@@ -106,9 +108,9 @@ export function createApp(options={}){
    }
    if(!['GET','HEAD'].includes(req.method))fail('Metode tidak didukung.',405);
    if(route==='/favicon.ico'){res.writeHead(204);return res.end()}
-   if(/^\/(adventure|math|alphabet)\/(index\.html)?$/.test(route)&&req.headers['sec-fetch-dest']==='document'){res.writeHead(302,{Location:'/'});return res.end()}
+   if(/^\/(adventure|math|alphabet|bible)\/(index\.html)?$/.test(route)&&req.headers['sec-fetch-dest']==='document'){res.writeHead(302,{Location:'/'});return res.end()}
    const routePath=route==='/'?'index.html':route==='/admin'||route==='/admin/'?'admin/index.html':decodeURIComponent(route).replace(/^\//,'');
-   const allowed=routePath==='index.html'||['menu.js','menu.css','scores.js','scores.css','score-bridge.js'].includes(routePath)||/^(admin|assets|adventure|math|alphabet)\/[a-zA-Z0-9_.-]+\.(html|css|js|png|jpg)$/.test(routePath)||/^alphabet\/audio\/[a-zA-Z0-9-]+\.mp3$/.test(routePath);
+   const allowed=routePath==='index.html'||['menu.js','menu.css','scores.js','scores.css','score-bridge.js'].includes(routePath)||/^(admin|assets|adventure|math|alphabet|bible)\/[a-zA-Z0-9_.-]+\.(html|css|js|png|jpg)$/.test(routePath)||/^(alphabet|bible)\/audio\/[a-zA-Z0-9-]+\.mp3$/.test(routePath);
    if(!allowed)fail('File tidak ditemukan.',404);const file=path.join(root,routePath);if(!existsSync(file)||!statSync(file).isFile())fail('File tidak ditemukan.',404);
    const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'application/javascript; charset=utf-8','.jpg':'image/jpeg','.png':'image/png','.mp3':'audio/mpeg'};
    if(route.startsWith('/admin'))res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'");

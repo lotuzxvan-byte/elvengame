@@ -48,3 +48,20 @@ test('SQLite persists across restart without leaking data files',async()=>{
  async function boot(){server=createApp({dbPath,setupToken:'test-persist-token'});await new Promise(r=>server.listen(0,'127.0.0.1',r));return 'http://127.0.0.1:'+server.address().port}
  try{let base=await boot();const response=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Persistensi'})});const p=await response.json();const cookie=response.headers.get('set-cookie').split(';')[0];await new Promise(r=>server.close(r));base=await boot();const res=await fetch(base+'/api/player',{headers:{Cookie:cookie}});assert.equal((await res.json()).player.id,p.player.id);assert.equal((await fetch(base+'/scores.sqlite')).status,404);await new Promise(r=>server.close(r));server=null}finally{if(server?.listening)await new Promise(r=>server.close(r));rmSync(dir,{recursive:true,force:true})}
 });
+test("Bible story sessions validate books and scores and serve narration",async()=>{
+ const server=createApp({dbPath:":memory:",setupToken:"bible-test-only"});await new Promise(resolve=>server.listen(0,"127.0.0.1",resolve));const base="http://127.0.0.1:"+server.address().port;
+ async function call(route,body,cookie=""){return fetch(base+route,{method:body?"POST":"GET",headers:{Origin:base,"Content-Type":"application/json",Cookie:cookie},body:body?JSON.stringify(body):undefined});}
+ try{
+  const player=await call("/api/player",{nickname:"Bible Test"}),cookie=player.headers.get("set-cookie").split(";")[0];
+  assert.equal((await call("/api/runs",{game:"bible",difficulty:"not-a-book"},cookie)).status,400);
+  const start=await call("/api/runs",{game:"bible",difficulty:"mark"},cookie);assert.equal(start.status,201);const {id}=await start.json(),finish="/api/runs/"+id+"/finish";
+  assert.equal((await call(finish,{score:201,firstTry:2,status:"completed"},cookie)).status,400);
+  assert.equal((await call(finish,{score:200,firstTry:3,status:"completed"},cookie)).status,400);
+  assert.equal((await call(finish,{score:200,firstTry:2,status:"completed"},cookie)).status,200);
+  await call("/api/admin/setup",{token:"bible-test-only",password:"bible-test-password"});const login=await call("/api/admin/login",{password:"bible-test-password"});
+  const results=await (await call("/api/admin/results?game=bible",null,login.headers.get("set-cookie").split(";")[0])).json();
+  assert.equal(results.rows[0].difficulty,"mark");assert.equal(results.rows[0].total,2);assert.equal(results.rows[0].score,200);
+  const audio=await call("/bible/audio/mark-1.mp3");assert.equal(audio.status,200);assert.equal(audio.headers.get("content-type"),"audio/mpeg");assert.ok((await audio.arrayBuffer()).byteLength>1000);
+  assert.equal((await call("/bible/index.html")).status,200);
+ }finally{await new Promise(resolve=>server.close(resolve))}
+});

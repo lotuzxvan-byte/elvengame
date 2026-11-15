@@ -6,7 +6,7 @@ const leaveDialog=document.querySelector('#leave-dialog');
 let selectedButton;
 function openGame(type,button){
  if(window.GameScores&&!window.GameScores.ready()){window.GameScores.ask(()=>openGame(type,button));return}
- const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html',name:'Taman Kata'}};
+ const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'}};
  const game=games[type];if(!game)return;
  selectedButton=button;
  const frame=document.createElement('iframe');
@@ -20,4 +20,4 @@ document.querySelectorAll('[data-game]').forEach(button=>button.onclick=()=>open
 back.onclick=()=>leaveDialog.showModal();
 document.querySelector('.brand').onclick=event=>{if(document.body.classList.contains('playing')){event.preventDefault();leaveDialog.showModal()}};
 document.querySelector('#stay').onclick=()=>leaveDialog.close();
-document.querySelector('#leave').onclick=()=>{leaveDialog.close();const frame=player.querySelector('iframe');try{if(frame&&typeof frame.contentWindow.stopWordAudio==='function')frame.contentWindow.stopWordAudio()}catch{}player.replaceChildren();player.hidden=true;menu.hidden=false;back.hidden=true;document.querySelector('#header-note').hidden=false;document.body.classList.remove('playing');document.title='Game Elven — Pilih Petualanganmu';selectedButton?.focus()};
+document.querySelector('#leave').onclick=()=>{leaveDialog.close();const frame=player.querySelector('iframe');try{if(frame&&typeof frame.contentWindow.stopWordAudio==='function')frame.contentWindow.stopWordAudio();if(frame&&typeof frame.contentWindow.stopBibleAudio==='function')frame.contentWindow.stopBibleAudio()}catch{}player.replaceChildren();player.hidden=true;menu.hidden=false;back.hidden=true;document.querySelector('#header-note').hidden=false;document.body.classList.remove('playing');document.title='Game Elven — Pilih Petualanganmu';selectedButton?.focus()};

@@ -1,0 +1,7 @@
+const assert=require('node:assert/strict');
+const engine=require('../alphabet/words.js');
+assert.equal(engine.alphabet.length,26);assert.equal(new Set(engine.alphabet).size,26);assert.equal(engine.letterNames.length,26);assert.equal(engine.words.length,48);assert.equal(new Set(engine.words.map(w=>w.word)).size,48);
+for(const w of engine.words){assert.equal(w.syllables.join(''),w.word);assert.ok(w.sentence&&w.emoji);assert.ok(['keluarga','sekolah'].includes(w.category));assert.ok([1,2,3].includes(w.level));assert.match(w.word,/^[a-z]+$/);for(let n=0;n<100;n++){const choices=engine.choices(w.word);assert.equal(choices.length,4);assert.equal(new Set(choices).size,4);assert.ok(choices.includes(w.word[0].toUpperCase()))}}
+for(const level of [1,2,3])for(const category of ['all','keluarga','sekolah'])for(let n=0;n<50;n++){const session=engine.session(category,level);assert.equal(session.length,8);assert.equal(new Set(session.map(w=>w.word)).size,8);assert.ok(session.every(w=>w.level===level));if(category==='all'){assert.equal(session.filter(w=>w.category==='keluarga').length,4);assert.equal(session.filter(w=>w.category==='sekolah').length,4)}else assert.ok(session.every(w=>w.category===category))}
+assert.equal(engine.normalize(' IBU! '),'ibu');assert.equal(engine.normalize('Ibu membaca.'),'ibu membaca');
+console.log('PASS: 48 words, 26 letters, syllables reconstruct words, balanced 8-word sessions and four unique answer choices.');

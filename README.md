@@ -1,8 +1,24 @@
-# Taman Bintang
+# Game Elven
+
+Versi ini menambahkan backend pencatatan skor dan dashboard admin. Panduan utama deployment, aktivasi login, privasi, serta keterbatasan ada di **ONLINE-README.md**. Source backend tersedia di repository, tetapi pencatatan online dan login admin baru aktif setelah deployment Node.js dengan database persisten. GitHub Pages hanya menyajikan frontend statis; pada Pages, game tetap dapat dimainkan dengan profil sementara dan peringatan bahwa skor belum tersimpan online.
 
 Game browser berbahasa Indonesia, dioptimalkan untuk HP.
 
 ## Menu dan dua game
+
+## Game ketiga: Taman Kata
+
+Menu juga menyediakan **Taman Kata** di `alphabet/index.html`: 26 huruf A–Z dan 48 kata bahasa Indonesia bertema keluarga/sekolah. Tiga tingkat terdiri dari mudah, sedang, dan menantang; setiap tingkat memiliki 8 kata keluarga dan 8 kata sekolah. Sesi campuran mengambil 4 dari setiap tema, total 8 kata tanpa batas waktu. Pemain memilih tingkat secara bebas.
+
+Contoh kata: ibu, ayah, buku, guru → keluarga, seragam, penggaris → kebersamaan, perpustakaan, ekstrakurikuler. Setiap kata dilengkapi panduan suku kata dan kalimat sederhana. Huruf alfabet dibacakan sebagai nama huruf bahasa Indonesia, bukan fonem.
+
+**Contoh ucapan:** Web Speech Synthesis memakai suara perangkat berbahasa Indonesia (`id-ID` atau varian Indonesia). Tombol Dengar tersedia setelah suara Indonesia termuat. Tidak memakai suara bahasa lain sebagai pengganti. Jika tidak tersedia, UI menjelaskan keterbatasan dan meminta pendamping membacakan; latihan visual tetap bisa dimainkan. Tombol Pelan memperlambat kata utuh, bukan membaca potongan suku kata secara terpisah. Kualitas suara, ketersediaan dan kebutuhan internet bergantung pada browser/perangkat, sehingga fitur audio tidak dijamin berjalan offline di semua perangkat.
+
+**Latihan:** pemain mengucapkan kata dan menekan Sudah kuucapkan (penandaan mandiri), lalu memilih huruf awal. Jawaban benar pada pilihan pertama memberi 100 poin, setelah kesalahan 60 poin. Tidak ada poin dari suara, klaim akurasi pelafalan, atau nilai kualitas pengucapan. Tanda alfabet dan rekor kuis disimpan lokal dengan kunci terpisah dari dua game lain.
+
+**Mikrofon opsional:** memerlukan browser yang mendukung Web Speech Recognition serta secure context/HTTPS. Izin diperlukan lewat dialog penjelasan dan otorisasi browser; tidak aktif otomatis. Browser mungkin mengirim audio ke layanan pengenalannya. Game tidak menyimpan rekaman atau transkrip secara persisten, dan hanya menampilkan teks yang dikenali sementara. Kesamaan teks bukan pengukuran pelafalan. Mikrofon berhenti saat sesi dibatalkan, kartu diganti, tab disembunyikan, atau kembali ke menu; batas sesi 12 detik. Tidak diperlukan untuk menyelesaikan game.
+
+Game petualangan, game matematika, dan kelima gambar asli tidak dimodifikasi dalam penambahan game ketiga. Uji data: `node tests/words.test.cjs`. UI dan alur izin diuji memakai simulasi API suara; suara dan mikrofon nyata perlu dukungan perangkat pengguna. Source game ketiga tersedia di repository.
 
 `index.html` sekarang menjadi menu awal untuk memilih game:
 
@@ -17,7 +33,7 @@ Tiga soal membawa pemain ke lokasi sekolah berikutnya. Pilihan suasana dan suara
 
 Tombol **Pilih game** kembali ke menu setelah konfirmasi dan mengakhiri sesi yang sedang berjalan; rekor yang sudah disimpan tidak hilang. Setiap game hanya dimuat ketika dipilih sehingga game lain tidak berjalan di latar.
 
-Untuk bermain offline, ekstrak seluruh paket lalu buka `index.html`. Jangan memisahkan folder `assets`, `adventure`, atau `math`. Tidak ada build, API key, layanan eksternal, atau login. Preview ini belum dipush ke GitHub.
+Untuk bermain offline, ekstrak seluruh paket lalu buka `index.html`. Jangan memisahkan folder `assets`, `adventure`, `math`, atau `alphabet`. Game tidak membutuhkan build atau akun pemain. Pencatatan online, login admin, dan sebagian fitur suara membutuhkan layanan atau dukungan runtime sebagaimana dijelaskan di **ONLINE-README.md**.
 
 Uji mesin matematika: `node tests/math-engine.test.cjs`.
 

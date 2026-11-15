@@ -1,0 +1,618 @@
+{
+  "version": "id-neural-1",
+  "voice": "id-ID-GadisNeural",
+  "locale": "id-ID",
+  "rate": "-8%",
+  "clips": {
+    "letter-a.mp3": {
+      "key": "2fe04a6c6ec7516ff324f439cc6b56316476ab96e4b48d2caf2c2e19310ade46",
+      "text": "Huruf ini dibaca a.",
+      "sha256": "379c57a1c9cdccaaa137e5df1bbab20524b000218a9f2e4b4633d8f8daba8baf"
+    },
+    "letter-b.mp3": {
+      "key": "0668dae7771bb6da4c81737c2f75625cb58b15e40d1fdf68ff7980086a7a5c41",
+      "text": "Huruf ini dibaca bé.",
+      "sha256": "7319644ebfddb125405a06f551d4c20f7e89562b1a27918b2fa2302700ccb4cf"
+    },
+    "letter-c.mp3": {
+      "key": "93415aed339b3eb7552d20654f74a3105b891ef47f8c17e375a8d0ef1a7d3e21",
+      "text": "Huruf ini dibaca cé.",
+      "sha256": "336d4de0fbec2d76d318a7d74c57cc0d536d3b5d4eb78679a2f5c959e14ce170"
+    },
+    "letter-d.mp3": {
+      "key": "82418b2952320f914219c8ce3e75a6e6d29a4696ff08c059b4f87fefaa1883ea",
+      "text": "Huruf ini dibaca dé.",
+      "sha256": "46679409768b1574d4939aa26abb959dfa06b24619fcde195e98386443bf82aa"
+    },
+    "letter-e.mp3": {
+      "key": "ac09212d8370f1cdfef2d5b023628a2c39451d68a0b1fbb963ba3d7b622fb531",
+      "text": "Huruf ini dibaca é.",
+      "sha256": "4cc87c4e7eba6b830608d516e0453d85f1ac795188e7484df322d6b052894428"
+    },
+    "letter-f.mp3": {
+      "key": "a79889c767453cba5a783394962c0323facecc6e60ffbb978e3c1ded2f5a4794",
+      "text": "Huruf ini dibaca éf.",
+      "sha256": "92189a3a73e427351b19dbdb0b210d7df9b34838daf90614b48c3bce747a1b5b"
+    },
+    "letter-j.mp3": {
+      "key": "83d58b61e2e6b681f24df09492d53180deb9d06c9127c3668feee796a8fae78d",
+      "text": "Huruf ini dibaca jé.",
+      "sha256": "c0cf683d8e3356745c972c72037bd1fb058a1568ca96939d328553396aacc33d"
+    },
+    "letter-h.mp3": {
+      "key": "a23a3db1362dde95c4844c95f177ed4bc93b6bfebbe755045f29745a1f3ad7f8",
+      "text": "Huruf ini dibaca ha.",
+      "sha256": "da8d5764ea0e79f93ffcfd379df8229069a92b0c86fc4df583a15738adc6809d"
+    },
+    "letter-i.mp3": {
+      "key": "8695f1689d9692bdb8beb4b309818cba3380d39c5a525c0cd91428cec2aa2e45",
+      "text": "Huruf ini dibaca i.",
+      "sha256": "f62a60319a3e6a8e36c1e337f08a1ba33ea174ec14a7dabee7e67b68dab183e9"
+    },
+    "letter-k.mp3": {
+      "key": "99cca1c38b35e0647e6ede8580b2c2c5129628782477695db792c21058185bac",
+      "text": "Huruf ini dibaca ka.",
+      "sha256": "60f7271561f37265b52b5adc164a82e3a828c139fba20de0b79591af4c90661c"
+    },
+    "letter-g.mp3": {
+      "key": "4507f76e3ed99e6206b203cac65569fa7f0a76e060b2a2f9da658268aaa46cad",
+      "text": "Huruf ini dibaca gé.",
+      "sha256": "aa6ced2c93cc0dccfbb47940d72d275f198469f9fbf29d8ddf7d7bd89b0b643b"
+    },
+    "letter-l.mp3": {
+      "key": "765f48dd0cec8c9e334b817f4028d6ffb9858582517524f8a65f45a5512adb8b",
+      "text": "Huruf ini dibaca él.",
+      "sha256": "51e2ff9ffe2cd7d85e84784a53d260fb2e7a84df9bbc04bfb887873aed114788"
+    },
+    "letter-m.mp3": {
+      "key": "ac1d101cd9786f50bb1b1a4b131894c01cf9fa1f00bf89a5271607cb2e35a5aa",
+      "text": "Huruf ini dibaca ém.",
+      "sha256": "abf88c0fc745569b7601430c6b5f23083b548748ddafee7283a7bc4399dddcb5"
+    },
+    "letter-n.mp3": {
+      "key": "f5251476f578dbf7acc6d3ea03bb749eee2b5657d736d4385beaa3bc95026dcd",
+      "text": "Huruf ini dibaca én.",
+      "sha256": "43a1e9274ac73c6588ba8d3d6f69bdcb31a3d093c6f62451ae68062dd1684a92"
+    },
+    "letter-p.mp3": {
+      "key": "34d0dd98effc481c1dd377f6f67728f4c356174a997dc409b31dae4dca2310f4",
+      "text": "Huruf ini dibaca pé.",
+      "sha256": "479fd6bd95e388b4251555e4faa487306bb3fbaf28c7e890892557ad1ad2799d"
+    },
+    "letter-o.mp3": {
+      "key": "7d888727c3c9e64a9028d5d99879769a002be304f5e5db9c86246375883a845e",
+      "text": "Huruf ini dibaca o.",
+      "sha256": "761c1c1f5e9a17a3257c1d69e2e24b2afe2d85e5a05ba09a2576def779010939"
+    },
+    "letter-q.mp3": {
+      "key": "ec00ca871dd4c035f305c91e9818000f13ab25e55c9d8b856c58bbf273f4c986",
+      "text": "Huruf ini dibaca ki.",
+      "sha256": "9f927ae2115e79631c57151a240a1e0c16e5288a821a386a1a146471abc868de"
+    },
+    "letter-r.mp3": {
+      "key": "17b016db3c1e30e7dc2123fee074b27778371bb707646911bd6f226760d24973",
+      "text": "Huruf ini dibaca ér.",
+      "sha256": "5b06ef674453c9efaeb925b1813304a7bacce69ecc66fa2104fb6453ee83c973"
+    },
+    "letter-t.mp3": {
+      "key": "2018d86c9d67ed617788b94c3c1578ab0d5e19dd12d2c93201cf5675c1be63f4",
+      "text": "Huruf ini dibaca té.",
+      "sha256": "c104f495b34b919d4af6611ea38a6a8ad83ab6a9ab69622815e3897bf4c31fc5"
+    },
+    "letter-s.mp3": {
+      "key": "77e8cd24ba033262c6a6e42ac2a9d8097321c97724a4036b37a7586bb33dbb7c",
+      "text": "Huruf ini dibaca és.",
+      "sha256": "10398c02d1aa972ea10e5226ebd543570cdad771af3a9ece5719df263007b23e"
+    },
+    "letter-v.mp3": {
+      "key": "f3566c03aa3dc354b7a918bad54bfaf1a90e2c3d6cec3bc44ef8a21838cd59e9",
+      "text": "Huruf ini dibaca vé.",
+      "sha256": "3e3810a3519030ff31c559f5a13502cf2902894e2e9870bf3b9931ebe437a7e8"
+    },
+    "letter-u.mp3": {
+      "key": "030a98a97133e1c20e0988164f148c4f97fd927a1eeb770fab7fac69de309161",
+      "text": "Huruf ini dibaca u.",
+      "sha256": "232a6a145d172d0ff8b86f2fd721e40972540ab8f20e1172174afd26c7b7d3a7"
+    },
+    "letter-x.mp3": {
+      "key": "7120ff967447810dcc7ea67f79ea5dfea27ba77155f8d77dd57447cad0da419d",
+      "text": "Huruf ini dibaca éks.",
+      "sha256": "864731e03cc7bd2da9d5e4d1118145f6999a4684ed1d0d5d8cfd37494c36a778"
+    },
+    "letter-w.mp3": {
+      "key": "878e8d30820d72bea79aa9987cf53615b5deac6f9860ff774a8820f9188c4bfe",
+      "text": "Huruf ini dibaca wé.",
+      "sha256": "d6f2bddde1766765564be6a4f7c98d1c3d47533ae02a54c519223245bf0fa3f0"
+    },
+    "letter-y.mp3": {
+      "key": "9d7a13c64b71abf15252490f7cfb718e20a95e3f15ffd5b54c405efa4fc19c2c",
+      "text": "Huruf ini dibaca yé.",
+      "sha256": "16f9c15321793f4b99f58a3a064bb5cbd8277682634bcde92ca33882f255481e"
+    },
+    "letter-z.mp3": {
+      "key": "12b2c686160a64a325456c067c2ff41dc53d515770cb14ed535c37490fe00199",
+      "text": "Huruf ini dibaca zét.",
+      "sha256": "51bfe9f19e0574b755ab8ff05a49c7f4f6baab98de6821fc0e99627537a2abc8"
+    },
+    "sentence-ibu.mp3": {
+      "key": "24726433473cf8bf5e3f896f8b237860dd30fbab8a54d4bf44b03933fa6713ff",
+      "text": "Ibu membaca buku.",
+      "sha256": "891f3b888e08cbcb9bf4a9e883608e4f259a06189a23f3c40b8f2da07285c1c6"
+    },
+    "word-ibu.mp3": {
+      "key": "af774e7c2fc5d24e10a39f94c37b9758a951ed1a2a9602884b0f64f81aa16e3e",
+      "text": "ibu.",
+      "sha256": "f0d446798d6005ec7e152e5e02f883a7869c2758438226033849157373afff5b"
+    },
+    "word-ayah.mp3": {
+      "key": "37f9e8d8731a9bf8c1d124177d7be63ab00d96b7c1bed0e0eb62331c87a696b7",
+      "text": "ayah.",
+      "sha256": "62ddb2ba2e16355dd4812bc3c4a13c03ba2a72c001d880828eb0191116320dce"
+    },
+    "sentence-ayah.mp3": {
+      "key": "33a9725f23eca8cecd6f182c858458deb8446279ff5c1722185e610245327c87",
+      "text": "Ayah mengantar ke sekolah.",
+      "sha256": "0a5f32601cd4190201a2d2652bc263cbcf9c4fd9b50894c78169f4b63eeb7bc2"
+    },
+    "word-adik.mp3": {
+      "key": "94c4ca359913738c330ccc84dc4beb3a59abb7ea3f8f32645c65d72024d4580a",
+      "text": "adik.",
+      "sha256": "31240ce1af6080b95c128b76c267b3633fa0111b08f4f736f3e89a79c34d7207"
+    },
+    "sentence-kakak.mp3": {
+      "key": "452c7756dcbc060bfa0402e67f15ff75b4f69e9eab59ccf67cf4d03d89104122",
+      "text": "Kakak membantu adik.",
+      "sha256": "9d8baf54fda55df0b6838a64797195fe9c81ea98a197afbaa6da72f5270b6028"
+    },
+    "word-kakak.mp3": {
+      "key": "75ebf8a9d09adac18b520c10e9d6b939fe193c2c76792b2a44c56fc5f9a9cf4a",
+      "text": "kakak.",
+      "sha256": "f831bb145ef578a398126fd4a5cae3233eb43d822e85fe086137c3be26eb79c5"
+    },
+    "word-nenek.mp3": {
+      "key": "9901a1b3c2c890684fe478c06b9e07c9929a2c9b555e730c3bb49c012f1236c0",
+      "text": "nenek.",
+      "sha256": "c96cb7ede80e59c4bfb151bdc51762af90f8e3dafe7c638570ffa2a13050115c"
+    },
+    "sentence-adik.mp3": {
+      "key": "b086655a797520d510ebfb94c2290e1e73c7e1bc398f618ebdf58de1029250fb",
+      "text": "Adik bermain bersama kakak.",
+      "sha256": "961504a9203281b1ceca3b9e1b3007becb128639e1432de77f822bc6148359c3"
+    },
+    "word-kakek.mp3": {
+      "key": "f4c0255c740edbdf1877a744aee449522a5b3f8aa7ba333bf35e9a2d6beb535d",
+      "text": "kakek.",
+      "sha256": "4523b7056e3e5ac20b6360f8ded83cc5a73b2e143ac2d968423fe21f2d612205"
+    },
+    "sentence-nenek.mp3": {
+      "key": "a9a2b4b93f5e8989efce878ffd3e5bdb67d36e6750c71959597eb8ff27fe37c9",
+      "text": "Nenek bercerita di rumah.",
+      "sha256": "beccaecff057c5a593c536cf30c899a5ff3771c16e17af0eda0e9570674f2185"
+    },
+    "sentence-kakek.mp3": {
+      "key": "1b370abe957537c4072c320a0532589f3111c26d057eaa63bd5524fd1dbe063f",
+      "text": "Kakek menyiram tanaman.",
+      "sha256": "4462921e5d2a08bbfccccd04961fb58a639ae1ec9fa743cf397dad723e82f344"
+    },
+    "word-tante.mp3": {
+      "key": "13fc87c2d30c4882077ee822202899bbe6266c084310e7bb089a0064b85b1ad4",
+      "text": "tante.",
+      "sha256": "bd8f206f9eb9877df2e621fe64410bd94f2e0fd0f69922052113644ef4e51694"
+    },
+    "sentence-om.mp3": {
+      "key": "8f367259c5229c727256390191974a480115a8c566d97798c70fdae33f1e26df",
+      "text": "Om datang berkunjung.",
+      "sha256": "85115d1aa6d29265c6dd46e8a960a207f429f28a1b4ae19f1188d841732d36d5"
+    },
+    "sentence-tante.mp3": {
+      "key": "e9ec21e96871687398f14a56130c222f970fde535b9a107250cbf2453553a6ae",
+      "text": "Tante membawa buah.",
+      "sha256": "b7939368174d336ffc399d018ef7592b86310b2599163b96e91946354055f91a"
+    },
+    "word-om.mp3": {
+      "key": "ba685dfb09a93a131d111475abaeae916cb5ee27930799d30bcb5334695ac052",
+      "text": "om.",
+      "sha256": "c39bc4634c07b52dfee8064883a0a5969e5b521950f18ca1cd3034a3ab82e869"
+    },
+    "sentence-buku.mp3": {
+      "key": "c0b03dd96d08a65f5cbce1508f5b8a03e7efd2721901aee9b357fd26cf6ee61f",
+      "text": "Aku membaca buku.",
+      "sha256": "bcad871e44ba8d9cf3df544cc39ca554068560ae58cb9e645d8b3fbb1bdf3d74"
+    },
+    "word-guru.mp3": {
+      "key": "4255e732da627683214eff734f92f6011084af16789c501cbe301ea2cc3352e1",
+      "text": "guru.",
+      "sha256": "9a82ddf60476c15e90cb5fd4bef0d3c8e6e6c826f9e5398225bbdcf692c5890f"
+    },
+    "word-tas.mp3": {
+      "key": "8a10a79fcab5509048b8f944abea1cbecd00eca180a5185405c4a4db381536b0",
+      "text": "tas.",
+      "sha256": "14924b6ce4f42ab3bbf58b4ad105695f9d0cd2427b966acbd8e209c8d3a3aad8"
+    },
+    "sentence-guru.mp3": {
+      "key": "02028b4680c2bd975e83c816fe54d2765e7c0225b2bcfff5f56fbc3c97ee080e",
+      "text": "Guru mengajar di kelas.",
+      "sha256": "cdfaec379ddbafdf926a420ea9fa2efd954b65ee4f5ad41d3bcac0a1c2319220"
+    },
+    "sentence-tas.mp3": {
+      "key": "e0292a4d30327215a56d03a5e597d49db288667ad61e3ae2def482cbc01736d3",
+      "text": "Buku ada di dalam tas.",
+      "sha256": "b549ef85da3d0c38bbe05fa78d83b8256fef375759b66a3413e17d49ab5aa0ab"
+    },
+    "word-buku.mp3": {
+      "key": "4768e48097bb6ffe31e53d1b700e8fd27b1a84077732a1211b40f5c7191e958d",
+      "text": "buku.",
+      "sha256": "83304b2bf9bfb8598d988caf3f50b3cd79adc3d12a4ff49d34bbc8f69b6cd3e6"
+    },
+    "word-pena.mp3": {
+      "key": "4bf670f91481e8fae2e54fd66e9e20140e9fc74f4566ef36766d12c38d8461f3",
+      "text": "pena.",
+      "sha256": "15c7fa0687f17352d08e25bcb91c5e69bd96b95e79ebd84a9c38fc0717887cd3"
+    },
+    "sentence-pena.mp3": {
+      "key": "8ee4a4a8ab31ee3626e1896c6fbd08e0c0da90a602f6d493fe8ea381e4757f8c",
+      "text": "Aku menulis dengan pena.",
+      "sha256": "27fcc9245170c5bcd181e58320800faa9cd0ef94c065db1149ad4bd17bfbe41c"
+    },
+    "word-meja.mp3": {
+      "key": "0b4de77c34326a86b7f9a9c83c849d9370dd5593ec640c44c96382ad277e5433",
+      "text": "meja.",
+      "sha256": "95817f74d84bd929c7e3b7fbad82be718f61f5eb276507975e506b21302cd3db"
+    },
+    "sentence-lem.mp3": {
+      "key": "3700ccdbbc45c293324ba12976c0c1b8db95f470cd954c6a053ce2e27dc277a2",
+      "text": "Aku menempel kertas dengan lem.",
+      "sha256": "4a3b41058819e2431eaf612b6f509f1879de0ac0313bf4fa941a059b32900561"
+    },
+    "sentence-meja.mp3": {
+      "key": "c4071630dc0c7c748f3c5bb2d66d545150ab192957d23651df0f316aa0da5da5",
+      "text": "Buku diletakkan di meja.",
+      "sha256": "bb788293009059f5c88fa0e6924137b08cc81b6f9e70844ce933511d7f85aeff"
+    },
+    "word-lem.mp3": {
+      "key": "c68981c9fa96c1507ef1f9af9e3653e8519ad0b8ff6cd9907e66f1ab09a8a575",
+      "text": "lem.",
+      "sha256": "83bb3abfb8f4dccb2cd9f5c65949395649c4cc33ba364eac379c001033f581ec"
+    },
+    "word-kelas.mp3": {
+      "key": "396cc2df8225619ba4af5d62f50e3abb67c4fbf899919d6945d46152f6d6000c",
+      "text": "kelas.",
+      "sha256": "4de8c3bbd716a354ef39ffab965b5f850ccb8f75872c71bd791192d8f2cd128f"
+    },
+    "word-bola.mp3": {
+      "key": "5cb63cc3eb6b1f0bdccc8f96718183cdf0121fa04131bef14bce883bff6a0839",
+      "text": "bola.",
+      "sha256": "d330620aa4489730d13a962d461bc6e5ab5fe9c62bd6d63281e8dade62d75296"
+    },
+    "sentence-sepupu.mp3": {
+      "key": "a3b3c9e407ac86740308e83dc6090d411f041f6c8a666bb7162c4da6b19f39eb",
+      "text": "Sepupu bermain bersamaku.",
+      "sha256": "ca93b57bcda241e98dc68f748cfc1491dfbdf776020ebf8dbb2003ff3104dcfa"
+    },
+    "sentence-kelas.mp3": {
+      "key": "9b6f862ba1c3bc4609446a19cc577747449b502dcb2a98f0f8177de2ddbb0b9b",
+      "text": "Kami belajar di kelas.",
+      "sha256": "04a7326f8db0da9aa32de2b040fbbefd2669f5003c99aab0d43372086457565d"
+    },
+    "word-sepupu.mp3": {
+      "key": "97ece87e32e05bde2fb8415cc3a12a9ff6cb12394d3e815c383ea5da33cff508",
+      "text": "sepupu.",
+      "sha256": "3b619e2feee00e6987057fa226f9a37f8faf066627f3cab6539cf0839112ffa2"
+    },
+    "sentence-bola.mp3": {
+      "key": "c83251caabe42d32c5bc376af1ca75c77dc5e45ddfd6091a6da7a0579d45b38a",
+      "text": "Kami bermain bola di sekolah.",
+      "sha256": "38442dceb587ece5f5b92eec81b0415caa5968684b534f4f8f5e19c64d82d8ba"
+    },
+    "word-keluarga.mp3": {
+      "key": "38f005f6e8fb1b9280793d3effa3dfb9924feaa8b7b2f7e0740e8917f9e53e2b",
+      "text": "keluarga.",
+      "sha256": "b93f6188c4dad4804679a2ea8286ac205035caaa6a70bdd95a1b47088d48588f"
+    },
+    "word-saudara.mp3": {
+      "key": "bc0f107a8b07908440ea1cd399cf34c9bcd1929e98f3d70cba58befa34de3cf4",
+      "text": "saudara.",
+      "sha256": "fa6edeaf327f35ef40d4d8c17b9c50555393c24f71801863312d776d7a1e7731"
+    },
+    "sentence-saudara.mp3": {
+      "key": "7bbdc7193118bb61ce77c1136387315ca4e7edc60fa5c96a867578b9588fceb3",
+      "text": "Aku menyayangi saudara.",
+      "sha256": "e1ce99df52f1b9217ebd0cb8f3558e095f127a70c805141b185f55022d03d7b8"
+    },
+    "sentence-bersama.mp3": {
+      "key": "ee1ee865d6023b5efe08f6ef5fe668d02e8f18f68ebdb7ac8f5195f715f334a9",
+      "text": "Kami berjalan bersama.",
+      "sha256": "33ff956221dd5f4fbc4b69ccb7a0a8b690e67701748ad328f20984ba7713be5e"
+    },
+    "sentence-keluarga.mp3": {
+      "key": "72b27fe918b92ed1a2c31ee69851f9850322661aef8e0122ab989c74c319a4e1",
+      "text": "Keluarga makan bersama.",
+      "sha256": "fce86fb902d46d13bf7c17be069a91ee121a3e24a5287d94c14d8d9868383bde"
+    },
+    "word-sarapan.mp3": {
+      "key": "55a71ad0c4553d2a7911bdcbe124da0489e40ad6e1f3fccea3012f2eb5bb94ef",
+      "text": "sarapan.",
+      "sha256": "ea914619617b7a2f974bab9bd00ec220d466c4abfaf8c70389cbb9f316f9841d"
+    },
+    "word-bersama.mp3": {
+      "key": "faeda2d5b1d7124a2edc81253d8d5c5da0f065f01c5494ac2c6e529a565560f2",
+      "text": "bersama.",
+      "sha256": "f284532852acb75c5ce5bd85d9a6acac80cea07bdf709374dfeba14685eded55"
+    },
+    "word-membantu.mp3": {
+      "key": "a96b2f8a47353d56a920faf249656e0a457b818c2b090fbfce965e3a10cad851",
+      "text": "membantu.",
+      "sha256": "175e438f25d5d8feda851ee995220b7a4a6122567765b130253be6c9cc6bb935"
+    },
+    "sentence-sarapan.mp3": {
+      "key": "f4dca786d4be2b6084e01ce983c3532299539ded186401aed0e052565250f5c5",
+      "text": "Kami sarapan sebelum sekolah.",
+      "sha256": "62242e1583cef8c80c607c0a1d25ef0f5eacb7f529769b2bfaadded2e319a690"
+    },
+    "sentence-bermain.mp3": {
+      "key": "8071b19f91b4db7559b16de3dc78d18bf0a49f0a8be76560b1378ad936e5c28c",
+      "text": "Aku bermain dengan adik.",
+      "sha256": "ae017bd61b9a248db67dd4e99f8de70658733b3c569b39343116818e3ba0bbdf"
+    },
+    "sentence-membantu.mp3": {
+      "key": "dff530e6b16bed83575e5a613fc3c4617ed715c07f84a52f9736682c11591e7b",
+      "text": "Aku membantu ibu.",
+      "sha256": "a426dc552d1c33347daca417a0614831b600d75d4bad59b5071e7b6f2fe4f7ed"
+    },
+    "word-bermain.mp3": {
+      "key": "ad2e8ba6e682ca89d94f0ef8fe350bf171f271ca98a859ffadba6ed260a687bd",
+      "text": "bermain.",
+      "sha256": "8cb4c15b9a55c0c5169d47bd127f88847b0a223259e8b392ae2163940317450b"
+    },
+    "word-bahagia.mp3": {
+      "key": "446df296cf474e9fbdc820204cc25a7f22567031b90514e31dea56812659e9ae",
+      "text": "bahagia.",
+      "sha256": "91e305b82c5c241d8d57f41164e748f8ff46e48cbb2b0ce898d5bffa18b21ccf"
+    },
+    "word-sekolah.mp3": {
+      "key": "b76ccc05ce2ebe29377948ce7c075f5e4cde42a18f60d5629abd919f6bca6608",
+      "text": "sekolah.",
+      "sha256": "754393cbb21b21a7a2e2a285874dd5576bbddcfd1b784551674d899a9df35109"
+    },
+    "sentence-bahagia.mp3": {
+      "key": "d49b2a3dfe0a11bae83d6072b43cc97ce5f95c8dc8aa53ba6dc921076daad807",
+      "text": "Keluargaku bahagia.",
+      "sha256": "066f1c615c901cf4dc6171e97f00c9e30f177bc675ba0cb26734b947757f3429"
+    },
+    "sentence-belajar.mp3": {
+      "key": "009e1e6b9b259b8c7340a6807d481fc977baad116a66f62ac44f6a1afe8eace5",
+      "text": "Aku belajar membaca.",
+      "sha256": "c83ad00492d0f105ad0501db54bdf4b26bf681a48b5d31a0a1210dc1dff2553a"
+    },
+    "word-belajar.mp3": {
+      "key": "5de40f412dfb80737436428010cd473fc96ee4298e62d3915f4421888bb66b3c",
+      "text": "belajar.",
+      "sha256": "b1acf8a61ec7b84ca16b452f14c212679c3a3bfaa0c5bfcef56d4b36221521c0"
+    },
+    "word-pensil.mp3": {
+      "key": "7e7231907d8549659e91f5c496029389357288ee7146ab29a0eedf2d58d6d38e",
+      "text": "pensil.",
+      "sha256": "ecdd89b61f5a1c2af44d2538a431fb9aac2795d4b468fff10129761b45826b7c"
+    },
+    "sentence-sekolah.mp3": {
+      "key": "80f9deb9e6bc878f907b307d92aef8f88aea5c6957e3da1e8deebd585b738618",
+      "text": "Aku senang pergi ke sekolah.",
+      "sha256": "75e2a7b6a8c8723950b51653622c81737fe1b0f42fd3e3e59f51933e52e80ac9"
+    },
+    "word-seragam.mp3": {
+      "key": "bd1122c186ab2706dcbffe561446019b958d8c382061d2c475a8d99947cac9db",
+      "text": "seragam.",
+      "sha256": "72f62a25548022c548e38cb631961334a616a6377c3ca259b37ed4594b00639c"
+    },
+    "word-penggaris.mp3": {
+      "key": "82604add3f56c9d667ae51a7ffaef358d45e07df0e952601488e1fc31408702b",
+      "text": "penggaris.",
+      "sha256": "11e8c283a4b5d5e48412a9a9e40a8bb6ddeb4ef397483938f1419c50a7cfbf53"
+    },
+    "sentence-pensil.mp3": {
+      "key": "6e12274644ad76d2576538d483bc3ae05d846389a507bc3350d2d2c9361d776d",
+      "text": "Aku menggambar dengan pensil.",
+      "sha256": "5846e54e8c336a9a6dee14e182d15eb664828b215ad00b8bef0202923462199c"
+    },
+    "word-halaman.mp3": {
+      "key": "65cf51eb3be590a4ff649e5a7a3797ddfb79b0b12dd3db19ca62cf69e438c7b8",
+      "text": "halaman.",
+      "sha256": "a0830d8efce7c1f68b44c5ecc19bffd6054dd49dc3c14aa13f109e884e8a8b57"
+    },
+    "sentence-penggaris.mp3": {
+      "key": "2069ed28970e322a366fb6954007f3e50b4fd7e7cb297c945f36858c3575b4c0",
+      "text": "Penggaris membantu membuat garis.",
+      "sha256": "fcdcd88b6146991e0b6842c4c1864beb2d84e44c651dafae73bdbf1a542cbe6a"
+    },
+    "sentence-seragam.mp3": {
+      "key": "ae417a3ad0f7c62d916b0a1c9e0aa67078cce36899eafd0501fe9b0a75170f9b",
+      "text": "Aku memakai seragam sekolah.",
+      "sha256": "78ba325595aae3d68316feee66a6670da1b310f214e6e01ba0b7952b3c3954ad"
+    },
+    "word-menulis.mp3": {
+      "key": "98a5d28ac00481e1a6bd87f40ec9e2c9753c49ef2e9a3e8f3fdc3c7adc778a59",
+      "text": "menulis.",
+      "sha256": "ac7638f2485b95939d5c7ac876d3cb2e169d2f235f42ab32335584abca554e5e"
+    },
+    "sentence-halaman.mp3": {
+      "key": "aa38cbf57413025e3ae520fc8b6142d3d140af7bb63aca2bf3363ff71927429c",
+      "text": "Kami bermain di halaman sekolah.",
+      "sha256": "38599aba0b703b2612e785437dd9be81ff960b27207e2cb71953ef6f8ee8ed42"
+    },
+    "word-membaca.mp3": {
+      "key": "8bb2061186e4c6e5e1b39f723b00612a53efaaf87fa29c05a1d011938244e044",
+      "text": "membaca.",
+      "sha256": "c0c75d634567a353d325c9d0547c2accc910541089c6335fe494d27f2146b3fd"
+    },
+    "word-kebersamaan.mp3": {
+      "key": "27bf6de144b84115723c188285b88c132e6a182564a0f17f867d40bc173d163c",
+      "text": "kebersamaan.",
+      "sha256": "f5bbb7b43279da25313fa98062ae6b81cc8e3b707dbf527f37cba29dbfaf961b"
+    },
+    "sentence-menulis.mp3": {
+      "key": "32473df63905461e5a16926ddd7e2871803f103b26a8bc119ca49da3cd5ea998",
+      "text": "Aku belajar menulis namaku.",
+      "sha256": "ff043ca6690abd7f1bc62f8c870bf886c60ca3a141848b9339af9c7de415b0d6"
+    },
+    "sentence-membaca.mp3": {
+      "key": "d500d036710ceb07a977b583183255ff5e9034dda41040451108341b505935b5",
+      "text": "Aku membaca cerita.",
+      "sha256": "0531e28fa8b7ca08fdbc7ea81bb14c90ef1ea6accc0731a6054dcd4fae194d78"
+    },
+    "sentence-kebersamaan.mp3": {
+      "key": "6c9fe949033a244c780ea14dd39e1a8fc9afce118b20b1c702e36c96dca37901",
+      "text": "Kebersamaan membuat kami senang.",
+      "sha256": "3b8af304dce27ac727f96121c35050aae7737c8a6bdb91e343c4138992193f3c"
+    },
+    "word-persaudaraan.mp3": {
+      "key": "1b2bec751b669a639d2960444ff37b7ffe036fa197f9202e0e3f4cdf152918a2",
+      "text": "persaudaraan.",
+      "sha256": "618cd2f28a82303801eab610b4c6ce8fa8abc8dccbb9a8f157bda58c8510463b"
+    },
+    "sentence-persaudaraan.mp3": {
+      "key": "00a4dd362a896c9054d19d3de853f326aac511184489ee916468ead428bb2b9b",
+      "text": "Kami menjaga persaudaraan.",
+      "sha256": "188c9666ca66889ab66af4805565b140cfee500c9b8e9e9805ad15c40d5ff71f"
+    },
+    "sentence-keponakan.mp3": {
+      "key": "9ece5f0c46a8dc975ab88bf255f588a4a8f6a3af1fe0593397f1e4a95dbd9b60",
+      "text": "Keponakan tante sedang bermain.",
+      "sha256": "99323fee5273ad835d64a7b73238347de6cf872a9f8040a3ab818be1c5bc6136"
+    },
+    "word-keponakan.mp3": {
+      "key": "04e49d950c483ce675370d148a9b1d3114cec5cd3b9471ec1e21885dcfdea691",
+      "text": "keponakan.",
+      "sha256": "0fd844c91f5a564591484001e7ce234fe4f65beaeb86bfbb9cae37c4d5e59cf4"
+    },
+    "sentence-kebahagiaan.mp3": {
+      "key": "9ba4005d6b7dd50c0fb91c248ab1309defd42bbae0678f4cd692cf5001b1988c",
+      "text": "Keluarga memberi kebahagiaan.",
+      "sha256": "a6ebbf97f2c78fec68e3c87a3481c381d7daca882b01333dcb8ec854d1768488"
+    },
+    "word-kebahagiaan.mp3": {
+      "key": "81ceea76858dd8a34a8c6416cd1b891596a53f2499536db35a81ad7037a3595f",
+      "text": "kebahagiaan.",
+      "sha256": "b4d62c0b26cc6bf0e2e49f0df0b51a95167b9141a88fb25f7e728686373a0cca"
+    },
+    "word-menyayangi.mp3": {
+      "key": "bdf6c1620bbc9a4319fe6128ce95ada570e80e57d1efea99e06e70b9f4e01bc2",
+      "text": "menyayangi.",
+      "sha256": "c73c5f76184e487ec79012f9dc102aacfb2b8602bb31bbad69bb9d9743ec2c23"
+    },
+    "sentence-menyayangi.mp3": {
+      "key": "745c438eaf9a27505607bf164a41b952b2872e7d685fd68b0912c0e3ef1f37f7",
+      "text": "Kami saling menyayangi.",
+      "sha256": "1ebbc08e1a92876b5895d882d8f97d6f8ca956fde8a91271831b80ff45bd8cfe"
+    },
+    "word-menghormati.mp3": {
+      "key": "93e5ee882626cc5ce1eff28caa9edcf72e79505b8ee3094f7b54fa8e5d8f48c3",
+      "text": "menghormati.",
+      "sha256": "25fac4f804f8ec5d2f6fa4f9eacb98034bf5734f7817657c18ada45ce2b82a4f"
+    },
+    "word-berkunjung.mp3": {
+      "key": "db8c495b1c750077009664a6ca962dd8c6efcec4fc6e87b6fb789a8affae8f0c",
+      "text": "berkunjung.",
+      "sha256": "c71aa392cf77410d55c8a9f76426225820776352f910521f0ad34e4297f93c59"
+    },
+    "sentence-menghormati.mp3": {
+      "key": "c4feac6a9628806965ed02a251ad44016475cb5107f16d9a0ece10397d91bc04",
+      "text": "Aku menghormati orang tua.",
+      "sha256": "4271a143f5b2040d6e333ed57d0f9888a1c19e5fbf561fcf4fbb68657c4a110d"
+    },
+    "sentence-berkunjung.mp3": {
+      "key": "4b089ee1b617e3e7bf03c6360f98df0824edad5e6f5d6f56722cdd5aa6ec858e",
+      "text": "Kami berkunjung ke rumah nenek.",
+      "sha256": "e90bf8e1e1cb52512d80afa3e00d187742973a76145bcdc12e16aceaba2377fe"
+    },
+    "word-merayakan.mp3": {
+      "key": "fb48d62b0d331992a319271ef536d569b163b7975743aa0dd5b9db2561b88659",
+      "text": "merayakan.",
+      "sha256": "cb30505cb061bde9d1570c8a48cbc5f78f596d4fab557db3f7dcc3787248c8cb"
+    },
+    "word-perpustakaan.mp3": {
+      "key": "da0c5bda4459062f6e01791b3f1f87143cfa2422c1c38177d602580388850ac9",
+      "text": "perpustakaan.",
+      "sha256": "a3ed4bd18ae50d01cd4ba5beecece526db9d299b10cd5ec1c8ad1beabead1569"
+    },
+    "word-matematika.mp3": {
+      "key": "7967ffe81ec08040a72ef1fd3b01bf83c9ed7cb5b6823e46677441b3e9a3c047",
+      "text": "matematika.",
+      "sha256": "ffb73fb941f9db2978c2be02ec4746646b99d68c9ed147cee4b3c241f38bf420"
+    },
+    "sentence-merayakan.mp3": {
+      "key": "d757589796cb230c66d826970bbef8a14ad304e03d305fbd2a857da62ef5b009",
+      "text": "Kami merayakan ulang tahun.",
+      "sha256": "c37c4d92865d4e12935ed28c9e6d775ec6786d7ed7360df146b43841b90ac3d3"
+    },
+    "sentence-matematika.mp3": {
+      "key": "d390e8c5401f8b19c16ce68b5ce8633f2cbd58c769b78939933d9407b94feb6d",
+      "text": "Aku belajar matematika.",
+      "sha256": "892c2bf6745e6a9fa223ca3e3e09ea54848e5858baf635b14064be4288b1766a"
+    },
+    "sentence-perpustakaan.mp3": {
+      "key": "e5fcbe131ed071c486ad69b5161f016f8a4a7c20d24923d958ae4ba78b1858ed",
+      "text": "Aku meminjam buku di perpustakaan.",
+      "sha256": "276f1e5e29a409b5fefbcf272f1d21253a32e8cb7aa4a626019d36d29643246d"
+    },
+    "word-keterampilan.mp3": {
+      "key": "66500722a10aa6d1f2079da39a254736e30ab71820fce04a024a24abad67f215",
+      "text": "keterampilan.",
+      "sha256": "fbccf27bc1776bada3b4d493b65837bccf8d33ced7eb2353e47a8c7c690f1988"
+    },
+    "word-pengetahuan.mp3": {
+      "key": "9bbb6eb44cbe2e68abcfdf5ee84528c96791cb4eb5e8b854d48dee313605ab8b",
+      "text": "pengetahuan.",
+      "sha256": "73ebe1b791dc0f43090b5686a4de69d47bb4445670d1f8b7f22ab76ff7881f33"
+    },
+    "sentence-keterampilan.mp3": {
+      "key": "0638eb8eab71ab55aca6f0f3d80c3e2d3951507052bbf020b681f9f81d78c11c",
+      "text": "Menggambar adalah keterampilan.",
+      "sha256": "5922c7fd9b8c76cbff419484aedd462867d039d79b7b97f5804f28582a9a01fc"
+    },
+    "sentence-pengetahuan.mp3": {
+      "key": "9b60cd7e105937d065431304c3bc50613a941de7ad9f1c12cf85dc2fb68464a0",
+      "text": "Membaca menambah pengetahuan.",
+      "sha256": "b756a1117b8766877ab50a7cc8c2377de45db52cbfb6cc81cebc7513cc8e914d"
+    },
+    "word-persahabatan.mp3": {
+      "key": "119af430e598348fdd96d0c17b34bb79af446565c7c03fea17bd5370f82ce630",
+      "text": "persahabatan.",
+      "sha256": "e1e13ad44d92ffb3cd3a34fd6a30f5291df2495f9a88064b54061a4ef5dc05f3"
+    },
+    "sentence-persahabatan.mp3": {
+      "key": "63a659d8a018b9c31f1deeb9395376b951f416b82c8ae3401efd69b68b66e642",
+      "text": "Kami menjaga persahabatan.",
+      "sha256": "fd7c9e06acfe29dc116800efdb580db8e453d2b3af7e6f3da7b892020de369e3"
+    },
+    "sentence-kedisiplinan.mp3": {
+      "key": "a9864880008a95803d5176ddf9d31aff46d73d45ea6e87cf9b786b73cafd42f9",
+      "text": "Datang tepat waktu melatih kedisiplinan.",
+      "sha256": "05403114aeb1d01fbdfaa8594cfa0d10187c53378a6a4d8ada8463d70415c5fb"
+    },
+    "word-laboratorium.mp3": {
+      "key": "23ae6a717d6dac3a2c88af7753c208e72fe338fa0f660ac0d786b4ac01d69ad0",
+      "text": "laboratorium.",
+      "sha256": "c1d550adc2be768fa4aa691be1bf9bc2fe6adebc016f8dbd82ee1b4f8477a6e8"
+    },
+    "word-kedisiplinan.mp3": {
+      "key": "a1620415f9d894357518e7503e37a7d91d7084718e80585b336f4ec5bd7cbf97",
+      "text": "kedisiplinan.",
+      "sha256": "4172b68f83226206116ed3f27678990b7b3b57348d8fe5cee50b3d8b6fb2bf5b"
+    },
+    "sentence-laboratorium.mp3": {
+      "key": "f1d66f00a2dbcc6f35db9000b6428ac541a7a4ffdddf494ebd2ef940df9007bd",
+      "text": "Kami melihat percobaan di laboratorium.",
+      "sha256": "7ef37acc6a7facfbb76f8eed593a218e5442b56a989925a2b4033aeb1bae0da7"
+    },
+    "word-ekstrakurikuler.mp3": {
+      "key": "8ca40ae790e6af1494c69c459b59958bd5e5cc1a5506c2d0c1e521ec415d339f",
+      "text": "ekstrakurikuler.",
+      "sha256": "b1391d9023002df098f406aab886fc96b015ebeb6a84506a4da93c5bc5fd52e4"
+    },
+    "sentence-ekstrakurikuler.mp3": {
+      "key": "cda599a76944ebc41e1490110207a6b454a192721981b8b8c2042c7eb861d89c",
+      "text": "Aku mengikuti kegiatan ekstrakurikuler.",
+      "sha256": "cd07b46db7b0192027265905859790805df19ed529119d29d10cd721856980b3"
+    }
+  }
+}

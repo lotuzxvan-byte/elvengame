@@ -1,8 +1,8 @@
+import asyncio
 import json
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from gtts import gTTS
+from indonesian_speech import letter_text, render_clips
 
 root = Path(__file__).resolve().parents[1]
 data = json.loads(subprocess.check_output(['node', '-e', 'console.log(JSON.stringify(require("./alphabet/words.js")))'], cwd=root))
@@ -15,15 +15,5 @@ for entry in data['words']:
     mapping[entry['word']] = f'word-{entry["word"]}.mp3'
     mapping[entry['sentence']] = f'sentence-{entry["word"]}.mp3'
 
-def generate(item):
-    text, filename = item
-    target = folder / filename
-    if not target.exists():
-        gTTS(text, lang='id').save(str(target))
-    if target.stat().st_size < 1000:
-        raise RuntimeError(f'Invalid audio: {filename}')
-
-with ThreadPoolExecutor(max_workers=4) as pool:
-    list(pool.map(generate, mapping.items()))
-(root / 'alphabet' / 'audio-map.js').write_text("'use strict';\nconst WordAudio=" + json.dumps(mapping, ensure_ascii=False) + ';\n')
-print(f'Generated {len(mapping)} Indonesian MP3 clips')
+clips = [(filename, letter_text(text) if filename.startswith('letter-') else text) for text, filename in mapping.items()]
+asyncio.run(render_clips(clips, folder))

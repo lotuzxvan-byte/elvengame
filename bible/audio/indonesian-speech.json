@@ -1,0 +1,818 @@
+{
+  "version": "id-neural-1",
+  "voice": "id-ID-GadisNeural",
+  "locale": "id-ID",
+  "rate": "-8%",
+  "clips": {
+    "jesus-birth-1-d2.mp3": {
+      "key": "9e71061faf2bc6aac0e8d8fb951905d4c0a7c758c830febd5d35894b933e18a1",
+      "text": "Maria. Ya, kita berjalan bersama.",
+      "sha256": "a8c42c01d59512e948916bdee1c72dda80964758b40f1ac46edce08e0c86131d"
+    },
+    "jesus-birth-1-d1.mp3": {
+      "key": "7440be55f75855c629c9e26ea38a05475d04f0567b3bc108e2242c052b04cfc8",
+      "text": "Yusuf. Kita pergi ke Betlehem, Maria.",
+      "sha256": "1b3cfd69f48ee04390507c6186b9680dff21be0b7cbfda66fa837029640a24f7"
+    },
+    "jesus-birth-2.mp3": {
+      "key": "12104569215b9a39a36a4c00638fc34bc953b0acbaf1ff0d817b93397d10da77",
+      "text": "Tempat untuk beristirahat. Saat mereka tiba, tempat penginapan sudah penuh. Di sana, tibalah waktunya Maria melahirkan.",
+      "sha256": "339f829f057a144c3751cbad6effb48a108fda903efa261322e3499726634ee0"
+    },
+    "jesus-birth-1.mp3": {
+      "key": "a605f4c89dfa394f68629086bb23b2fde2a20c466086b83452de3a0f4db60aa3",
+      "text": "Perjalanan ke Betlehem. Maria dan Yusuf pergi ke Betlehem. Mereka berjalan jauh untuk mengikuti pendaftaran penduduk.",
+      "sha256": "76cf64ba7407f55ea149f26f8df06efe42d07d0eb4777298a0034ada8b7ec357"
+    },
+    "jesus-birth-2-d2.mp3": {
+      "key": "dbc0189efe6b8ea4a4dda96a9cbf39f1bcdfd5ad9b133a6cab336061aad026f2",
+      "text": "Narator. Malam itu, Yesus lahir!",
+      "sha256": "11edd94bc0018fcdde49200164ddac2edf43765257bafc434543623911c9c2c0"
+    },
+    "jesus-birth-2-d1.mp3": {
+      "key": "0e273b3da46936893c5284a1105ef48b38e1e1ac786074f7295af992ef718334",
+      "text": "Narator. Tempat penginapan sudah penuh.",
+      "sha256": "938907977a0000aeeec6794881d1eac8f78d048a463dca1041ca7575eb12bcd9"
+    },
+    "jesus-birth-3-d1.mp3": {
+      "key": "933edd221fd52ed9ac08af63a1c052a14c51c63bf3929be0bf1b6d8c5e748a46",
+      "text": "Maria. Namamu Yesus, bayi kecil.",
+      "sha256": "2b37d360246a83e1e02468597c5b7a69eee7d6bf6840a48b35e1906963adc2ce"
+    },
+    "jesus-birth-3-d2.mp3": {
+      "key": "d01ae7da1c371d23bcc333541e9cbe5de6dec0ccad4aaf9b2cafc58cfc96dcf0",
+      "text": "Yusuf. Kami akan merawatmu.",
+      "sha256": "691bd9110a443af61c3008ea9f96d5451a448906653cb7eda5025d45e0966f19"
+    },
+    "jesus-birth-3.mp3": {
+      "key": "892a0a53a4ae3b53d66c3d0954b4ad519c05ac409d9f5f05fae85cd52160eb14",
+      "text": "Bayi Yesus lahir. Maria membungkus bayi Yesus dengan kain dan membaringkannya di palungan, tempat makanan ternak. Bayi itu dirawat dengan kasih.",
+      "sha256": "d48ef5aed4722911471638a08dc5c4673c4b2dd85ae1f08e3a3834225b067137"
+    },
+    "jesus-shepherds-1-d1.mp3": {
+      "key": "7b6a733ce0918f671488288762484c2c69e163a8a9445f71fac1ef54820529b0",
+      "text": "Gembala. Wah! Cahaya apa itu?",
+      "sha256": "7b1c0e07805e2f5a84be924320d2600b2e8d424d8b46ea31013a49a9978ff5c6"
+    },
+    "jesus-shepherds-1-d2.mp3": {
+      "key": "67dbe1a9bfd2ac07b1bfbe5964b5a08c0531cb58b4635172d188c3b37374edb3",
+      "text": "Malaikat. Jangan takut!",
+      "sha256": "033d2c56ef807f105bb702fc8df8bcaf636dc273b8578b79b9770d37ce62d599"
+    },
+    "jesus-shepherds-1.mp3": {
+      "key": "d2807b2fd5fe58718c53096f2fbe6709608d4f3dbffaebbeb10e61d6456a0aaf",
+      "text": "Malam di padang. Para gembala menjaga domba pada malam hari. Tiba-tiba, malaikat Tuhan datang. Mereka sangat takut.",
+      "sha256": "b0a998e28ea0ca231b13828a2d78422b45383676f8d1e9d4b28d1b32f55131df"
+    },
+    "jesus-shepherds-2.mp3": {
+      "key": "4bbe7a4753d7ee799c8636fb37402da2a533d8733691ae1dae6656144c06ece9",
+      "text": "Kabar yang menggembirakan. Malaikat memberi kabar bahwa Juruselamat telah lahir di Betlehem. Bayi itu terbungkus kain dan berbaring di palungan.",
+      "sha256": "8131825f6d65514a8ca395f3aab40ae8660f5c7ec1260ee3cf9d9761eefeb19b"
+    },
+    "jesus-shepherds-2-d1.mp3": {
+      "key": "d71df3f7bf5a7f37cb74b64618986f2700fa04734ab1be2c7db19800a3d292f7",
+      "text": "Malaikat. Juruselamat telah lahir!",
+      "sha256": "07465102681592d8477eb4a6acac8307b50173e2da1f036ae3cfbda02935bfef"
+    },
+    "jesus-shepherds-2-d2.mp3": {
+      "key": "eaba703cd1b56de99374923d8834d6767d55b20984e6aaf47cbb6cfa713e3a49",
+      "text": "Gembala. Mari kita pergi ke Betlehem!",
+      "sha256": "7cd41b7db1f16deeb5212e78c263ff9fdf7cdc15699078e4bfb045fcd18c0d3f"
+    },
+    "jesus-shepherds-3-d2.mp3": {
+      "key": "2c9dbaba8f8dd5898f385d4516ef8d0043aadd2e50628dc563ef368d65f3f071",
+      "text": "Maria. Aku menyimpan kabar ini di hatiku.",
+      "sha256": "34266a7d231d8ba76ba71f6ced90614a5d7117eab939ef0c555291e99af436d3"
+    },
+    "jesus-shepherds-3-d1.mp3": {
+      "key": "b12fb82f77137439ef7f5d96e4cad2ee2d4e8e460ee555d1cfc4c33467c4a8f8",
+      "text": "Gembala. Kami mendengar kabar tentang bayi ini!",
+      "sha256": "1402866a6f989532bc4d603a1c9a33aa2c5c2bcc16cd2221d190abdeeb74ae13"
+    },
+    "jesus-magi-1-d1.mp3": {
+      "key": "9cc07c1325d252ffbb80704e74b1dd2f7189953ee424830355be5d09f33612c0",
+      "text": "Orang majus. Kami melihat bintangnya.",
+      "sha256": "dd9edadd483205bdad1c30b4f49933d19abb85cb003e26a6a413f7f1659c8169"
+    },
+    "jesus-shepherds-3.mp3": {
+      "key": "2058081663860c6cdc9e93a44dfb3a11ba038f9d156677f8f2f2aa4b3659afbf",
+      "text": "Menemukan bayi Yesus. Gembala menemukan Maria, Yusuf, dan bayi Yesus. Mereka lalu menceritakan kabar baik itu dan memuji Allah.",
+      "sha256": "ba21e62bb03b1d965ba2b17afc8d8caf29d8de532522a1171776acf029264121"
+    },
+    "jesus-magi-1-d2.mp3": {
+      "key": "0b77450955388e228c8dbb63d330cec6ee7b298069c4d7cb2fc780f41696b273",
+      "text": "Orang majus. Kami ingin menyembahnya.",
+      "sha256": "31d2188edb6447e44d0ff9621b9e56d2591c66883277f7d8e12d6f225905ab64"
+    },
+    "jesus-magi-2-d1.mp3": {
+      "key": "4806149339317db4fb8b11eda6d786aa97faa6200ae37ae3f6311f893fa37b95",
+      "text": "Orang majus. Lihat, bintang itu!",
+      "sha256": "0cd7e15a9952b4ee851b9a4dff71f8e345dec9d300f31d54950d7e761ddab518"
+    },
+    "jesus-magi-1.mp3": {
+      "key": "03ab904a319e1113c3ce385124c6de431fb828dd7e826105e321e34e5839b8f2",
+      "text": "Bintang di langit. Beberapa waktu sesudah Yesus lahir, orang majus dari timur mencari Raja yang baru lahir. Mereka telah melihat bintangnya.",
+      "sha256": "8f31b06f14f5671fd11e7b3826b483e599cac6b481161a376f6ed6a2e80a820e"
+    },
+    "jesus-magi-2-d2.mp3": {
+      "key": "119cb46710820ed85ef034927f8a246c301b2216ebaf8fe2e1eb7debb667ca41",
+      "text": "Orang majus. Betapa senangnya hati kita!",
+      "sha256": "84ba8914e1778fb888014f7470df940ffb586ab1624df9060414689fee828fba"
+    },
+    "jesus-magi-2.mp3": {
+      "key": "1e5856684184ccf7702e3bdb30dac3aa6f88f56ad0c062612c8febe175889090",
+      "text": "Perjalanan berlanjut. Sesudah datang ke Yerusalem, mereka menuju Betlehem. Bintang itu mendahului mereka. Mereka sangat bersukacita.",
+      "sha256": "92c55724500cebb439591cb5fba6917009fe70ac41f3afe922050b288d112174"
+    },
+    "jesus-magi-3-d2.mp3": {
+      "key": "3fbceaaf75de3a8350a2cf6b3201a95701ad5d53884a022972af1f0b78a63e7a",
+      "text": "Narator. Hadiah mereka adalah emas, kemenyan, dan mur.",
+      "sha256": "2fd8f39a656c05edbb356132658dc00e1d541ee7d50b3f27003564b2dea1f95a"
+    },
+    "jesus-magi-3-d1.mp3": {
+      "key": "50d0b38a18a5cfcbfc56575cd785dd216c1866c337ae6aef052448f21259bae3",
+      "text": "Orang majus. Kami datang menghormatimu.",
+      "sha256": "919cafb784b3c4e32d8bcf8e538def84ce8645166e795917af7a38d778d3b49b"
+    },
+    "jesus-temple-1-d1.mp3": {
+      "key": "44789633e7dc950989d9bb0f86bf1a98eeea97e99033bbe94917c06383d46d94",
+      "text": "Narator. Yesus berumur dua belas tahun.",
+      "sha256": "cc3fc106f0569ae5e52b8d48800f7704316910b513915a09a005780c24805a31"
+    },
+    "jesus-magi-3.mp3": {
+      "key": "f837d2b8d8d8dcc5a9f4b880fa22c76bd7c4b356ecf0ce603e316318f1c7a428",
+      "text": "Hadiah untuk Yesus. Di sebuah rumah, mereka melihat Yesus bersama Maria. Mereka menyembahnya dan mempersembahkan emas, kemenyan, serta mur.",
+      "sha256": "4071a546434c1645d5f6695641a532dd5a3d732e30770d6d4b4a28424f37d5eb"
+    },
+    "jesus-temple-1-d2.mp3": {
+      "key": "83f6dd0cb99b607e0b812cc0e457cd3b6358cce48b769f051f07b4322869c9a1",
+      "text": "Narator. Keluarganya pergi ke Yerusalem.",
+      "sha256": "0aab11eba3c92590d98e11aa1b2a3d9aef1249d3fcf5980048b24e3d204e7da2"
+    },
+    "jesus-temple-2-d1.mp3": {
+      "key": "fc8ad14915d52571799d9e80be4ba178deb410e4178098852ab48592f0e23eb7",
+      "text": "Maria. Yusuf, mari kita mencari Yesus.",
+      "sha256": "f2d7276d6a0848826f01dd4cf8ae9d848737acb0119602c51eec86b1cccdd3b2"
+    },
+    "jesus-temple-1.mp3": {
+      "key": "9059463b119e3a9a2b9a8f352a6ca2228e2d10de2b0e4219988040eb2f31a344",
+      "text": "Pergi ke Yerusalem. Ketika Yesus berumur dua belas tahun, Ia pergi bersama keluarganya ke Yerusalem untuk perayaan Paskah.",
+      "sha256": "549a0398d61c47c953c88680a14bd738aa78a5547e0ae7593d3ec02419e5ba45"
+    },
+    "jesus-temple-3-d1.mp3": {
+      "key": "02055c2ecca40dffdab65c10ce5c4c401a61bb375dde63f2b3619b8492c946b6",
+      "text": "Yesus kecil. Aku harus berada di rumah Bapaku.",
+      "sha256": "0907b8041ec79e5b1548b5340dc7b0c7d8d36bfd93d2d72c311f01d42a5ff7db"
+    },
+    "jesus-temple-2-d2.mp3": {
+      "key": "11b2ffba9c1807516fc0a37a07a6bf22169a05aac95cae9a13528a8a707fe03d",
+      "text": "Guru. Anak ini mendengar dan bertanya dengan baik.",
+      "sha256": "434e996ca6041652a41930984ac720c828bc00ecb60761f9eaa2e62ff9ea87e7"
+    },
+    "jesus-temple-2.mp3": {
+      "key": "eafa7ca8dad2a07f9d8d54a8d528e7b50c359fb7bfb0f71cef66a3c56082b1a0",
+      "text": "Mendengar dan bertanya. Saat perjalanan pulang, Maria dan Yusuf tidak menemukan Yesus. Mereka kembali mencari. Yesus ada di Bait Allah, mendengar dan bertanya kepada para guru.",
+      "sha256": "764c3e4f30d08d874bea2a181160517b246ab916206522fca14c33365bddfb1c"
+    },
+    "jesus-temple-3.mp3": {
+      "key": "185a8e196478b81c404d95305c188af5e9fbf168fa398559f128913d241e58a9",
+      "text": "Pulang bersama. Maria dan Yusuf menemukan Yesus. Ia menjelaskan bahwa Ia harus berada di rumah Bapanya. Lalu Yesus pulang bersama mereka dan taat kepada mereka.",
+      "sha256": "5b8db6d33b3c5f33e8aea08374ea8bd248663a4bd3e5fbe4af472a558ccc78ec"
+    },
+    "jesus-temple-3-d2.mp3": {
+      "key": "cadfd8556272a4a06d0ec6ace9654259317f0383550d554e1d19946d10d9329e",
+      "text": "Narator. Yesus pulang dan taat kepada orang tuanya.",
+      "sha256": "de6260ff31ca31e49dace5cb83d1551966339329995ee563ff8bb410ec5d2e2b"
+    },
+    "jesus-baptism-1-d2.mp3": {
+      "key": "203b890fde497ed3f7e8effd988bc64326057740dd7b966055ace343a3a0a021",
+      "text": "Yohanes. Engkau datang kepadaku?",
+      "sha256": "168bf4f134a40aef2cde78fa1a6b15ba716ea63b00a3d25a5b2bc1fb3b39a850"
+    },
+    "jesus-baptism-1-d1.mp3": {
+      "key": "d63cdf77b6bf47c9bf1ab0895b21f4952a1da61f9869d2a830e380b58d9796e5",
+      "text": "Narator. Yesus datang ke Sungai Yordan.",
+      "sha256": "853e7a951ba5b1d0a64f86064b0a7b7c1bd430285f0ff7473c8e12ecadb9587f"
+    },
+    "jesus-baptism-1.mp3": {
+      "key": "e6f177c41cf94ee5aa73d54901f3f4e019c134f5995ba4df5a5ed7f1d2688589",
+      "text": "Yesus datang. Yesus sudah dewasa. Ia datang kepada Yohanes di Sungai Yordan untuk dibaptis.",
+      "sha256": "5b8eea1f6b0232ac89e4fe8d1a4a6e54e8d5d366d897ee138016e28deaa63835"
+    },
+    "jesus-baptism-2-d1.mp3": {
+      "key": "cd5cd94363197e2f58c953abbc7adb4d6c33b153fe1d0b4930cc9b679eaa7417",
+      "text": "Yesus. Mari melakukan kehendak Allah.",
+      "sha256": "b14f7349459deb6fb2e384d5dab50815cc96359061bfdda1d08731a4ef7fcaf3"
+    },
+    "jesus-baptism-2-d2.mp3": {
+      "key": "4db2e547d685992e0b89305afeab1b15655d6fee98f1d04b948d7ed39f3dd4e5",
+      "text": "Narator. Yohanes membaptis Yesus.",
+      "sha256": "ee22b35220cdb4022d87499d0c0670c8225231888e3b1b21fcd6041216fd95b5"
+    },
+    "jesus-baptism-2.mp3": {
+      "key": "abceecdc32cddd165a1c9a36a45504942f365017bf9bd9cc142642ffd7ee4af8",
+      "text": "Dibaptis oleh Yohanes. Yesus meminta Yohanes membaptisnya untuk melakukan kehendak Allah. Yohanes pun membaptis Yesus.",
+      "sha256": "144d3e75b7e501ffc3e4da7c850ab3c7b7d2292f99d5c5bba781c67a4fa9f37d"
+    },
+    "jesus-baptism-3-d1.mp3": {
+      "key": "83f7032ceb3110c7300dbeae42ef5a856f5900971eb2c666dc89bb7d041ed0db",
+      "text": "Suara dari surga. Inilah Anakku yang Kukasihi.",
+      "sha256": "69489c5fc9e55b5fea2abfac803dff058694d177a6b7dd833656f5d7ca09d6b5"
+    },
+    "jesus-baptism-3-d2.mp3": {
+      "key": "1e1b4f15fa825374279b19692759a6926bf1ae71732298b45a43f408ccb8b9bb",
+      "text": "Narator. Bapa berkenan kepada Yesus.",
+      "sha256": "f9aaf248d8d728cc85f0a06c2be55f492db02e17ea8554ffcaad4db32adcc3a6"
+    },
+    "jesus-baptism-3.mp3": {
+      "key": "6c652b5d1e26babb61e0c39da0adf1337c03d2794c7521b7458895b494a8b34f",
+      "text": "Anak yang dikasihi. Roh Allah turun seperti burung merpati. Suara dari surga menyatakan bahwa Yesus adalah Anak yang dikasihi dan berkenan kepada Bapa.",
+      "sha256": "c987de6e87d522b0b3fb98260379bacefdf95051a442824491b836cc57fa0ac6"
+    },
+    "jesus-disciples-1-d1.mp3": {
+      "key": "771e87490d7506559b7a7982a4b7ec809ff826f0d0fb7d80de20b101927b3e01",
+      "text": "Narator. Simon dan Andreas bekerja sebagai nelayan.",
+      "sha256": "d40b542b35e9925f0b1194ddc7b1c6bf2d2bd0080be35779d8cc03c1ecd2affb"
+    },
+    "jesus-disciples-1-d2.mp3": {
+      "key": "05365866595d6ab018e1e4ec3eb824fddf9c2c51bbd63ef734a37f7e9f8d8b4b",
+      "text": "Narator. Yesus melihat mereka.",
+      "sha256": "091ef4b50509e6d18b0f931b1c0b50c0689f845c801a7668f51e02f3045739ed"
+    },
+    "jesus-disciples-1.mp3": {
+      "key": "955b8a71336fb9d90e551d23131952c5b623c56cced6ea8e42b712a4aeb0625d",
+      "text": "Nelayan di danau. Yesus berjalan di tepi Danau Galilea. Simon dan Andreas sedang menebarkan jala untuk menangkap ikan.",
+      "sha256": "c3b0c257f363dd26c914d074db1f68940a097eaf0be14d0511fb9abceef4699e"
+    },
+    "jesus-disciples-2-d1.mp3": {
+      "key": "e5b5e9da6e6640e745311ec8147513235e8ef7c8011b2664e774b5977a536d84",
+      "text": "Yesus. Mari, ikutlah Aku.",
+      "sha256": "97811307ce61ad1812ccc67786ef028f9a0b5a7781163fff93627148ffcecc5c"
+    },
+    "jesus-disciples-2-d2.mp3": {
+      "key": "6107b5d58ff09d92e6f362dda28e4b731a1cd7a6ce5661172158f2e1dfa3e85c",
+      "text": "Narator. Mereka meninggalkan jala dan mengikuti Yesus.",
+      "sha256": "cd2c563aa88fc46b6c95ac8b9896537f6b1462b1473bf16e379c53826a031a17"
+    },
+    "jesus-disciples-3-d1.mp3": {
+      "key": "cf2f870b3551a070e438ee43b70eaeca05002a38d0075e7ea480920406d66d20",
+      "text": "Yesus. Mari ikut Aku.",
+      "sha256": "92f12ed43286441e7b9490853e9313be67848f1d168bb6429058ddc464ea3036"
+    },
+    "jesus-disciples-2.mp3": {
+      "key": "d331670a58cb332cc8318f3a72cbbca1d00d0b7d5259d9550437147718c8e560",
+      "text": "Sebuah ajakan. Yesus memanggil mereka untuk mengikutinya. Ia akan mengajar mereka menjadi penjala manusia: membawa orang mengenal Allah, bukan menangkap orang dengan jala.",
+      "sha256": "d7ad8b3e0d260311c6d53b7f8a453bff3ba4ddc108d727ec06ce5c015c44ca1b"
+    },
+    "jesus-disciples-3-d2.mp3": {
+      "key": "36e544cc677548f48afa3486384f5e2f1986a562aafa7312c9ca87063df7c5cd",
+      "text": "Narator. Yakobus dan Yohanes pun mengikutinya.",
+      "sha256": "f431ff87e1e9e26b4917024749b8c0940d42e2409590f3a6fa7eb0893d8757bc"
+    },
+    "jesus-cana-1-d2.mp3": {
+      "key": "79e0d7c2226f12362a8a6a28dc0e2934df2ae0c528194cb78558fb59ef85415b",
+      "text": "Narator. Maria memberitahukannya kepada Yesus.",
+      "sha256": "717657216ed4b1b0508cf672b0c4b92c9355966ad1fae41d50af469a94226a30"
+    },
+    "jesus-disciples-3.mp3": {
+      "key": "f334099f559eed27dde5f5934eb3a83e7cb2b1c2869a29626935470153467d25",
+      "text": "Teman seperjalanan. Yesus juga memanggil Yakobus dan Yohanes. Mereka meninggalkan perahu dan mengikutinya. Perjalanan belajar bersama Yesus dimulai.",
+      "sha256": "e12c4e839e1078ff4c7e0be83450285370d3062989222ca48d9fb410da2ccc32"
+    },
+    "jesus-cana-2-d1.mp3": {
+      "key": "94e7a6ed1799d13098831d5774a236e3acd59fb85d4ad11de18a24458d674d0e",
+      "text": "Maria. Lakukan apa yang Ia katakan.",
+      "sha256": "90c50391d0cb2ab7a5613dc353adef55749e4fdb68c836173088680df841fb69"
+    },
+    "jesus-cana-1-d1.mp3": {
+      "key": "94970ec1832c38ebe1416af33a4ba2d05052c1bf5e0b6d4115eb1b7a88261b44",
+      "text": "Maria. Mereka kehabisan anggur.",
+      "sha256": "dc0b067fdb76bb91733aa92b2da491bef902e38886346b2f18aa4ef7bec848c2"
+    },
+    "jesus-cana-2-d2.mp3": {
+      "key": "f7738f02a59801f8ba24f6af83d3bdb14f1a75fd0fb702bb0b460c5a4ae26fd3",
+      "text": "Yesus. Isilah tempayan-tempayan itu dengan air.",
+      "sha256": "b24b705958dd9d31b3f5bccc57df64373d82a08b875379ddaed363b69c7b0ae0"
+    },
+    "jesus-cana-2.mp3": {
+      "key": "8f4c211bc69971817d8a6e85f8b9403cc516ede02919330ea0993074d9b9755a",
+      "text": "Enam tempayan. Maria meminta pelayan melakukan apa yang Yesus katakan. Yesus menyuruh mereka mengisi enam tempayan dengan air.",
+      "sha256": "449a4ac53dd34322fbf98ed9ce6234b1a355a17aec1a9a60abb79b58063f3913"
+    },
+    "jesus-cana-1.mp3": {
+      "key": "d12489f68f50650901aebea4bc0dc0170e0a18dadf78dd873f480c3512a73754",
+      "text": "Pesta pernikahan. Yesus, Maria, dan murid-murid datang ke pesta pernikahan di Kana. Minuman anggur untuk tamu habis.",
+      "sha256": "725cf4f4ce5d6cf1fbdd846db4092bf95715f871dbb277152199d2f75436e65f"
+    },
+    "jesus-cana-3-d1.mp3": {
+      "key": "ee410d992fdc53ea90be45d62ac962fb32a2aa76ee8f7b4f32c54e45b4b9d3c3",
+      "text": "Narator. Air itu telah menjadi anggur.",
+      "sha256": "f428dae6ca67b8a8de507316fbd4ee63fd76015946c65cd0e534e9898fecda20"
+    },
+    "jesus-cana-3-d2.mp3": {
+      "key": "b18941c4e7d11f8d139ecd85fe92e5ee3aaeebe74fa082a1fd0db6e4ef7e8f83",
+      "text": "Narator. Murid-murid percaya kepada Yesus.",
+      "sha256": "5985f79bd9fce3a51bd10b0eddc0bbba159ee589d49b27077eacaaf288246e38"
+    },
+    "jesus-cana-3.mp3": {
+      "key": "9d32b6854f5a04c6b5c1b18bdbc025b1055d1902f24e95efe21e728de575acb3",
+      "text": "Tanda yang pertama. Ketika dibawa kepada pemimpin pesta, air itu telah menjadi anggur. Ini tanda pertama Yesus. Murid-murid percaya kepadanya. Cerita ini tentang kuasa Yesus, bukan ajakan anak minum anggur.",
+      "sha256": "67e9a86921f0677cd72d36ce897dac8487e39df979ab46557f7daae8026dd942"
+    },
+    "jesus-friend-1.mp3": {
+      "key": "092157e0eacc186460f54618ed2006f0f702ee783a2d379c2dd757ee88331c43",
+      "text": "Rumah yang penuh. Yesus mengajar di sebuah rumah. Empat orang membawa teman mereka yang tidak bisa berjalan. Pintu penuh orang.",
+      "sha256": "e6283c5bfd8df5663f1653fec6d3526e31318186a38eb68fcd912e23a44dccb4"
+    },
+    "jesus-friend-1-d1.mp3": {
+      "key": "6facffeb01889fc95e673fecd19295087a487f22b5dab3d710cdc46ae33acc1c",
+      "text": "Narator. Teman mereka membutuhkan bantuan.",
+      "sha256": "fd861c8d2ff829e9fed89953936c5325d32f78c679cdf0580a00917b370a1b2e"
+    },
+    "jesus-friend-1-d2.mp3": {
+      "key": "e754143d28f05fef093f197c594df2641ded0764cf41ebe5afba8bb1bce9f1af",
+      "text": "Teman. Kita membawanya kepada Yesus.",
+      "sha256": "f9ede24d33cf91c726e862dd6dc9195dd5bd216636c44c9fd3c1b0627fa0fd67"
+    },
+    "jesus-friend-2-d2.mp3": {
+      "key": "071a74daf035d87a343eb404b52b8acdfb6d2fd896d6e12d54db1b629dcd4826",
+      "text": "Yesus. Dosamu diampuni.",
+      "sha256": "5d11d3d3c2a0e020f85e51362269758dc832c12267b9ffe4c3e75a166d84cdde"
+    },
+    "jesus-friend-2-d1.mp3": {
+      "key": "766133cdf4c335d1cb1fc43689049935d7df1c7984c77a52722b355540f0fd1c",
+      "text": "Narator. Mereka menurunkan temannya dengan hati-hati.",
+      "sha256": "e36b11d8c2e52ed568521a2211c9c2cb2e8aed542760b810cfd6b54f099fba0d"
+    },
+    "jesus-friend-3-d2.mp3": {
+      "key": "f7fa3f9bca1580097646cc1cb0ad10473f58a77b58629ce2ead4c71210f7b94e",
+      "text": "Narator. Ia bangun dan berjalan!",
+      "sha256": "82b2d1938c3887eb02c81fe59531790c6a14e88aaa896c456226b2d85eaf5697"
+    },
+    "jesus-friend-3-d1.mp3": {
+      "key": "5f7285eeb0eb35fb14b85b71bc49b21797b833038989bce437eba639e3eb5d89",
+      "text": "Yesus. Bangunlah, bawa alas tidurmu, dan pulang.",
+      "sha256": "2bd8f687132f9a31a9bee345371d39581f2e310233accb8460840a17cb39498a"
+    },
+    "jesus-friend-2.mp3": {
+      "key": "fc9f4db65f1b4927f01706f22b67f0371ffd3b1325b2cbaa9c7252e25a95beed",
+      "text": "Lewat atap. Mereka membuka bagian atap dan menurunkan teman mereka dengan alas tidurnya. Yesus melihat iman mereka. Adegan ini bukan kegiatan untuk ditiru di rumah.",
+      "sha256": "d50f13bb8bbd9c951b969e1a45b6aaaf450084e518daa2baaf76dfec3236dcc6"
+    },
+    "jesus-storm-1-d1.mp3": {
+      "key": "a18ca78e444c95d6791cc74705d1a0b51ba7519c76f9ec6e5aa939abb0ce36f0",
+      "text": "Yesus. Mari kita menyeberang.",
+      "sha256": "b6931fbed318dadde8d08a2fb40688ad1827a5534aee9eb2cfc046cb2db1e728"
+    },
+    "jesus-storm-1-d2.mp3": {
+      "key": "18cb9de7e084f510f128fedf412332ea40ad1da13bc87b76fd5dd7528dbf6805",
+      "text": "Narator. Perahu mulai berlayar.",
+      "sha256": "e0944e0e14617bcbddd9895c1feba27d002090ee18742ce32874953de60e22ad"
+    },
+    "jesus-friend-3.mp3": {
+      "key": "68edf1461d89e286c5512d4798569d25da5f6f6d2c70981c381e693b3462026f",
+      "text": "Ia dapat berjalan. Yesus menyuruh orang itu bangun, membawa alas tidurnya, dan pulang. Ia bangun! Semua orang takjub dan memuji Allah.",
+      "sha256": "3d5c2163ecd52dbb1d32c1cbaabc7221e267b474180ac3300c0965b31a85090d"
+    },
+    "jesus-storm-2-d2.mp3": {
+      "key": "fb4b589a30301d6591d0d20258f0bd19c47ae8973b96124ec034f6fc9e756b27",
+      "text": "Narator. Mereka meminta pertolongan Yesus.",
+      "sha256": "3812ff3e30bf34070000814591b8a29f2870ebcfa32db41e623d195399e478dc"
+    },
+    "jesus-storm-1.mp3": {
+      "key": "b4d924c2fb81b979cd621f330b7c6482f0514311f165c80745c62bcd69b9224e",
+      "text": "Menyeberang danau. Yesus dan murid-murid naik perahu untuk menyeberangi danau. Yesus tidur di bagian belakang perahu.",
+      "sha256": "9b1f044016166274b6befc3667e7ce199038eebbaa48fe0605b3a5c343a8477c"
+    },
+    "jesus-storm-2-d1.mp3": {
+      "key": "9eae669aa22a769c546801479d67cce5a371224479b0f4c398c78480c367a9d5",
+      "text": "Murid. Guru, tolong kami!",
+      "sha256": "55b466b925355b0f9c00b304ffbf5c2a00a504579b6544cbb1a0d90918adbd8b"
+    },
+    "jesus-storm-3-d2.mp3": {
+      "key": "ae6d904ebd5e4d865937e7bad91ea3fad669faf393c6c56d983cb455fcb51059",
+      "text": "Murid. Angin dan danau pun taat kepadanya!",
+      "sha256": "6422e17248e3c7b9e2c5a0d160f387049f61a55233351a79cd2d09b7c60a5160"
+    },
+    "jesus-storm-2.mp3": {
+      "key": "188c32ea4a14e8d411c0c83eb810c965e131b9d7e1d99f7b6641e279030f1f44",
+      "text": "Ombak besar. Angin bertiup kencang. Ombak masuk ke perahu. Murid-murid takut dan membangunkan Yesus.",
+      "sha256": "5d612d8607a335f73752bf6a41ee9262836d88a4b07db907b66fd7fd11e8068a"
+    },
+    "jesus-storm-3-d1.mp3": {
+      "key": "30038dc1ffdd2ba44a3dda2d5288ee62cfffb8b9a64b6adf688506d5fdcb267a",
+      "text": "Yesus. Diam! Tenanglah!",
+      "sha256": "23e898c02731b4ebecffdd8767789cd347ef4e7508f2270059f6dca1ac99ed9c"
+    },
+    "jesus-loaves-1-d1.mp3": {
+      "key": "701ff6f7fa0a17498eea60ba6437c4f8df59ec5f60557623cdff6379dfa3ce0e",
+      "text": "Narator. Orang-orang membutuhkan makanan.",
+      "sha256": "e13ce0a74c4e3b92eb9e4f38ad394a24bf9eca6fbab0b833a08a3da49f638580"
+    },
+    "jesus-loaves-1-d2.mp3": {
+      "key": "354f14e2611d36b889dd6d5f13440cff3c206d0c61434bcea8c9116d3b261797",
+      "text": "Narator. Yesus peduli kepada mereka.",
+      "sha256": "e8a04878af1ffcd5a08ed740527931a8a433a07b36f56ae1a109d50f9cab90d9"
+    },
+    "jesus-storm-3.mp3": {
+      "key": "9a23980b488c2765632c3cd5baa178e67171f00cb4c0bf1caec6bb6e07bccc13",
+      "text": "Tenanglah. Yesus menegur angin dan menyuruh danau tenang. Angin berhenti! Murid-murid takjub melihat kuasanya.",
+      "sha256": "82694b60d72ecbe64350e8681074495f91d3ad34f94e9adbbace2a01505628a0"
+    },
+    "jesus-loaves-1.mp3": {
+      "key": "8e7c5b9c0e64e06eb47ca61c0a4994124a53620faf376aeb18fcf96352d3beb4",
+      "text": "Banyak orang lapar. Banyak orang datang kepada Yesus. Murid-murid memikirkan bagaimana memberi mereka makanan.",
+      "sha256": "b9f0fdf837fd09cec3ca13af0f15960781e826f17cda15756193a1edbbb4dd9a"
+    },
+    "jesus-loaves-2-d1.mp3": {
+      "key": "eca722c4f7053ea4f745d9f5f76d008a7f07e7834218a3048c3b144633ac55f7",
+      "text": "Andreas. Ada anak dengan lima roti dan dua ikan.",
+      "sha256": "e63ba676e4d87968ab52fe975c93bacdb8a9f6b1887754e3707413176be44279"
+    },
+    "jesus-loaves-2-d2.mp3": {
+      "key": "7e78744d45d7ba54ff1e94ab13869eca31d83094dab586cd71acacc377da9a0f",
+      "text": "Andreas. Tetapi ini sedikit untuk orang sebanyak itu.",
+      "sha256": "c2924df4d556ea8c44ab3793a29f1e623bcaf3ffa4fc7cd309efd96892255337"
+    },
+    "jesus-loaves-2.mp3": {
+      "key": "5dac44fb3a7c461448cc9455c07090771991d9fad83bd1b17d562bf6e370ff6d",
+      "text": "Lima roti, dua ikan. Andreas menemukan anak yang membawa lima roti jelai dan dua ikan. Bekalnya tampak sedikit sekali.",
+      "sha256": "a9a50e1b610efc2f6419e39c60b76c4fd6d3e43c6582978382185695641e0607"
+    },
+    "jesus-loaves-3-d1.mp3": {
+      "key": "e78c778b1d329caf443f615223b9f595ac51edb18b614c939584ebe1077d6784",
+      "text": "Narator. Yesus mengucap syukur.",
+      "sha256": "8b6dd144d0567f7ae3d070536b1ce6b1163ac157c9977ab514a5a5237bcc4f21"
+    },
+    "jesus-children-1-d1.mp3": {
+      "key": "3a76844103086f51799de4874fc0e931b0c311c428b32e7be6ea8abe22631eb4",
+      "text": "Narator. Anak-anak dibawa kepada Yesus.",
+      "sha256": "35d65a217447fa2026228c470e892d09582e901fe62c92e9357d5f040deda37a"
+    },
+    "jesus-children-1.mp3": {
+      "key": "fa07e81744275e95c8a3c695b39ac3ad69f1e97fb12f0de2b93ff34b899aebc7",
+      "text": "Datang kepada Yesus. Orang-orang membawa anak-anak kepada Yesus. Tetapi murid-murid menegur orang yang membawanya.",
+      "sha256": "ce6fa8cc07c7ee28cae97e7efc6cac2241e6b8a75ee815b5de35d69551ad907c"
+    },
+    "jesus-loaves-3-d2.mp3": {
+      "key": "ff39f0326bf78f4030123bf1d08f06b7617ea2251c8a1c873460305e2309f295",
+      "text": "Narator. Wah, semua kenyang! Masih ada dua belas bakul!",
+      "sha256": "8219608bce0755ffd5cb5ff40406cac5b749bb2f17b8520f7361c07b4fb096ac"
+    },
+    "jesus-loaves-3.mp3": {
+      "key": "ee5b0a1a97fe19305036c4b77863448514ac6b541e5d4495eae961cd47a53692",
+      "text": "Semua makan kenyang. Yesus mengucap syukur dan membagikan makanan. Semua makan sampai kenyang. Sisa makanan dikumpulkan: dua belas bakul penuh!",
+      "sha256": "8fc5d848bf1771cf92606d23e9b285b81333687e3272c808a3d525ad15b93faa"
+    },
+    "jesus-children-1-d2.mp3": {
+      "key": "156fcbb1f87ef8cc05db8fe81785392fcd22d516af622885d0b58e01d0381d0d",
+      "text": "Narator. Murid-murid mencoba menghentikan mereka.",
+      "sha256": "fc92361f2fcabd07d5285f0a02505f4f4e1a1a08eaa9cfb389b3c6613b3ec5d7"
+    },
+    "jesus-children-2-d1.mp3": {
+      "key": "275ad93b9c1d2f115c23724623d3c611d54f9adcd52d865a44773817c90ddec9",
+      "text": "Yesus. Biarkan anak-anak datang kepadaku.",
+      "sha256": "77ca396773513ee61d3473ac182ee593af88231ab16c8a09c05b1ea0fc4245c5"
+    },
+    "jesus-children-2-d2.mp3": {
+      "key": "9608dd06795adec8ff4b886453b52a81d72b0fd95e685e0b4dbebc5dd3c3c6e5",
+      "text": "Yesus. Jangan menghalangi mereka.",
+      "sha256": "d0aa622956204b63441a95875c3480323d395dc0d2c4deaf6f19febc69732980"
+    },
+    "jesus-children-3-d1.mp3": {
+      "key": "c5b121bd3887dbc848252b3565bfab6312df44ad056d83499fe60d575957ef05",
+      "text": "Narator. Yesus memeluk dan memberkati anak-anak.",
+      "sha256": "e55e90ace9f3f3d97a235aadafbb820e2bbcd696f2a60feb6591d8000b3bf257"
+    },
+    "jesus-children-2.mp3": {
+      "key": "86e2971a989808ffa8926c17ac0c6096925606990b9b06c0446804f42be157bc",
+      "text": "Jangan menghalangi. Yesus melihat itu dan tidak setuju. Ia meminta murid-murid membiarkan anak-anak datang kepadanya.",
+      "sha256": "a94a3b0aefe487c5e8e3cb6413a42d8024ee13e9ae62985ad1d8baf7fcdfee97"
+    },
+    "jesus-children-3-d2.mp3": {
+      "key": "80ca8ced6b675585f884344502122429fcd984b8dbd5eab42d1f109405192951",
+      "text": "Narator. Anak-anak berharga baginya.",
+      "sha256": "ecc04db52d4993cd6ffe2fcfd1daf39e6eaa276e0dd37801af7944d650fbf147"
+    },
+    "jesus-zacchaeus-1.mp3": {
+      "key": "b3a79995e2e3bbdc02325c76a711a109768ab570ca4dc034f12154360328f8e2",
+      "text": "Ingin melihat Yesus. Yesus melewati Yerikho. Zakeus ingin melihatnya, tetapi ia pendek dan orang banyak menghalangi pandangannya.",
+      "sha256": "ce73634456f180f2dcd5f173571281c82ffbb23a67418c0e134503169c606771"
+    },
+    "jesus-zacchaeus-1-d1.mp3": {
+      "key": "4fc6ee62b6addb7190526e3672a557677d1e54b046b18606a936dcdeea892cfd",
+      "text": "Zakeus. Aku ingin melihat Yesus.",
+      "sha256": "fa986ae60d4acd934c92f02f8757c0bd4d02140208beddd265054eca9d1936ad"
+    },
+    "jesus-zacchaeus-1-d2.mp3": {
+      "key": "9d6ab4c8e3c852627003f90ccfe5bc5971e09b0f3b1ae9985b5bd4b20186b2e6",
+      "text": "Narator. Zakeus berlari mendahului orang banyak.",
+      "sha256": "e5bbe81ecc07037f74d4c3f42078149e3e21342d31f2c8886e5ceef3b5f1826c"
+    },
+    "jesus-children-3.mp3": {
+      "key": "73dbd24f62e192b83f0ae36e7cdf005144fe84960c861bb80e23e36e59a8bb04",
+      "text": "Diberkati dengan kasih. Yesus memeluk anak-anak dan memberkati mereka. Anak-anak disambut, bukan disuruh pergi.",
+      "sha256": "42b52a7f576da786b909aa3cc2370e4510b90e0fc3151268152ff767ac79c075"
+    },
+    "jesus-zacchaeus-2-d2.mp3": {
+      "key": "ad9cc22ee1de3e12e8d92463a31863dfa3abf631032bf940f3521bc1d769462b",
+      "text": "Yesus. Hari ini Aku singgah di rumahmu.",
+      "sha256": "5c4fa4f3061cda20961cda95a3be4d36af1d1357909f58f834a7d1970ce726da"
+    },
+    "jesus-zacchaeus-2-d1.mp3": {
+      "key": "c54cc6d38db04c725f1a0025ffab1adb3a57c2d206274e3220405727d452e0b2",
+      "text": "Yesus. Zakeus, cepatlah turun.",
+      "sha256": "c81834951bcb5a72fb17eb88fa0d75c24362ad0ea739a9c4e98afa8a843442cc"
+    },
+    "jesus-zacchaeus-3-d1.mp3": {
+      "key": "0aa3e79595fb5c3b10d9c90d318f63ded492a53199d8167045a3c8585108eef6",
+      "text": "Zakeus. Aku mau berbagi dengan orang miskin.",
+      "sha256": "6e5523886dd47627bf54430bedb58e935931047588ec038188f909ca5a7589a5"
+    },
+    "jesus-zacchaeus-2.mp3": {
+      "key": "658900ac11ea8d3a02e3558b88ae6485953f63a54f6fa88a864f0cd215e9a063",
+      "text": "Yesus memanggil. Zakeus memanjat pohon ara. Yesus berhenti, melihat ke atas, dan memanggilnya turun. Yesus ingin singgah di rumahnya.",
+      "sha256": "cf94e9199c0b02e90b31046e371b211aac090da30d7bbb797ee2d71c71b36783"
+    },
+    "jesus-zacchaeus-3.mp3": {
+      "key": "da512308952a2239a8101b364f20b2e4b0eb7e7fd9511621eaf00fc6b1a17b89",
+      "text": "Hati yang berubah. Zakeus menerima Yesus dengan gembira. Ia mau memberi kepada orang miskin dan mengembalikan lebih banyak jika pernah mengambil milik orang dengan curang.",
+      "sha256": "f9ba39ea4e566ba9d7e89fb012e54d0486b562dc5c38f5b5e4b3ddce5f48b566"
+    },
+    "jesus-jerusalem-1-d2.mp3": {
+      "key": "d3753bc61b42a2123959a4d786a886352896221d166ae0b6c328db1677de385a",
+      "text": "Narator. Mereka meletakkan jubah di atasnya.",
+      "sha256": "309d87f99be2f647be3f8c799791bafd29d14d3b6780832f1b8fe5c21c2fd664"
+    },
+    "jesus-jerusalem-1-d1.mp3": {
+      "key": "7381d74ac448f07b5178220b22c6b1ee1c70be5031c1d987557fe4463ca0a7c7",
+      "text": "Narator. Murid-murid membawa keledai dan anaknya.",
+      "sha256": "f0a603f909059b4edce7369cda5bd4da8f9d6ede5bd4387997b6c497a28fdae6"
+    },
+    "jesus-jerusalem-2-d1.mp3": {
+      "key": "534dc9939f25d643313eca8d58fdaf2248937bc92b520fd09cccee682eda6355",
+      "text": "Orang banyak. Hosana bagi Anak Daud!",
+      "sha256": "672d4de18f8105b591a768a1cea0009fc8f679ad1fae859a8e44db239afc31a2"
+    },
+    "jesus-jerusalem-2.mp3": {
+      "key": "6e8adbb44b23ba4466feff9421fc709dc21c8f8c40d2ed9cb0652bb49bc69bb6",
+      "text": "Masuk ke kota. Yesus masuk ke Yerusalem dengan menunggang keledai. Banyak orang membentangkan jubah dan ranting di jalan.",
+      "sha256": "45ec66afddaa3a771f6cb18a1489d968f0409ecc7d722c0983665f008fc2da1c"
+    },
+    "jesus-zacchaeus-3-d2.mp3": {
+      "key": "c47cf3ca07496d032f55a869a89c26ac130b63a877a4fc889304c992268730ea",
+      "text": "Zakeus. Jika aku mengambil dengan curang, aku akan mengembalikannya empat kali.",
+      "sha256": "7b317babe37776d429764c6e3d96471731081a204bf0a59faa2b23fee6b7715a"
+    },
+    "jesus-jerusalem-1.mp3": {
+      "key": "20e219a85e2d6030825f8670112983fb0f75e0bffde70d90c9bf2e4e1b99f3f4",
+      "text": "Seekor keledai. Mendekati Yerusalem, Yesus menyuruh dua murid mengambil keledai dan anaknya. Murid-murid melakukan yang Ia katakan.",
+      "sha256": "81f66f90c54bb9bd44fbb31d202f52fb354b06c2e7337c76072d7fe99d2b9bc4"
+    },
+    "jesus-jerusalem-2-d2.mp3": {
+      "key": "46f376c16dee892be1cf58b43c477a4b728e05aa5e16e150062498c83ef69c72",
+      "text": "Orang banyak. Diberkatilah Dia yang datang dalam nama Tuhan!",
+      "sha256": "7f4e129c6d150e1577261436a641c9a7fff06429012de09f46292d6ef124bc96"
+    },
+    "jesus-jerusalem-3-d1.mp3": {
+      "key": "e8a0157b6d8567e5171a5c128b3c8759749d1e56ce080853b46a4b590c449e01",
+      "text": "Penduduk. Siapakah Dia?",
+      "sha256": "973fbd275019730a139da3b8562a1e9f8f7b9dda59c23566d9491347837394cd"
+    },
+    "jesus-jerusalem-3-d2.mp3": {
+      "key": "be77d6c2bcfec8780faa29659d1445d441fd9b6e6226608765e353e23a44f606",
+      "text": "Orang banyak. Dia Yesus dari Nazaret.",
+      "sha256": "d3ad2a8fe001b5eb383287bbaffca4eeb1f59c4809acc0287b9cfebda66fff21"
+    },
+    "jesus-jerusalem-3.mp3": {
+      "key": "f7304770a0d3634e1e0933541bf3cccaac8f06cb86d1c64e04460803516c7f65",
+      "text": "Siapakah Dia?. Seluruh kota bertanya siapa yang datang. Orang banyak memberitahu bahwa Dia adalah Yesus, nabi dari Nazaret di Galilea.",
+      "sha256": "d88b1ef7f21216a5ecd13d88fef41617050f2a1d84cf23544f1f13f93baa5e05"
+    },
+    "jesus-supper-1-d2.mp3": {
+      "key": "abf0bab3b57a4bb053d3b44fc8b6bf5354f29fdc6f0eaf0ee479c77b05d0db69",
+      "text": "Narator. Murid-murid duduk bersama Yesus.",
+      "sha256": "a04e25ec2df49f39a6c0a74373c59fe46671b391e7fe933918209f2641f7f181"
+    },
+    "jesus-supper-1.mp3": {
+      "key": "57665c4dd9db57afb8a5d94995d037a1f15bdcd380d86d7e04e1bb9775ca1b73",
+      "text": "Bersama murid-murid. Menjelang Paskah, Yesus makan bersama para rasul. Ia ingin berbagi perjamuan ini dengan mereka sebelum Ia menderita.",
+      "sha256": "f1e3aa26561183325fd113b2cf6734788f3116ee192722ad3804e0f60933f8e5"
+    },
+    "jesus-supper-1-d1.mp3": {
+      "key": "be4513f7d4633256308bc293c0ecc357f752d57bf8608624ce6dde0dcd921893",
+      "text": "Yesus. Aku ingin makan bersama kalian.",
+      "sha256": "6cb92080afbf4b7d3c5b1746eb85baec7f9689baf00ae6cbc7f15146a0859873"
+    },
+    "jesus-supper-2-d1.mp3": {
+      "key": "fc958d9622ff781a80fe2187e7028cec5f13ee6db356fe9137ef53dfcee428eb",
+      "text": "Yesus. Lakukanlah ini untuk mengingat Aku.",
+      "sha256": "efc42cd601b184733147e4f252d76573f823678c4ad67ac56b5f1d694b66fbda"
+    },
+    "jesus-supper-2.mp3": {
+      "key": "58340533c23fbcc3414813115e36d3835bfcaa6c1583ba6964dd47c320a2eac0",
+      "text": "Roti dan cawan. Yesus mengucap syukur dan memberikan roti. Ia juga memberikan cawan. Ia meminta murid-murid mengingatnya.",
+      "sha256": "1e6c9e183bd27cb307ed5768d953799b2780a71ff088ee59b9da2b05ac7a9c52"
+    },
+    "jesus-supper-2-d2.mp3": {
+      "key": "19bad8b15d9b7b818ecf91dff6662af06b77f62f224580b2bf515b6d6aba5a42",
+      "text": "Narator. Roti dan cawan mengingatkan pada pemberian diri Yesus.",
+      "sha256": "99de3219758de583b958bb6fd6a6f6c762d2974b86f3115b5f235586fa1f24ec"
+    },
+    "jesus-supper-3.mp3": {
+      "key": "b4e109e73dea2f98a2e2ff4e0b483c07b0b2f7d97e887e37c28c89259699bdee",
+      "text": "Saling melayani. Injil Yohanes menceritakan Yesus membasuh kaki murid-murid. Ia memberi teladan melayani dan meminta mereka saling mengasihi.",
+      "sha256": "f39fd12970a2349827346d7181fe918c9d12e4c8c2c94c38c98e2b5511a53390"
+    },
+    "jesus-supper-3-d1.mp3": {
+      "key": "72333d57b2c0afc23da68c427f5b19c226d734804374c9fc4411c3cd277fdb31",
+      "text": "Yesus. Aku memberi contoh supaya kalian juga melayani.",
+      "sha256": "4078d7df0e047b1c29627c211f478df958251139bd92bc667488e1ba8802f154"
+    },
+    "jesus-supper-3-d2.mp3": {
+      "key": "e88b83aae0447d046801ea84335aed1b808760b39997f052b580dc988bc46343",
+      "text": "Yesus. Kasihilah satu sama lain.",
+      "sha256": "4e1bd8e3dc585de7a33137fcceee34befbbe8d511075d31484b10032219e4d87"
+    },
+    "jesus-garden-1.mp3": {
+      "key": "d402e19a530cc4d2d06196ae5fa8f12d8098083bc8abd406b259003c95831195",
+      "text": "Hati yang sedih. Yesus pergi ke taman Getsemani bersama murid-murid. Ia sangat sedih dan meminta beberapa murid menemaninya berjaga.",
+      "sha256": "d820955a85399edce4a2705907e96942462810c41aabe69bf341bb6a7fcfa003"
+    },
+    "jesus-garden-1-d1.mp3": {
+      "key": "7c95c708cafba509e75b135662ea1f2308182405c5ee2f5d085fb3c938fa705c",
+      "text": "Yesus. Hatiku sangat sedih.",
+      "sha256": "8c7e7ac4636f3303e35a4ec06dfbf6714a643e7b979811d256920b14faf2963a"
+    },
+    "jesus-garden-1-d2.mp3": {
+      "key": "a1e37e2aef93bc5790fa5c1945dbffb90606c27c61057e654b7ea7ba0a96561d",
+      "text": "Yesus. Tinggallah di sini dan berjagalah bersamaku.",
+      "sha256": "bc0d41501438bdbaa4bdef8f7d6090460661a9608236b923c30071da05c1680b"
+    },
+    "jesus-garden-2.mp3": {
+      "key": "9e73510c5edfeeffcd7250fd768ce6e84ddb72dbe104b4dda50a661025463f9c",
+      "text": "Berdoa kepada Bapa. Yesus berdoa kepada Bapa tentang penderitaan yang akan datang. Ia ingin melakukan kehendak Bapa.",
+      "sha256": "abeab38fa0485d8a81c9ea0e549ab2628391291146737e88d7b028a226b1deea"
+    },
+    "jesus-garden-3-d1.mp3": {
+      "key": "1c04de5132960ccce397f3ea889a0589af6cf7c797c28212f49eac3288b9b4fe",
+      "text": "Yesus. Berjaga dan berdoalah.",
+      "sha256": "a0ef781fea88d08a1f06e72b3948cc6d301833aeb1c5f8105ed5ab749e6fefdf"
+    },
+    "jesus-garden-2-d2.mp3": {
+      "key": "7259c92ede5e323f62f4d63d149c223538518b5f22baa36252d012edd0f2cb8b",
+      "text": "Yesus. Biarlah kehendakmu yang terjadi.",
+      "sha256": "65d54b7edce78294d64ff7f6b968702e104bfc9f051443cb8d1526609e9c32a9"
+    },
+    "jesus-garden-2-d1.mp3": {
+      "key": "43ce955b945b07c6532d16e20c8b05176cb78438f520a80c62280dd4e853fdbe",
+      "text": "Yesus. Bapa, bukan kehendakku.",
+      "sha256": "6824425df178e33614bb850ccdd89b2f42d16a0e7c43e96370430bf2d22be381"
+    },
+    "jesus-garden-3-d2.mp3": {
+      "key": "5b2e649320a65daa17ef855e4045342e209f300924dcf201c6d6505fd8ef9e9e",
+      "text": "Narator. Yesus tetap datang kepada Bapa dalam doa.",
+      "sha256": "d4eb5ae4de738b2f92d755046c2bc34d4b32a4cc9d3d9541df18f884b68093d9"
+    },
+    "jesus-cross-1-d1.mp3": {
+      "key": "929ae9e407373604cb16bf59e6df64839d5de808035ffee2a9a2919ad4992ae5",
+      "text": "Narator. Yesus mengalami perlakuan yang tidak adil.",
+      "sha256": "5842c7add2d6468091698d948ba777f280ad94931427053c20a1c569c70a6bdd"
+    },
+    "jesus-garden-3.mp3": {
+      "key": "5fb0a2bec20d29835a1b8dbc925153ef6c3cfc501d1a57edf807371148265ae2",
+      "text": "Tetap berdoa. Murid-murid tertidur. Yesus meminta mereka berjaga dan berdoa. Ia berdoa lagi, lalu bersiap menghadapi apa yang akan terjadi.",
+      "sha256": "822c1928bd3473bdd91b233508f5a8b75c6944ea9ba3d16e38fb43e8a1c2d229"
+    },
+    "jesus-cross-1-d2.mp3": {
+      "key": "0c340e27fe653b96c630acff8fdcb8fd4902f00c6b4e7f754ec931d8fe4ccea8",
+      "text": "Narator. Gambar ini tidak memperlihatkan kekerasan.",
+      "sha256": "bf38ee5b776dab58e025fc68491fc3c49a86149a9fdda1b7a9fab2fcc11ac3a2"
+    },
+    "jesus-cross-2.mp3": {
+      "key": "a6aa445a7f581700a72631331437f26e345e374785c6e4b168b9967f1bdf5f0e",
+      "text": "Doa pengampunan. Saat disalibkan, Yesus berdoa meminta Bapa mengampuni mereka. Ia tetap menunjukkan kasih di tengah penderitaan.",
+      "sha256": "3b353658fd3ba7f181d7d6c4f637725aa1f7645bae2cd6f63e401f818701db15"
+    },
+    "jesus-cross-2-d2.mp3": {
+      "key": "b0328719139d705c7b2a439092afbf804df118e62abf9d573fd9586248e32cf3",
+      "text": "Narator. Yesus menunjukkan kasih dan pengampunan.",
+      "sha256": "15fb5d96c85e54d91bae1d12ab526c36c9f2ede78fea39ad06a9ec231893e6d5"
+    },
+    "jesus-cross-2-d1.mp3": {
+      "key": "bb5196d0e3f3e35245c61ce093724110b4cc366e6656b7c5e19c0802857258a1",
+      "text": "Yesus. Bapa, ampunilah mereka.",
+      "sha256": "41a0b12ba090664d3c769a10a72fa26f0784eb8205d7468f356e7ddcd3bb2370"
+    },
+    "jesus-cross-3-d1.mp3": {
+      "key": "748db34d81e57dd1e8fa6997ff129c89159dc112e12c19e0c6a15b0bac6b1a59",
+      "text": "Yesus. Bapa, ke dalam tanganmu Kuserahkan rohku.",
+      "sha256": "b3640557a304a243278991f16142b13e542e8f1c46e7c784cbb578c9a39517c7"
+    },
+    "jesus-cross-1.mp3": {
+      "key": "e55e96738f97179f3deb5f7efb005e8181f19b64818835c82abbfa43cde10afd",
+      "text": "Hari yang berat. Yesus ditangkap, dihukum, dan dibawa untuk disalibkan. Ia tidak melakukan kesalahan. Ini bagian yang sedih; kita membacanya bersama pendamping.",
+      "sha256": "b1d7260a537353f5f7c48bf295a9ef78803af8e65adee0dd86afa28792dddcf9"
+    },
+    "jesus-cross-3-d2.mp3": {
+      "key": "058da20d273a4649746998edb353c270d945fc84ba670c1e9bc5e479a12b8d14",
+      "text": "Narator. Para sahabat sedih. Kita akan mendengar kabar baik di episode berikutnya.",
+      "sha256": "d24d509605f0fc6153ab5ac0b384d5b2f8c51d9820e133a2f6de95b5f5a2c28a"
+    },
+    "jesus-cross-3.mp3": {
+      "key": "784410ac74ce137e7ce5b482a9f5ebef7b64e4c9ad152d86ff3ec55dc93d92b1",
+      "text": "Yesus wafat. Yesus menyerahkan diri kepada Bapa, lalu wafat. Yusuf dari Arimatea menempatkan tubuhnya di kubur. Para sahabat berduka. Cerita belum berakhir: kabar sukacita akan datang.",
+      "sha256": "aa1c6f4a089bec6a9467e7d658e81e4caaeea55d256361b754aca980ec5c56d8"
+    },
+    "jesus-empty-tomb-1-d1.mp3": {
+      "key": "769f9030591655d5b90e92a82bd4084e3edee2c5e89ac6cbe83c83b22a15476b",
+      "text": "Narator. Pagi-pagi, mereka datang ke kubur.",
+      "sha256": "f0bd0c955d0e87d6d6626e4afd146213c6a3cd9a7a5aeae7c74b3945685ae6e2"
+    },
+    "jesus-empty-tomb-1-d2.mp3": {
+      "key": "4ef5654dc183c087a33dd0f824093351e7666ca5cc703f31a8a08b9c11472b30",
+      "text": "Perempuan. Batu itu sudah terguling!",
+      "sha256": "fbd953ae3e140b008041ea4c12b60c48dc7141d31d9d3f9ddc8743d993a5884a"
+    },
+    "jesus-empty-tomb-2-d1.mp3": {
+      "key": "c797b740375246eadd9f6f74f87c52fe7e7d5505c458801841f17de6d716a607",
+      "text": "Pembawa kabar. Ia tidak ada di sini. Ia telah bangkit!",
+      "sha256": "5b7714c4427421088a2e9f570690e632db84b930dc688e8734c05b527bd09901"
+    },
+    "jesus-empty-tomb-2-d2.mp3": {
+      "key": "8cf1607652904ef13374404628a8163b2ee6d335b5cf1ac641861eb7db700121",
+      "text": "Narator. Mereka teringat perkataan Yesus.",
+      "sha256": "c6ee8ec8a59395b34794e0d5310b7b8e3fc0627b480f9d286b852b105678738d"
+    },
+    "jesus-empty-tomb-1.mp3": {
+      "key": "75335fcd22d8964b126a29378445c5cd5ea3af6cff7a003861de52e097240b9c",
+      "text": "Pagi yang baru. Pada hari pertama minggu itu, para perempuan datang ke kubur membawa rempah-rempah. Batu penutup sudah terguling.",
+      "sha256": "3ba71cf7ccf5351becb2c4af0e686de400bd31593a42da421548cf494bb0b3f3"
+    },
+    "jesus-empty-tomb-3-d1.mp3": {
+      "key": "5f4b9615717f0d0e1adee99e4eb5430593488e4a89bc6d667bf319e1d54ce331",
+      "text": "Perempuan. Yesus telah bangkit!",
+      "sha256": "bad603491d4b038691abd48f14bb7ab1ee1371de1ef4dcbfb93f831d3370997e"
+    },
+    "jesus-empty-tomb-3.mp3": {
+      "key": "b1bc17975a0804c2ed287b896d19c498761e1bdfba54f2610abb8ff1ee84b663",
+      "text": "Membagikan kabar. Mereka kembali memberitahu para rasul. Petrus berlari ke kubur dan melihat kain pembungkus. Ia heran memikirkan yang terjadi.",
+      "sha256": "748a7f25aaacd64b0b04eb2e6f2a0b151ca6ba830b6e65912aed841d621a57fc"
+    },
+    "jesus-empty-tomb-3-d2.mp3": {
+      "key": "f534e80f2a5c60697b72fd2f35af954df0acc681c5c197d8eb21d7ac4a1481fa",
+      "text": "Narator. Petrus berlari ke kubur dan melihatnya.",
+      "sha256": "1796e722e5ef18ad0f04bea77a9494aac27437927160b7ce2589741a64783a52"
+    },
+    "jesus-risen-1-d1.mp3": {
+      "key": "8af263444fca989ff1d741db71be290722182fa9b1d39da98bbd695e00e41faa",
+      "text": "Yesus. Damai sejahtera bagi kalian.",
+      "sha256": "28e10ab32640c02fbd824e9285b0f98321ba27acc4614aed0a1e607d4dafbfd8"
+    },
+    "jesus-empty-tomb-2.mp3": {
+      "key": "3b72f5faa7ba4df77760678cfa1642fb564131694dbcfa8fcd8a872ad73fb9f7",
+      "text": "Kabar yang luar biasa. Mereka tidak menemukan tubuh Yesus. Dua orang dengan pakaian berkilau menyampaikan kabar: Yesus tidak ada di situ, Ia telah bangkit.",
+      "sha256": "5b6ec57f98a0a522b395000b2cbc4c11bbd76204dd64e7ad8709e4787f330083"
+    },
+    "jesus-risen-1.mp3": {
+      "key": "b995182c7c269e6fb4ebc798dea491227f94394bc322e885328983f1f68cd676",
+      "text": "Damai untuk kalian. Pada malam hari, murid-murid berkumpul dengan pintu terkunci karena takut. Yesus datang berdiri di tengah mereka.",
+      "sha256": "d4f470aee7330608534db6cd05af6ea0847ca57c9f3814f68b57c09e096bc0f8"
+    },
+    "jesus-risen-2-d2.mp3": {
+      "key": "8af263444fca989ff1d741db71be290722182fa9b1d39da98bbd695e00e41faa",
+      "text": "Yesus. Damai sejahtera bagi kalian.",
+      "sha256": "28e10ab32640c02fbd824e9285b0f98321ba27acc4614aed0a1e607d4dafbfd8"
+    },
+    "jesus-risen-2-d1.mp3": {
+      "key": "3de0e760c94709ca3255ca3b632d7be03832ecf3f2975d75c24effee1c1bd8a8",
+      "text": "Narator. Murid-murid gembira melihat Yesus.",
+      "sha256": "4a76a3bef0d61e278bd51cddf3ba3da30e6d38ee3518322843d08728ca9d9c64"
+    },
+    "jesus-risen-1-d2.mp3": {
+      "key": "94908baf3a7a0c9ac3816208774e7f8dd8d175f1a11d582da1ad689e2a5ac581",
+      "text": "Narator. Yesus yang bangkit datang kepada mereka.",
+      "sha256": "e96f5c479d5ff100e61e7cfbc58250d9fd3e5b59e4886b74a8924e4716dde898"
+    },
+    "jesus-risen-3-d2.mp3": {
+      "key": "ef35a1ee93047e71ad14de2e799e860963f7ff09b3920fa1d529e74f73e5b7a1",
+      "text": "Tomas. Tuhanku dan Allahku!",
+      "sha256": "1d0c75a70b257ac1b33e325aadd6e8c04f3f0c86487b9521ce395ecf0b2381f6"
+    },
+    "jesus-risen-3-d1.mp3": {
+      "key": "98e763b9943e1274bc97942f7686ddcee397fa0a3699e0e11c732f3b76cfbfdc",
+      "text": "Yesus. Tomas, jangan ragu. Percayalah.",
+      "sha256": "e23936bb965047a1a92de0b66970ae21cfd2853528b4bb8d6fb7fc01013fbd4a"
+    },
+    "jesus-risen-2.mp3": {
+      "key": "255a04dac5d78648205c8c18addeeb673e3a4e65c4166cb598e114f40ae2869f",
+      "text": "Sukacita sahabat. Yesus menunjukkan tangan dan lambungnya. Murid-murid bersukacita melihat Tuhan. Ilustrasi ini tidak menampilkan luka.",
+      "sha256": "0684b6ad931c98334582ab254bf59c3fab516e7261466f1fbe3cea985e449ae9"
+    },
+    "jesus-risen-3.mp3": {
+      "key": "4f6444c9c4708aef9e15012476d74d448927c30396659afa5e236ceb9cd49129",
+      "text": "Tomas percaya. Tomas tidak hadir saat itu. Delapan hari kemudian, Yesus datang lagi dan mengajaknya percaya. Tomas mengakui Yesus sebagai Tuhan dan Allahnya.",
+      "sha256": "3502429139f80fc9bcdc281e921d08528597360fb02d7a2386420c0d51219da7"
+    }
+  }
+}

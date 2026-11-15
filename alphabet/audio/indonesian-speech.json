@@ -5,134 +5,134 @@
   "rate": "-8%",
   "clips": {
     "letter-a.mp3": {
-      "key": "2fe04a6c6ec7516ff324f439cc6b56316476ab96e4b48d2caf2c2e19310ade46",
-      "text": "Huruf ini dibaca a.",
-      "sha256": "379c57a1c9cdccaaa137e5df1bbab20524b000218a9f2e4b4633d8f8daba8baf"
+      "key": "a3acd353a6a642ad96bdd28b98e68c32c71d35432503f52b839533d9a069b737",
+      "text": "a.",
+      "sha256": "c888c310f20445380dacfbd3bf4d1b707a680059bd609bff3872e00477995d08"
     },
     "letter-b.mp3": {
-      "key": "0668dae7771bb6da4c81737c2f75625cb58b15e40d1fdf68ff7980086a7a5c41",
-      "text": "Huruf ini dibaca bé.",
-      "sha256": "7319644ebfddb125405a06f551d4c20f7e89562b1a27918b2fa2302700ccb4cf"
+      "key": "9bf8b1bf0b6f55dfbd0d2360f4e9d10d381efdf3146ff9ff94e6065b3c92f0df",
+      "text": "bé.",
+      "sha256": "c990e1d31deb00b7cf29ad65be7f8df9b36b2ec1ebfe15f45f4756ce0f27b46d"
     },
     "letter-c.mp3": {
-      "key": "93415aed339b3eb7552d20654f74a3105b891ef47f8c17e375a8d0ef1a7d3e21",
-      "text": "Huruf ini dibaca cé.",
-      "sha256": "336d4de0fbec2d76d318a7d74c57cc0d536d3b5d4eb78679a2f5c959e14ce170"
+      "key": "11ff54b730eac306b2102a43067685d47aad0a3b005451e1b5809c7661b47b48",
+      "text": "cé.",
+      "sha256": "022b3c096c0c8f4b52ba3dd41f39d8b4dd7ec2c1f7dc93336bc5cf1ed05c2c6e"
     },
     "letter-d.mp3": {
-      "key": "82418b2952320f914219c8ce3e75a6e6d29a4696ff08c059b4f87fefaa1883ea",
-      "text": "Huruf ini dibaca dé.",
-      "sha256": "46679409768b1574d4939aa26abb959dfa06b24619fcde195e98386443bf82aa"
+      "key": "273eacfcd8d4cde2e5e4140343cbcfb56a73e382729b41da1bca807998254c70",
+      "text": "dé.",
+      "sha256": "b7b23b1a665d5db4f6411860ad02ea3ad869fe8f18abe1fc36d91879c3a89e67"
     },
     "letter-e.mp3": {
-      "key": "ac09212d8370f1cdfef2d5b023628a2c39451d68a0b1fbb963ba3d7b622fb531",
-      "text": "Huruf ini dibaca é.",
-      "sha256": "4cc87c4e7eba6b830608d516e0453d85f1ac795188e7484df322d6b052894428"
+      "key": "7338e06f683ad04c1f4a2186abe164e40ff539074edf2e95a5a6a194455910c1",
+      "text": "é.",
+      "sha256": "dd33cc4fe5ea2abb7ceda4a3d523523515eda7beefecfbcd2fabc5f530b2fea9"
     },
     "letter-f.mp3": {
-      "key": "a79889c767453cba5a783394962c0323facecc6e60ffbb978e3c1ded2f5a4794",
-      "text": "Huruf ini dibaca éf.",
-      "sha256": "92189a3a73e427351b19dbdb0b210d7df9b34838daf90614b48c3bce747a1b5b"
+      "key": "82f296631d1259a38635fc622c12e70211fee7d63994f6cbfc31f46cfe4112e3",
+      "text": "éf.",
+      "sha256": "e2bfe786468e3de44af2f29ee464fe34765ea74346f8902241b7f3d0c6d9129d"
     },
     "letter-j.mp3": {
-      "key": "83d58b61e2e6b681f24df09492d53180deb9d06c9127c3668feee796a8fae78d",
-      "text": "Huruf ini dibaca jé.",
-      "sha256": "c0cf683d8e3356745c972c72037bd1fb058a1568ca96939d328553396aacc33d"
+      "key": "3fd34d5bb2f173914962fe6948e8950036e454af7924fbf23eac7a0adb6142b2",
+      "text": "jé.",
+      "sha256": "284e53ffe070cc0b02a63e4a799ac9cb9a7ff191808f2a7ba5344dc168842f26"
     },
     "letter-h.mp3": {
-      "key": "a23a3db1362dde95c4844c95f177ed4bc93b6bfebbe755045f29745a1f3ad7f8",
-      "text": "Huruf ini dibaca ha.",
-      "sha256": "da8d5764ea0e79f93ffcfd379df8229069a92b0c86fc4df583a15738adc6809d"
+      "key": "3997ce99bbbbd56574de84e4e92ef57ec6f6664287d4dc0986960f1616a0b17f",
+      "text": "ha.",
+      "sha256": "0bc5aca5396b5b8f8c287b5623bae1065e9fc49704d9fcc64b00e4cadc973184"
     },
     "letter-i.mp3": {
-      "key": "8695f1689d9692bdb8beb4b309818cba3380d39c5a525c0cd91428cec2aa2e45",
-      "text": "Huruf ini dibaca i.",
-      "sha256": "f62a60319a3e6a8e36c1e337f08a1ba33ea174ec14a7dabee7e67b68dab183e9"
+      "key": "542d01e92b5e592469135a2995b02afa455840c65adf42a40b455b05282c13c0",
+      "text": "i.",
+      "sha256": "0ce11a66436d604954397d74b5a883918148390e9e636bda098c00b62d53a12e"
     },
     "letter-k.mp3": {
-      "key": "99cca1c38b35e0647e6ede8580b2c2c5129628782477695db792c21058185bac",
-      "text": "Huruf ini dibaca ka.",
-      "sha256": "60f7271561f37265b52b5adc164a82e3a828c139fba20de0b79591af4c90661c"
+      "key": "7eed676a51f33ad48ecb66bd2ecf26204ca471241d3bc3b5b3f47c84809c79cc",
+      "text": "ka.",
+      "sha256": "7fa2b6d9a0fad72134a77ffd57846102925a781aeb808ab80f3379b97dc4e2f1"
     },
     "letter-g.mp3": {
-      "key": "4507f76e3ed99e6206b203cac65569fa7f0a76e060b2a2f9da658268aaa46cad",
-      "text": "Huruf ini dibaca gé.",
-      "sha256": "aa6ced2c93cc0dccfbb47940d72d275f198469f9fbf29d8ddf7d7bd89b0b643b"
+      "key": "1aa4b32342686cb98e0fffa72902b76ed4077f3622152bf8ef546e2c0de10d10",
+      "text": "gé.",
+      "sha256": "7e0753ea35dfdfce106f9d38807e2f003ced4d891fef747202097877dab1a53b"
     },
     "letter-l.mp3": {
-      "key": "765f48dd0cec8c9e334b817f4028d6ffb9858582517524f8a65f45a5512adb8b",
-      "text": "Huruf ini dibaca él.",
-      "sha256": "51e2ff9ffe2cd7d85e84784a53d260fb2e7a84df9bbc04bfb887873aed114788"
+      "key": "0e7a9c027245ff05d090ec6b89b939c4ef38a7a076e0dd5d6a7b1846eb3bbec2",
+      "text": "él.",
+      "sha256": "aa3e66f2b409e999f72de6a13c17df1fc225b7c477898184fe60c832037f8b82"
     },
     "letter-m.mp3": {
-      "key": "ac1d101cd9786f50bb1b1a4b131894c01cf9fa1f00bf89a5271607cb2e35a5aa",
-      "text": "Huruf ini dibaca ém.",
-      "sha256": "abf88c0fc745569b7601430c6b5f23083b548748ddafee7283a7bc4399dddcb5"
+      "key": "fb71a0658a0eb05fbaac41aa91ecde515a7182974bcc2176c67b3334fa72739f",
+      "text": "ém.",
+      "sha256": "7931ef2f0c85944496a33969907fbda3b0c2469aa322aa97e1ccf665c401596c"
     },
     "letter-n.mp3": {
-      "key": "f5251476f578dbf7acc6d3ea03bb749eee2b5657d736d4385beaa3bc95026dcd",
-      "text": "Huruf ini dibaca én.",
-      "sha256": "43a1e9274ac73c6588ba8d3d6f69bdcb31a3d093c6f62451ae68062dd1684a92"
+      "key": "0957bf6a2ccaf7c6874a192b32643658667ff1645ed3a8ec8e55b3a2482c9ee0",
+      "text": "én.",
+      "sha256": "378fe661bacb4bd14337669e9db47be56c3c48f2a1af20c53041b9a8883438b7"
     },
     "letter-p.mp3": {
-      "key": "34d0dd98effc481c1dd377f6f67728f4c356174a997dc409b31dae4dca2310f4",
-      "text": "Huruf ini dibaca pé.",
-      "sha256": "479fd6bd95e388b4251555e4faa487306bb3fbaf28c7e890892557ad1ad2799d"
+      "key": "ba8ecfbbbecf7dfef892996bc1fe2050fdfb8e20fed630d75cc26a6162503946",
+      "text": "pé.",
+      "sha256": "7d38560de347cdcecd0ce064ef5ea9ab8ee39a6e7a5e33d97e6aa29997263122"
     },
     "letter-o.mp3": {
-      "key": "7d888727c3c9e64a9028d5d99879769a002be304f5e5db9c86246375883a845e",
-      "text": "Huruf ini dibaca o.",
-      "sha256": "761c1c1f5e9a17a3257c1d69e2e24b2afe2d85e5a05ba09a2576def779010939"
+      "key": "400e9ddfc3142cca896df47131bc97d4710e574e67b5672f3b1736613eec8409",
+      "text": "o.",
+      "sha256": "afa78d040cdd703d5ec06daabb04e7ead2e54b56d9593e99ec1a0a5c28ad2317"
     },
     "letter-q.mp3": {
-      "key": "ec00ca871dd4c035f305c91e9818000f13ab25e55c9d8b856c58bbf273f4c986",
-      "text": "Huruf ini dibaca ki.",
-      "sha256": "9f927ae2115e79631c57151a240a1e0c16e5288a821a386a1a146471abc868de"
+      "key": "692349d01c8baccaa9eb612d137ac4ac6a5b8e676d1db610eb0ef035b26030a5",
+      "text": "ki.",
+      "sha256": "fe84969c699e001b3ce16ae9ebee37066d9a6d04656b1b15e4508cfa06b82076"
     },
     "letter-r.mp3": {
-      "key": "17b016db3c1e30e7dc2123fee074b27778371bb707646911bd6f226760d24973",
-      "text": "Huruf ini dibaca ér.",
-      "sha256": "5b06ef674453c9efaeb925b1813304a7bacce69ecc66fa2104fb6453ee83c973"
+      "key": "10c9a48e98982e3bf3a2e74ba5108b9beeaa3e9ec2946db2be99c6664df5d47c",
+      "text": "ér.",
+      "sha256": "5e568d941cf3612aad08c31231d3c4f18a24fd624c4a59f151a5e39dab60659b"
     },
     "letter-t.mp3": {
-      "key": "2018d86c9d67ed617788b94c3c1578ab0d5e19dd12d2c93201cf5675c1be63f4",
-      "text": "Huruf ini dibaca té.",
-      "sha256": "c104f495b34b919d4af6611ea38a6a8ad83ab6a9ab69622815e3897bf4c31fc5"
+      "key": "da8082dd4da040e2fd145857182053f73ad72aebdea4eca78b853111e03ab619",
+      "text": "té.",
+      "sha256": "bd72b599bc2adfd2b9e90214689c8ac001964e798abcf8312a2835dcec04af02"
     },
     "letter-s.mp3": {
-      "key": "77e8cd24ba033262c6a6e42ac2a9d8097321c97724a4036b37a7586bb33dbb7c",
-      "text": "Huruf ini dibaca és.",
-      "sha256": "10398c02d1aa972ea10e5226ebd543570cdad771af3a9ece5719df263007b23e"
+      "key": "088c5decb2a1b82f5fa63cd108a5937a0882dc1ca075c10bb063e93e5d62ea1f",
+      "text": "és.",
+      "sha256": "0f116682a829e7138881b78fd94ead327a8f9588c45496bbccb5cb2840818d8a"
     },
     "letter-v.mp3": {
-      "key": "f3566c03aa3dc354b7a918bad54bfaf1a90e2c3d6cec3bc44ef8a21838cd59e9",
-      "text": "Huruf ini dibaca vé.",
-      "sha256": "3e3810a3519030ff31c559f5a13502cf2902894e2e9870bf3b9931ebe437a7e8"
+      "key": "657b726cabe501d4c443ea390c43e11bc1b7139b8501dc7b499b230385a1c3a2",
+      "text": "vé.",
+      "sha256": "2864fdd42d0b4941e33869401d1b4d22d9d056c7886cd9672685f727f039db47"
     },
     "letter-u.mp3": {
-      "key": "030a98a97133e1c20e0988164f148c4f97fd927a1eeb770fab7fac69de309161",
-      "text": "Huruf ini dibaca u.",
-      "sha256": "232a6a145d172d0ff8b86f2fd721e40972540ab8f20e1172174afd26c7b7d3a7"
+      "key": "e93e0cda57d4365c497df152fc28d4441a69980aec1bf7fc4f68ef7df6ac384a",
+      "text": "u.",
+      "sha256": "71fda255557e1747bcfa040af6bb8d92c51b978fb4f41b60ca72a2d6a356decd"
     },
     "letter-x.mp3": {
-      "key": "7120ff967447810dcc7ea67f79ea5dfea27ba77155f8d77dd57447cad0da419d",
-      "text": "Huruf ini dibaca éks.",
-      "sha256": "864731e03cc7bd2da9d5e4d1118145f6999a4684ed1d0d5d8cfd37494c36a778"
+      "key": "9e52805ac51a708fde536d53a942b152276fc7a739f5b0436cf06ec02c1638d9",
+      "text": "éks.",
+      "sha256": "e82ce3012f4b3a57a9a78a1bd52c628129741877001dda4c2b24867d679cde95"
     },
     "letter-w.mp3": {
-      "key": "878e8d30820d72bea79aa9987cf53615b5deac6f9860ff774a8820f9188c4bfe",
-      "text": "Huruf ini dibaca wé.",
-      "sha256": "d6f2bddde1766765564be6a4f7c98d1c3d47533ae02a54c519223245bf0fa3f0"
+      "key": "8bebf04c3669b9d921a5d78d5ae50378d30e5335789a58c46914cfc65a58d5b0",
+      "text": "wé.",
+      "sha256": "28f1b47c040e7c441ec04947306f726630bd9d59ecff1fe70da87b9e9ae0810b"
     },
     "letter-y.mp3": {
-      "key": "9d7a13c64b71abf15252490f7cfb718e20a95e3f15ffd5b54c405efa4fc19c2c",
-      "text": "Huruf ini dibaca yé.",
-      "sha256": "16f9c15321793f4b99f58a3a064bb5cbd8277682634bcde92ca33882f255481e"
+      "key": "bdc95c6fe09a74d19ed944af080b80a35278b1a45f0a69bc0ec6dd7bdd5ffcbb",
+      "text": "yé.",
+      "sha256": "d73ca8ad6c05e25c13d23a8dfbc87c0a913c8a7c156c64ab69b766a73bdf17af"
     },
     "letter-z.mp3": {
-      "key": "12b2c686160a64a325456c067c2ff41dc53d515770cb14ed535c37490fe00199",
-      "text": "Huruf ini dibaca zét.",
-      "sha256": "51bfe9f19e0574b755ab8ff05a49c7f4f6baab98de6821fc0e99627537a2abc8"
+      "key": "f80e3dd620ec25b04bbba7950289c5698fccc9e178ac220b598acd2c8bf6ad65",
+      "text": "zét.",
+      "sha256": "4c99009485c1c1c0244bcb3d04e5adafe3ed5239cfc710f26bf1a9137d4582d5"
     },
     "sentence-ibu.mp3": {
       "key": "24726433473cf8bf5e3f896f8b237860dd30fbab8a54d4bf44b03933fa6713ff",

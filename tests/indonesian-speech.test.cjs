@@ -10,11 +10,11 @@ test('Indonesian neural audio manifests match all rebuilt files',()=>{
   for(const [filename,entry] of Object.entries(manifest.clips)){
    assert.ok(entry.text.length);assert.doesNotMatch(entry.text,/-(Nya|Ku|Mu)\b/);
    const audio=fs.readFileSync(path.join(folder,filename));assert.ok(audio.length>1000);assert.equal(crypto.createHash('sha256').update(audio).digest('hex'),entry.sha256,filename);
-   if(filename.startsWith('letter-'))assert.match(entry.text,/^Huruf ini dibaca /);
+   if(filename.startsWith('letter-'))assert.match(entry.text,/^[a-zé]+\.$/);
   }
  }
 });
 test('Indonesian audio URLs invalidate stale recordings without changing English',()=>{
  const story=fs.readFileSync(path.join(__dirname,'../bible/story.js'),'utf8'),words=fs.readFileSync(path.join(__dirname,'../alphabet/words-ui.js'),'utf8');
- assert.match(story,/mp3\?v=id-neural-1/);assert.match(words,/speechLocale\(\)==='en-US'/);assert.match(words,/audioUrl.searchParams.set\('v','id-letters-2'\)/);
+ assert.match(story,/mp3\?v=id-neural-1/);assert.match(words,/speechLocale\(\)==='en-US'/);assert.match(words,/audioUrl.searchParams.set\('v','id-letters-3'\)/);
 });

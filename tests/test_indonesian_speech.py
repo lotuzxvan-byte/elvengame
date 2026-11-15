@@ -18,11 +18,11 @@ class PronunciationTests(unittest.TestCase):
         self.assertEqual(LETTER_SPEECH['e'], 'é')
         self.assertNotEqual(speech_key('Yesus.'), speech_key('Yusuf.'))
 
-    def test_letter_names_have_indonesian_context(self):
-        self.assertEqual(letter_text('be'), 'Huruf ini dibaca bé.')
-        self.assertEqual(letter_text('we'), 'Huruf ini dibaca wé.')
-        self.assertEqual(letter_text('ef'), 'Huruf ini dibaca éf.')
-        self.assertEqual(letter_text('a'), 'Huruf ini dibaca a.')
+    def test_letter_names_are_spoken_without_intro(self):
+        self.assertEqual(letter_text('be'), 'bé.')
+        self.assertEqual(letter_text('we'), 'wé.')
+        self.assertEqual(letter_text('ef'), 'éf.')
+        self.assertEqual(letter_text('a'), 'a.')
 
 
 if __name__ == '__main__':

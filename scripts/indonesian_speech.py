@@ -16,7 +16,7 @@ LETTER_SPEECH = {'e': 'é', 'be': 'bé', 'ce': 'cé', 'de': 'dé', 'ef': 'éf', 
 
 
 def letter_text(name):
-    return 'Huruf ini dibaca ' + LETTER_SPEECH.get(name, name) + '.'
+    return LETTER_SPEECH.get(name, name) + '.'
 
 
 def prepare_text(text):

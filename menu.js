@@ -6,7 +6,7 @@ const leaveDialog=document.querySelector('#leave-dialog');
 let selectedButton;
 function openGame(type,button){
  if(window.GameScores&&!window.GameScores.ready()){window.GameScores.ask(()=>openGame(type,button));return}
- const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'}};
+ const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html?v=id-letters-4',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'}};
  const game=games[type];if(!game)return;
  selectedButton=button;
  const frame=document.createElement('iframe');

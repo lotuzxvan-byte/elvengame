@@ -16,5 +16,5 @@ test('Indonesian neural audio manifests match all rebuilt files',()=>{
 });
 test('Indonesian audio URLs invalidate stale recordings without changing English',()=>{
  const story=fs.readFileSync(path.join(__dirname,'../bible/story.js'),'utf8'),words=fs.readFileSync(path.join(__dirname,'../alphabet/words-ui.js'),'utf8');
- assert.match(story,/mp3\?v=id-neural-1/);assert.match(words,/speechLocale\(\)==='en-US'/);assert.match(words,/audioUrl.searchParams.set\('v','id-letters-3'\)/);
+ assert.match(story,/mp3\?v=id-neural-1/);assert.match(words,/speechLocale\(\)==='en-US'/);assert.match(words,/audioUrl.searchParams.set\('v','id-letters-4'\)/);
 });

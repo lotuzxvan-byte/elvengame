@@ -9,10 +9,10 @@ test('four menu routes stay distinct and unknown games never fall back',()=>{
  const document={title:'',body:node(),querySelector(selector){if(!nodes.has(selector))nodes.set(selector,node());return nodes.get(selector)},querySelectorAll(){return []},createElement(){return node()}};
  const context=vm.createContext({document,window:{},location:{href:'https://example.test/elvengame/'}});
  vm.runInContext(fs.readFileSync(path.join(__dirname,'../menu.js'),'utf8'),context);
- for(const [name,file,title] of [['adventure','adventure/index.html','Berburu Bintang'],['math','math/index.html','Taman Angka'],['alphabet','alphabet/index.html','Taman Kata'],['bible','bible/index.html','Jejak Kasih']]){vm.runInContext(`openGame('${name}',{})`,context);assert.equal(frame.src,file);assert.equal(frame.title,title)}
+ for(const [name,file,title] of [['adventure','adventure/index.html','Berburu Bintang'],['math','math/index.html','Taman Angka'],['alphabet','alphabet/index.html?v=id-letters-4','Taman Kata'],['bible','bible/index.html','Jejak Kasih']]){vm.runInContext(`openGame('${name}',{})`,context);assert.equal(frame.src,file);assert.equal(frame.title,title)}
  const before=frame;vm.runInContext("openGame('unknown',{})",context);assert.equal(frame,before);
 });
 test('menu assets have cache versions and score adapter respects project subpaths',()=>{
- const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');assert.match(html,/menu\.js\?v=elven-id-neural-1/);assert.match(html,/scores\.js\?v=elven-id-neural-1/);
- const adapter=new URL('score-bridge.js?v=elven-id-neural-1','https://example.test/elvengame/');assert.equal(adapter.pathname,'/elvengame/score-bridge.js');
+ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');assert.match(html,/menu\.js\?v=elven-id-letters-4/);assert.match(html,/scores\.js\?v=elven-id-letters-4/);
+ const adapter=new URL('score-bridge.js?v=elven-id-letters-4','https://example.test/elvengame/');assert.equal(adapter.pathname,'/elvengame/score-bridge.js');
 });

@@ -111,7 +111,7 @@ export function createApp(options={}){
    if(route==='/favicon.ico'){res.writeHead(204);return res.end()}
    if(/^\/(adventure|math|alphabet|bible)\/(index\.html)?$/.test(route)&&req.headers['sec-fetch-dest']==='document'){res.writeHead(302,{Location:'/'});return res.end()}
    const routePath=route==='/'?'index.html':route==='/admin'||route==='/admin/'?'admin/index.html':decodeURIComponent(route).replace(/^\//,'');
-   const allowed=routePath==='index.html'||['menu.js','menu.css','scores.js','scores.css','score-bridge.js'].includes(routePath)||/^(admin|assets|adventure|math|alphabet|bible)\/[a-zA-Z0-9_.-]+\.(html|css|js|png|jpg)$/.test(routePath)||/^(alphabet|bible)\/audio\/[a-zA-Z0-9-]+\.mp3$/.test(routePath);
+   const allowed=routePath==='index.html'||['menu.js','menu.css','scores.js','scores.css','score-bridge.js'].includes(routePath)||/^(admin|assets|adventure|math|alphabet|bible|prayers)\/[a-zA-Z0-9_.-]+\.(html|css|js|png|jpg)$/.test(routePath)||/^(alphabet|bible)\/audio\/[a-zA-Z0-9-]+\.mp3$/.test(routePath);
    if(!allowed)fail('File tidak ditemukan.',404);const file=path.join(root,routePath);if(!existsSync(file)||!statSync(file).isFile())fail('File tidak ditemukan.',404);
    const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'application/javascript; charset=utf-8','.jpg':'image/jpeg','.png':'image/png','.mp3':'audio/mpeg'};
    if(route.startsWith('/admin'))res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'");

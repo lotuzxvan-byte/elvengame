@@ -4,6 +4,14 @@ import {createApp} from '../server.mjs';
 import {mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
+test('prayer pages are public and not a score-bearing game',async()=>{
+ const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  for(const file of ['index.html','prayers.css','prayers.js','data.js'])assert.equal((await fetch(base+'/prayers/'+file)).status,200);
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Prayer Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
+  assert.equal((await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'prayers',difficulty:'joy'})})).status,400);
+ }finally{await new Promise(r=>server.close(r))}
+});
 test('authentication, private results, score lifecycle and privacy',async()=>{
  const server=createApp({dbPath:':memory:',setupToken:'unit-test-setup-token'});await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;
  async function call(route,method='GET',body,cookie='',origin=base){const response=await fetch(base+route,{method,headers:{Origin:origin,...(body?{'Content-Type':'application/json'}:{}),...(cookie?{Cookie:cookie}:{})},body:body?JSON.stringify(body):undefined,redirect:'manual'});const contentType=response.headers.get('content-type');return {status:response.status,body:contentType?.includes('json')?await response.json():await response.text(),cookie:response.headers.get('set-cookie')?.split(';')[0],headers:response.headers}}

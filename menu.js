@@ -5,8 +5,8 @@ const back=document.querySelector('#back');
 const leaveDialog=document.querySelector('#leave-dialog');
 let selectedButton;
 function openGame(type,button){
- if(window.GameScores&&!window.GameScores.ready()){window.GameScores.ask(()=>openGame(type,button));return}
- const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html?v=id-letters-4',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'}};
+ if(type!=='prayers'&&window.GameScores&&!window.GameScores.ready()){window.GameScores.ask(()=>openGame(type,button));return}
+ const games={adventure:{path:'adventure/index.html',name:'Berburu Bintang'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html?v=id-letters-4',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'},prayers:{path:'prayers/index.html?v=prayers-1',name:'Doa Katolik'}};
  const game=games[type];if(!game)return;
  selectedButton=button;
  const frame=document.createElement('iframe');
@@ -14,7 +14,7 @@ function openGame(type,button){
  player.replaceChildren(frame);menu.hidden=true;player.hidden=false;back.hidden=false;
  document.querySelector('#header-note').hidden=true;document.body.classList.add('playing');
  document.title=game.name+' — Game Elven';
- frame.addEventListener('load',()=>{frame.contentWindow.focus();window.GameScores?.attach(frame,type)},{once:true});
+ frame.addEventListener('load',()=>{frame.contentWindow.focus();if(type!=='prayers')window.GameScores?.attach(frame,type)},{once:true});
 }
 document.querySelectorAll('[data-game]').forEach(button=>button.onclick=()=>openGame(button.dataset.game,button));
 back.onclick=()=>leaveDialog.showModal();

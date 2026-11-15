@@ -65,6 +65,16 @@ Untuk bermain offline, ekstrak seluruh paket lalu buka `index.html`. Jangan memi
 
 Uji mesin matematika: `node tests/math-engine.test.cjs`.
 
+## Menu Doa Katolik
+
+Menu kelima **Doa Katolik** tersedia di `prayers/index.html`, tanpa mengubah karakter atau game sebelumnya. Berisi 14 doa berbahasa Indonesia, termasuk Tanda Salib, Bapa Kami, Salam Maria, Kemuliaan, Aku Percaya, Terpujilah, Doa Fatima, Salam Ya Ratu, Malaikat Tuhan, dan Ratu Surga. Empat doa harian untuk anak ditandai sebagai contoh doa sederhana, bukan rumusan liturgis atau pengganti sakramen.
+
+Pembaca menyediakan ukuran teks dan sorotan baris. Panduan Rosario meliputi Peristiwa Gembira, Terang, Sedih, dan Mulia, masing-masing lima peristiwa dengan renungan singkat. Anak dapat mengikuti pembukaan, lima puluhan, dan penutup secara manual, melihat penanda manik, kembali ke langkah sebelumnya, serta menjeda dan melanjutkan selama halaman masih terbuka. Doa Fatima dan Terpujilah dapat dipilih atau ditiadakan. Jadwal harian hanya saran; semua kelompok dapat dipilih.
+
+Tidak ada audio sintetis, skor, timer, kewajiban nama pemain, atau pengiriman data doa. Ujud doa opsional hanya ditampilkan sementara di memori halaman dan dihapus saat panduan selesai; tidak disimpan ke browser atau server. Menutup atau memuat ulang halaman menghapus sesi. Maria diangkat ke surga dan dimahkotai diberi keterangan ajaran Katolik, bukan kutipan peristiwa eksplisit dari Kitab Suci.
+
+Rujukan yang ditampilkan: [Vatikan — Peristiwa Terang](https://www.vatican.va/special/rosary/documents/misteri_luminosi_en.html), [rumusan doa Indonesia](https://novenatigasalammaria.id/doa-novena-tiga-salam-maria/), [Legio Maria — Malaikat Tuhan](https://www.legiomariasenatusbejanarohani.or.id/doa-malaikat-tuhan-angelus), dan [Paroki Pulogebang — Rosario](https://www.parokipulogebang.org/doa-rosario/). Ejaan dan beberapa rumusan dapat berbeda antarparoki; anak dianjurkan mengikuti pendamping atau buku doa parokinya. Uji data dan urutan: `node --test tests/prayers.test.cjs`.
+
 ## Game petualangan sebelumnya
 
 Panah kiri/kanan untuk bergerak, Spasi untuk lompat dua kali, P untuk jeda. Tombol sentuh tersedia. Kumpulkan 20 bintang dan buka peti hadiah; kupu-kupu memberi bonus poin dan waktu. Pilih mode santai untuk bermain tanpa batas waktu.

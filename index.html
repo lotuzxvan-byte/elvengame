@@ -4,26 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Game Elven — Pilih Petualanganmu</title>
-<link rel="stylesheet" href="menu.css?v=elven-id-letters-4">
-<link rel="stylesheet" href="scores.css?v=elven-id-letters-4">
+<link rel="stylesheet" href="menu.css?v=elven-prayers-1">
+<link rel="stylesheet" href="scores.css?v=elven-prayers-1">
 </head>
 <body>
 <header class="topbar"><a class="brand" href="index.html"><span>✦</span> Game Elven</a><span id="header-note">Satu taman, banyak petualangan.</span><button id="back" hidden>← Pilih game</button></header>
 <main id="menu">
 <section class="player-bar"><div><strong id="player-name">Main tanpa akun</strong><p id="save-status" role="status">Memeriksa pencatatan skor…</p></div><div><button id="profile-button">Nama panggilan</button><a href="admin/">Dashboard admin ↗</a></div></section>
-<section class="welcome"><div><p class="eyebrow">SELAMAT DATANG, PETUALANG KECIL</p><h1>Hari ini, kita<br>mau main apa?</h1><p class="lead">Berburu bintang, berhitung, belajar kata, atau menjelajah cerita Alkitab.<br>Si kecil siap menemani kamu!</p><div class="welcome-note"><span>🌿</span> Main pelan-pelan. Belajar sambil senang.</div></div><div class="garden-window" aria-hidden="true"><div class="window-label">Taman kita, cerita kita.</div><img class="mascot" src="assets/character.png" alt=""><span class="float-star star-one">✦</span><span class="float-star star-two">✦</span><span class="number-stone">2 + 3</span></div></section>
+<section class="welcome"><div><p class="eyebrow">SELAMAT DATANG, PETUALANG KECIL</p><h1>Hari ini, kita<br>mau main apa?</h1><p class="lead">Berburu bintang, berhitung, belajar kata, menjelajah cerita Alkitab, atau berdoa bersama.<br>Si kecil siap menemani kamu!</p><div class="welcome-note"><span>🌿</span> Main pelan-pelan. Belajar sambil senang.</div></div><div class="garden-window" aria-hidden="true"><div class="window-label">Taman kita, cerita kita.</div><img class="mascot" src="assets/character.png" alt=""><span class="float-star star-one">✦</span><span class="float-star star-two">✦</span><span class="number-stone">2 + 3</span></div></section>
 <section class="game-options" aria-label="Pilih jenis game">
 <button class="game-card adventure-card" data-game="adventure"><div class="game-art"><span class="art-icon">⭐</span><div class="trail-dots"><i></i><i></i><i></i><i></i></div><span class="art-label">LOMPAT · JELAJAH · KUMPULKAN</span></div><div class="game-copy"><span class="category">PETUALANGAN</span><h2>Berburu Bintang</h2><p>Game favoritmu tetap di sini. Kejar bintang, tangkap kupu-kupu, dan buka peti hadiah.</p><span class="play-label">Main petualangan <span>→</span></span></div></button>
 <button class="game-card math-card" data-game="math"><div class="game-art"><span class="new-label">GAME BARU</span><div class="equation-art"><span>3</span><b>+</b><span>2</span><b>=</b><span>?</span></div><span class="art-label">HITUNG · PILIH · RAIH BINTANG</span></div><div class="game-copy"><span class="category">BELAJAR SAMBIL MAIN</span><h2>Taman Angka</h2><p>Jawab soal matematika dasar di sekolah yang sama. Ada bantuan menghitung, tanpa buru-buru.</p><span class="play-label">Main matematika <span>→</span></span></div></button>
 <button class="game-card word-card" data-game="alphabet"><div class="game-art"><span class="new-label">GAME BARU</span><div class="letter-art"><span>A</span><span>B</span><span>C</span></div><span class="art-label">DENGAR · UCAPKAN · KENALI</span></div><div class="game-copy"><span class="category">ALFABET & KOSAKATA</span><h2>Taman Kata</h2><p>Kenali A–Z dan ucapkan kata tentang keluarga serta sekolah. Dari “ibu” sampai “perpustakaan”!</p><span class="play-label">Main alfabet <span>→</span></span></div></button>
 <button class="game-card bible-card" data-game="bible"><div class="game-art"><span class="new-label">GAME BARU</span><span class="art-icon">📖</span><span class="art-label">BACA · DENGAR · TEMUKAN KASIH</span></div><div class="game-copy"><span class="category">CERITA ALKITAB · PERJANJIAN BARU</span><h2>Jejak Kasih</h2><p>Ikuti 18 episode kisah Yesus: lahir, mengasihi, hingga bangkit. Kartun bergerak, dialog pendek, dan kuis kecil menanti!</p><span class="play-label">Tonton cerita Yesus <span>→</span></span></div></button>
+<button class="game-card prayer-card-menu" data-game="prayers"><div class="game-art"><span class="new-label">MENU BARU</span><span class="art-icon">✝</span><span class="art-label">BACA · RENUNGKAN · BERDOA</span></div><div class="game-copy"><span class="category">BERSAMA KELUARGA</span><h2>Doa Katolik</h2><p>Bapa Kami, Salam Maria, Kemuliaan, dan doa sehari-hari. Ikuti Rosario langkah demi langkah, tanpa skor atau batas waktu.</p><span class="play-label">Pilih doa <span>→</span></span></div></button>
 </section>
 <footer>Karakter yang sama. Petualangan yang baru. <span>✦</span> Belajar sambil bermain. Audio memerlukan berkas termuat.</footer>
 </main>
 <section id="player" hidden aria-label="Game yang dipilih"></section>
 <dialog id="leave-dialog"><h2>Kembali memilih game?</h2><p>Sesi yang sedang dimainkan akan dimulai ulang saat dibuka lagi. Rekor yang sudah tersimpan tetap aman.</p><div><button id="stay">Lanjut main</button><button id="leave">Kembali ke menu</button></div></dialog>
-<script src="menu.js?v=elven-id-letters-4"></script>
+<script src="menu.js?v=elven-prayers-1"></script>
 <dialog id="profile-dialog"><h2>Siapa yang bermain?</h2><p>Cukup nama panggilan, bukan nama lengkap. Sistem membuat ID otomatis; nama sama tetap berbeda di browser berbeda.</p><form id="profile-form"><label>Nama panggilan<input id="nickname" minlength="2" maxlength="24" required autocomplete="off"></label><p class="privacy-note">Jika melanjutkan, nama panggilan dan hasil permainan dicatat untuk dilihat admin, maksimal 90 hari (sesuai pengaturan server). Rekaman suara tidak dicatat. Untuk anak, gunakan bersama pendamping.</p><p id="profile-error" role="alert"></p><button type="submit">Simpan & main</button><button type="button" id="profile-cancel">Batal</button></form><button id="forget-player" hidden>Hapus profil dan semua hasil saya</button></dialog>
-<script src="scores.js?v=elven-id-letters-4"></script>
+<script src="scores.js?v=elven-prayers-1"></script>
 </body>
 </html>

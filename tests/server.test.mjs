@@ -36,7 +36,8 @@ test('authentication, private results, score lifecycle and privacy',async()=>{
   assert.equal((await call('/api/admin/results','GET',null,adminCookie)).status,401);
   login=await call('/api/admin/login','POST',{password:'new-valid-test-password'});adminCookie=login.cookie;
   assert.equal((await call('/api/admin/results/'+run.body.id,'DELETE',null,adminCookie)).status,200);assert.equal((await call('/api/admin/results','GET',null,adminCookie)).body.summary.sessions,0);
-  const r2=await call('/api/runs','POST',{game:'alphabet',difficulty:'3:sekolah'},p1.cookie);await call('/api/runs/'+r2.body.id+'/finish','POST',{score:800,firstTry:8,status:'completed'},p1.cookie);
+  const r2=await call('/api/runs','POST',{game:'alphabet',difficulty:'3:sekolah:en'},p1.cookie);assert.equal(r2.status,201);await call('/api/runs/'+r2.body.id+'/finish','POST',{score:800,firstTry:8,status:'completed'},p1.cookie);
+  assert.equal((await call('/api/admin/results?game=alphabet','GET',null,adminCookie)).body.rows[0].difficulty,'3:sekolah:en');
   assert.equal((await call('/api/player','DELETE',null,p1.cookie)).status,200);assert.equal((await call('/api/admin/results','GET',null,adminCookie)).body.summary.sessions,0);assert.equal((await call('/api/player','GET',null,p1.cookie)).body.player,null);
   assert.equal((await call('/api/admin/logout','POST',{},adminCookie)).status,200);assert.equal((await call('/api/admin/results','GET',null,adminCookie)).status,401);
  }finally{await new Promise(resolve=>server.close(resolve))}

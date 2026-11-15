@@ -1,5 +1,5 @@
 'use strict';
-const WordGarden=(()=>{
+let WordGarden=(()=>{
  const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
  const letterNames=['a','be','ce','de','e','ef','ge','ha','i','je','ka','el','em','en','o','pe','ki','er','es','te','u','ve','we','eks','ye','zet'];
  const rows=[

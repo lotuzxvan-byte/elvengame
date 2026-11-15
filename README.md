@@ -8,6 +8,12 @@ Game browser berbahasa Indonesia, dioptimalkan untuk HP.
 
 ## Game ketiga: Taman Kata
 
+### Pilihan bahasa Indonesia / English
+
+Menu pengaturan Taman Kata menyediakan **Bahasa latihan**. Mode English menambahkan 48 kata keluarga/sekolah dalam tiga tingkat, arti kata bahasa Indonesia, contoh kalimat Inggris, dan 122 audio MP3 Inggris (Amerika): 26 nama huruf, 48 kata, dan 48 kalimat. Tombol Pelan, kuis huruf awal, dan mikrofon juga memakai bahasa terpilih; pengenalan mikrofon tetap bukan penilaian pelafalan. Potongan kata Inggris membantu membaca, bukan transkripsi fonetik; audio menjadi contoh pelafalan.
+
+Rekor lokal serta penandaan latihan huruf English terpisah dari Indonesia. Pilihan bahasa disimpan lokal. Backend menyimpan sesi Inggris dengan suffix `:en` pada tingkat dan menampilkan bahasa di dashboard; skor tetap kuis huruf. Backend lama perlu diperbarui jika digunakan. Generator opsional `scripts/build-english-audio.py` memerlukan Python gTTS dan internet saat membangun ulang audio. Semua MP3 sudah disertakan, tidak perlu generator saat memainkan game.
+
 Menu juga menyediakan **Taman Kata** di `alphabet/index.html`: 26 huruf A–Z dan 48 kata bahasa Indonesia bertema keluarga/sekolah. Tiga tingkat terdiri dari mudah, sedang, dan menantang; setiap tingkat memiliki 8 kata keluarga dan 8 kata sekolah. Sesi campuran mengambil 4 dari setiap tema, total 8 kata tanpa batas waktu. Pemain memilih tingkat secara bebas.
 
 Contoh kata: ibu, ayah, buku, guru → keluarga, seragam, penggaris → kebersamaan, perpustakaan, ekstrakurikuler. Setiap kata dilengkapi panduan suku kata dan kalimat sederhana. Huruf alfabet dibacakan sebagai nama huruf bahasa Indonesia, bukan fonem.

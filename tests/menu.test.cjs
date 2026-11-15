@@ -13,6 +13,6 @@ test('three menu routes stay distinct and unknown games never fall back',()=>{
  const before=frame;vm.runInContext("openGame('unknown',{})",context);assert.equal(frame,before);
 });
 test('menu assets have cache versions and score adapter respects project subpaths',()=>{
- const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');assert.match(html,/menu\.js\?v=elven-menu-3/);assert.match(html,/scores\.js\?v=elven-menu-3/);
- const adapter=new URL('score-bridge.js?v=elven-menu-3','https://example.test/elvengame/');assert.equal(adapter.pathname,'/elvengame/score-bridge.js');
+ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');assert.match(html,/menu\.js\?v=elven-english-1/);assert.match(html,/scores\.js\?v=elven-english-1/);
+ const adapter=new URL('score-bridge.js?v=elven-english-1','https://example.test/elvengame/');assert.equal(adapter.pathname,'/elvengame/score-bridge.js');
 });

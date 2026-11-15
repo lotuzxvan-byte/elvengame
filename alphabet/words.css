@@ -4,3 +4,4 @@
 @media(max-width:350px){.panel{padding:18px 12px}.primary,.secondary{padding:10px;font-size:11px}.alphabet-grid{grid-template-columns:repeat(6,1fr)}.mode-options{gap:7px}.mode-options b{font-size:11px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 @media(max-width:700px){.garden{padding-bottom:225px}}
+.translation{display:block;color:#55716a;font-size:12px;margin:-5px 0 13px}

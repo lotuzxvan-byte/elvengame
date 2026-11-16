@@ -7,7 +7,7 @@
  function report(data){if(sent||!session)return;sent=true;Promise.resolve(session).then(s=>scores.finish(s,data)).catch(()=>{})}
  function wrapStart(id,condition,difficulty){const button=document.querySelector('#'+id);if(!button)return;const original=button.onclick;button.onclick=function(event){if(!condition||condition())begin(difficulty());return original?.call(this,event)}}
  if(game==='adventure'){
-  wrapStart('start',()=>mode!=='paused',()=>document.querySelector('#relaxed').checked?'santai':'waktu');
+  wrapStart('start',()=>mode!=='paused',()=>document.querySelector('#relaxed').checked?'runner-santai':'runner-normal');
   const original=finish;finish=function(won){original(won);report({score:Math.round(points),status:won?'won':'lost'})};
  }else if(game==='math'){
   for(const id of ['start','again'])wrapStart(id,null,()=>document.querySelector('#difficulty').value+':'+document.querySelector('#operation').value);

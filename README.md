@@ -50,7 +50,7 @@ Game petualangan, game matematika, dan kelima gambar asli tidak dimodifikasi dal
 
 `index.html` sekarang menjadi menu awal untuk memilih game:
 
-- **Berburu Bintang**: versi petualangan sebelumnya, dipindahkan utuh ke `adventure/index.html`. Source HTML, CSS, dan JavaScript petualangan tidak diubah dalam penambahan game kedua ini.
+- **Taman Bermain**: versi terkini di `adventure/index.html` memakai maju otomatis dan tombol lompat; versi petualangan lama tersimpan dalam riwayat Git.
 - **Taman Angka**: 12 soal matematika dasar per sesi, dengan foto sekolah dan karakter asli yang sama. Pilih penjumlahan, pengurangan, campuran +/−, perkalian, atau pembagian.
 
 Taman Angka tidak memakai batas waktu. Tingkat pemula membatasi hasil penjumlahan/pengurangan hingga 10; lanjutan hingga 20. Perkalian/pembagian memakai faktor 1–5 atau 1–10; pembagian selalu bulat dan tidak membagi dengan nol. Hasil pengurangan tidak negatif. Mode campuran berisi 6 soal penjumlahan dan 6 pengurangan.
@@ -71,17 +71,23 @@ Menu kelima **Doa Katolik** tersedia di `prayers/index.html`, tanpa mengubah kar
 
 Pembaca menyediakan ukuran teks dan sorotan baris. Panduan Rosario meliputi Peristiwa Gembira, Terang, Sedih, dan Mulia, masing-masing lima peristiwa dengan renungan singkat. Anak dapat mengikuti pembukaan, lima puluhan, dan penutup secara manual, melihat penanda manik, kembali ke langkah sebelumnya, serta menjeda dan melanjutkan selama halaman masih terbuka. Doa Fatima dan Terpujilah dapat dipilih atau ditiadakan. Jadwal harian hanya saran; semua kelompok dapat dipilih.
 
-Tidak ada audio sintetis, skor, timer, kewajiban nama pemain, atau pengiriman data doa. Ujud doa opsional hanya ditampilkan sementara di memori halaman dan dihapus saat panduan selesai; tidak disimpan ke browser atau server. Menutup atau memuat ulang halaman menghapus sesi. Maria diangkat ke surga dan dimahkotai diberi keterangan ajaran Katolik, bukan kutipan peristiwa eksplisit dari Kitab Suci.
+Doa dan 20 renungan Rosario dapat didengarkan melalui 34 MP3 dengan suara sintetis pria khusus bahasa Indonesia (`id-ID-ArdiNeural`), tempo dasar tenang. Tombol Dengarkan/Jeda, Ulang suara, dan pilihan tempo tersedia; tidak ada pemutaran otomatis atau perpindahan langkah otomatis. Audio berhenti saat berpindah doa/langkah, kembali ke menu, atau meninggalkan tab. Jika audio gagal, pesan muncul tanpa mengganti suara ke bahasa/perangkat lain. Teks doa tidak berubah; pembacaan merapikan tanda hubung kata ganti untuk mesin suara. Tidak ada skor, timer, kewajiban nama pemain, atau pengiriman data doa. Ujud doa opsional hanya ditampilkan sementara di memori halaman dan dihapus saat panduan selesai; tidak disimpan ke browser atau server. Menutup atau memuat ulang halaman menghapus sesi. Maria diangkat ke surga dan dimahkotai diberi keterangan ajaran Katolik, bukan kutipan peristiwa eksplisit dari Kitab Suci.
 
-Rujukan yang ditampilkan: [Vatikan — Peristiwa Terang](https://www.vatican.va/special/rosary/documents/misteri_luminosi_en.html), [rumusan doa Indonesia](https://novenatigasalammaria.id/doa-novena-tiga-salam-maria/), [Legio Maria — Malaikat Tuhan](https://www.legiomariasenatusbejanarohani.or.id/doa-malaikat-tuhan-angelus), dan [Paroki Pulogebang — Rosario](https://www.parokipulogebang.org/doa-rosario/). Ejaan dan beberapa rumusan dapat berbeda antarparoki; anak dianjurkan mengikuti pendamping atau buku doa parokinya. Uji data dan urutan: `node --test tests/prayers.test.cjs`.
+Rujukan yang ditampilkan: [Vatikan — Peristiwa Terang](https://www.vatican.va/special/rosary/documents/misteri_luminosi_en.html), [rumusan doa Indonesia](https://novenatigasalammaria.id/doa-novena-tiga-salam-maria/), [Legio Maria — Malaikat Tuhan](https://www.legiomariasenatusbejanarohani.or.id/doa-malaikat-tuhan-angelus), dan [Paroki Pulogebang — Rosario](https://www.parokipulogebang.org/doa-rosario/). Ejaan dan beberapa rumusan dapat berbeda antarparoki; anak dianjurkan mengikuti pendamping atau buku doa parokinya. Uji data, urutan, dan audio: `node --test tests/prayers.test.cjs`. Generator opsional `python scripts/build-prayer-audio.py` memerlukan edge-tts dan internet saat membangun ulang; pemain tidak memerlukan generator atau suara Indonesia terpasang di perangkat. MP3 disertakan; seluruh folder `prayers/audio` harus tersedia untuk bermain offline.
 
-## Game petualangan sebelumnya
+## Taman Bermain — maju otomatis
 
-Panah kiri/kanan untuk bergerak, Spasi untuk lompat dua kali, P untuk jeda. Tombol sentuh tersedia. Kumpulkan 20 bintang dan buka peti hadiah; kupu-kupu memberi bonus poin dan waktu. Pilih mode santai untuk bermain tanpa batas waktu.
+Versi terbaru mengganti petualangan gerak kiri/kanan menjadi permainan maju otomatis dengan satu tombol, terinspirasi kontrol Flappy Bird. Ketuk kanvas, tombol Lompat, Spasi, atau panah atas untuk mendapat dorongan naik, termasuk saat di udara. P atau Escape menjeda. Karakter dan empat foto sekolah asli memakai berkas yang sama tanpa modifikasi.
 
-Game petualangan juga dapat dibuka langsung lewat `adventure/index.html`. Di folder itu, HTML, CSS, dan JavaScript versi sebelumnya disimpan bersama. Semua gambar dalam game petualangan tetap tertanam.
+Lintasan menyediakan 20 bintang dan 20 rintangan. Mode santai memberi 3 kesempatan dengan laju lebih pelan; mode tantangan 1 kesempatan. Menyentuh tanah bukan kegagalan; karakter terus berjalan. Tidak ada batas waktu. Bintang terlewat tidak menghalangi kemenangan: pemain menang saat sampai di gerbang akhir. Setiap bintang memberi 100 poin, rintangan terlewati 20 poin, dan sampai akhir 500 poin, maksimum 2.900.
 
-## Peningkatan visual dan fitur
+Rekor runner disimpan terpisah dengan kunci `taman-runner-best`; rekor lama tidak dihapus. Sesi online memakai tingkat `runner-santai` atau `runner-normal` dengan ID game `adventure`, sementara tingkat lama tetap diterima untuk riwayat. Kembali ke menu mengakhiri sesi; restart mengulang lintasan. Memindahkan tab atau kehilangan fokus menjeda permainan. Suara efek opsional tidak memakai narasi. Uji: `node --test tests/runner.test.cjs`.
+
+Taman Bermain dapat dibuka langsung lewat `adventure/index.html` pada hosting statis. HTML, `runner.css`, `runner.js`, dan `runner-engine.js` memakai gambar asli dari folder `assets`; jangan memisahkan folder saat bermain offline. Jika pencatatan online dipakai, backend juga perlu memakai `server.mjs` terbaru untuk menerima tingkat runner dan batas skor 2.900; GitHub Pages sendiri tetap hosting statis.
+
+## Catatan petualangan lama
+
+Daftar berikut berlaku untuk versi gerak kiri/kanan sebelum runner, bukan mekanik Taman Bermain terkini. Magnet, kupu-kupu, dan lencana berikut tidak dipakai oleh runner.
 
 - Pilihan suasana pagi cerah, sore keemasan, dan taman ajaib. Pencahayaan hanya diterapkan pada latar, bukan karakter.
 - Wajah, pakaian, dan data gambar karakter asli tidak diubah. Keempat foto latar asli juga tetap utuh.

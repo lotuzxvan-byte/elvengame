@@ -4,10 +4,19 @@ import {createApp} from '../server.mjs';
 import {mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
+test('runner difficulties coexist with historical adventure scores',async()=>{
+ const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Runner Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
+  for(const difficulty of ['runner-santai','runner-normal','santai','waktu']){const response=await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'adventure',difficulty})});assert.equal(response.status,201);const run=await response.json();if(difficulty.startsWith('runner-'))assert.equal((await fetch(base+'/api/runs/'+run.id+'/finish',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({score:2901,status:'won'})})).status,400);assert.equal((await fetch(base+'/api/runs/'+run.id+'/finish',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({score:2900,status:'won'})})).status,200)}
+  for(const file of ['index.html','runner.js','runner.css','runner-engine.js'])assert.equal((await fetch(base+'/adventure/'+file)).status,200);
+ }finally{await new Promise(r=>server.close(r))}
+});
 test('prayer pages are public and not a score-bearing game',async()=>{
  const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
  try{
-  for(const file of ['index.html','prayers.css','prayers.js','data.js'])assert.equal((await fetch(base+'/prayers/'+file)).status,200);
+  for(const file of ['index.html','prayers.css','prayers.js','data.js','audio.js'])assert.equal((await fetch(base+'/prayers/'+file)).status,200);
+  const audio=await fetch(base+'/prayers/audio/prayer-father.mp3');assert.equal(audio.status,200);assert.equal(audio.headers.get('content-type'),'audio/mpeg');assert.ok((await audio.arrayBuffer()).byteLength>1000);
   const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Prayer Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
   assert.equal((await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'prayers',difficulty:'joy'})})).status,400);
  }finally{await new Promise(r=>server.close(r))}

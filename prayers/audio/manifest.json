@@ -1,0 +1,179 @@
+{
+  "version": "prayer-male-id-1",
+  "voice": "id-ID-ArdiNeural",
+  "gender": "Male",
+  "locale": "id-ID",
+  "rate": "-12%",
+  "clips": {
+    "prayer-cross.mp3": {
+      "key": "3612291c9f0d334c9c1f8ac3961a7344f44a6215c8b26589a08e73078b7e160c",
+      "text": "Dalam nama Bapa, dan Putra, dan Roh Kudus. Amin.",
+      "sha256": "fc2a91223fdc1614914e603fea5dd791daaabc6c6ce7a38190d9cc7a45896df6"
+    },
+    "prayer-hail.mp3": {
+      "key": "b8d8ac0b0560cbc6bdd8ce41c1154b4ddeeaf49ffa8af28131df25c2c4eba1dc",
+      "text": "Salam Maria, penuh rahmat, Tuhan sertamu. Terpujilah engkau di antara wanita, dan terpujilah buah tubuhmu, Yesus. Santa Maria, Bunda Allah, doakanlah kami yang berdosa ini, sekarang dan waktu kami mati. Amin.",
+      "sha256": "640661d5a7e2b3dd3fb409dd37df1759de9a3248e2d23a9faa4e22c57e6905a6"
+    },
+    "prayer-glory.mp3": {
+      "key": "e0b4af727621878844d58ee8e159ddacc6293a78526f3be1a014cfab30ed7fc5",
+      "text": "Kemuliaan kepada Bapa, dan Putra, dan Roh Kudus, seperti pada permulaan, sekarang, selalu, dan sepanjang segala abad. Amin.",
+      "sha256": "5370c0df63050081aba4c454a5a3e1e56ce2539135b312401ce28d8648ac041f"
+    },
+    "prayer-praise.mp3": {
+      "key": "446d83812f23d85fe546bed33434769604e0f36ada2d01a9ca766fadf878b8ec",
+      "text": "Terpujilah nama Yesus, Maria, dan Yosef, sekarang dan selama-lamanya. Amin.",
+      "sha256": "07142caec8ae252049070cf71cbb4b051aeb479fd9c849861feee39eca9c7701"
+    },
+    "prayer-father.mp3": {
+      "key": "f964fde7f5d653daf26438b77e188d883e00602c93e81afc1bdaff903f7f870f",
+      "text": "Bapa kami yang ada di surga, dimuliakanlah namamu. Datanglah kerajaanmu. Jadilah kehendakmu di atas bumi seperti di dalam surga. Berilah kami rezeki pada hari ini, dan ampunilah kesalahan kami, seperti kami pun mengampuni yang bersalah kepada kami. Dan janganlah masukkan kami ke dalam pencobaan, tetapi bebaskanlah kami dari yang jahat. Amin.",
+      "sha256": "1b8a0342dfc47d5ce38f85c7793ac703bc1d0a0f70179b258415585306a46dd1"
+    },
+    "prayer-fatima.mp3": {
+      "key": "d6d331011e84a7f928494288221d02cad853bd6d4903b6951b9aa27760fb613e",
+      "text": "Ya Yesus yang baik, ampunilah dosa-dosa kami. Selamatkanlah kami dari api neraka, dan hantarkanlah jiwa-jiwa ke surga, terutama mereka yang sangat membutuhkan kerahimanmu. Amin.",
+      "sha256": "503112fa67b652d81d91259e541cb9a99004a2ac577da6799dc2db137bfa140d"
+    },
+    "prayer-creed.mp3": {
+      "key": "116c645470bd55af23c59fa58c2b31c28b9383ee35d7b127cc68ba6b73c6c9ac",
+      "text": "Aku percaya akan Allah, Bapa yang Mahakuasa, pencipta langit dan bumi. Dan akan Yesus Kristus, Putranya yang tunggal, Tuhan kita, yang dikandung dari Roh Kudus, dilahirkan oleh Perawan Maria; yang menderita sengsara dalam pemerintahan Pontius Pilatus, disalibkan, wafat, dan dimakamkan; yang turun ke tempat penantian, pada hari ketiga bangkit dari antara orang mati; yang naik ke surga, duduk di sebelah kanan Allah Bapa yang Mahakuasa; dari situ Ia akan datang mengadili orang hidup dan mati. Aku percaya akan Roh Kudus, Gereja Katolik yang kudus, persekutuan para kudus, pengampunan dosa, kebangkitan badan, kehidupan kekal. Amin.",
+      "sha256": "3712eecdb53d0f8b495e7665dedf7f93f683311cb7ab3cd61c6abc3ca8d32ed1"
+    },
+    "prayer-queen.mp3": {
+      "key": "255c7efe0517d412e323925fd979234f48a2c0d43ca272269f8bfc40141acad3",
+      "text": "Salam, ya Ratu, Bunda yang berbelas kasih, hidup, hiburan, dan harapan kami. Kami semua memanjatkan permohonan, kami amat susah, mengeluh, mengesah dalam lembah duka ini. Ya Ibunda, ya pelindung kami, limpahkanlah kasih sayangmu yang besar kepada kami. Dan Yesus, Putramu yang terpuji itu, semoga kautunjukkan kepada kami. O Ratu, O Ibu, O Maria, Bunda Kristus. Doakanlah kami, ya Santa Bunda Allah, supaya kami dapat menikmati janji Kristus.",
+      "sha256": "d6c4956e16e83e2af4b8f43d4d9c56e8d7bf46b97510eefd6b60b31b9a7696b2"
+    },
+    "prayer-morning.mp3": {
+      "key": "8b7005b60dd6b0a8d68437eb36a151b0efea29ad61ce1e00a57a1a2f0d200ae4",
+      "text": "Tuhan Yesus, terima kasih untuk pagi yang baru. Temani aku belajar, bermain, dan membantu keluarga. Ajarlah aku berkata jujur dan mengasihi teman-temanku. Berkatilah orang yang membutuhkan pertolongan hari ini. Amin.",
+      "sha256": "46d6342443ad8d1260614641ac2cce092a66916eccac0d382644d88b37d27592"
+    },
+    "prayer-meal.mp3": {
+      "key": "cffe15c1268c1053ffd5d63afb649ed938e90f8aa0123fc350287932e1f3eb88",
+      "text": "Ya Bapa, terima kasih untuk makanan ini. Berkatilah makanan kami dan semua yang menyiapkannya. Ajarlah kami berbagi dengan orang yang kekurangan. Demi Kristus, Tuhan kami. Amin.",
+      "sha256": "e9bc575e3d1a859f23943fc4075fa20fc90a8a54388a6de26206c2c9ba721d53"
+    },
+    "prayer-night.mp3": {
+      "key": "4cde7d540264a2c758e1477a986684934270e0b1792702665da8b16beda323fb",
+      "text": "Tuhan Yesus, terima kasih karena Engkau menyertaiku hari ini. Ampunilah kesalahanku dan ajarlah aku memperbaikinya. Lindungilah keluarga, teman, dan semua orang malam ini. Semoga kami beristirahat dengan tenang dalam kasihmu. Amin.",
+      "sha256": "a34cce34289ffa95e609e74fdfcbcbfa1c758290a6d42c6e9a092344b07c8729"
+    },
+    "prayer-regina.mp3": {
+      "key": "1de48019286f3e0a17574f015bc90a10b57859448be8e06dc3c1b34afab6b174",
+      "text": "P: Ratu surga, bersukacitalah, alleluya. U: Sebab Ia yang sudi kaukandung, alleluya. P: Telah bangkit seperti disabdakannya, alleluya. U: Doakanlah kami pada Allah, alleluya. P: Bersukacita dan bergembiralah, Perawan Maria, alleluya. U: Sebab Tuhan sungguh telah bangkit, alleluya. Marilah berdoa. Ya Allah, Engkau telah menggembirakan dunia dengan kebangkitan Putramu, Tuhan kami Yesus Kristus. Kami mohon, perkenankanlah kami bersukacita dalam kehidupan kekal bersama Bundanya, Perawan Maria. Demi Kristus, Tuhan kami. Amin.",
+      "sha256": "1978f673401ea681d261e3d09d780f6bb4af0bf94739dcbf923039d1a8e16e9a"
+    },
+    "mystery-joy-1.mp3": {
+      "key": "aa297c09ebc7f2efe0a12d3f59f5add2ed829c1919133061ad88464f976a2dab",
+      "text": "Maria menerima kabar dari malaikat. Maria menerima panggilan Allah dengan iman.",
+      "sha256": "1d18483dbf3355aa1849a96fc84052b055199d9eecd8ecc200da5280192f68ec"
+    },
+    "prayer-sorry.mp3": {
+      "key": "a050c24e147f5159a6d8e8b3e37980115ea321ec3a78f44d8dd97f723803f5d6",
+      "text": "Ya Allah yang penuh kasih, aku menyesal atas kesalahanku. Ampunilah aku dan bantulah aku memperbaiki perbuatanku. Ajarlah aku mengasihimu dan sesamaku. Terima kasih karena Engkau selalu mengasihiku. Amin.",
+      "sha256": "b9d1e4e96c4c8907192b93802c05a57932aa8ac2cf36f619ef5da9d9be0ce589"
+    },
+    "mystery-joy-2.mp3": {
+      "key": "d272cf2559fe5b0d45c4dbb2b70f6d29ca97f2dbe93fc9e662549c3fc2c6321b",
+      "text": "Maria mengunjungi Elisabet. Maria mengunjungi dan membantu saudaranya.",
+      "sha256": "c838ea319e33b17ada705697259131d7576fa4152e8dc9e9355db3a8482a4a22"
+    },
+    "mystery-joy-4.mp3": {
+      "key": "2f4d05dc3ccb91264295d7a5d68845d62d60905a9fb9cc50b8005ff0acbd4c07",
+      "text": "Yesus dipersembahkan di Bait Allah. Maria dan Yusuf membawa Yesus ke Bait Allah.",
+      "sha256": "2b0de472acdcf78e3cd41df68935216d89bc1a26dfc701ad3930360fa0a6c7d8"
+    },
+    "mystery-joy-3.mp3": {
+      "key": "7c60b7d5bf62dc59e2a3a47f8a0e12fb84fb716df9b964e54f346af461612b69",
+      "text": "Yesus lahir di Betlehem. Allah datang dekat kepada kita melalui Yesus.",
+      "sha256": "16e6c8d5ef8cafec1fbb0fc1b3b0f8e9e05d688fc0be0b2dd5974a55ac5a85fc"
+    },
+    "prayer-angelus.mp3": {
+      "key": "8bbbdac26dd9ecd903de9ff37fa7c7f8d04052c92f86439a3b4ba7c08505e49f",
+      "text": "P: Malaikat Tuhan menyampaikan kabar kepada Maria. U: Dan ia mengandung dari Roh Kudus. Salam Maria, penuh rahmat, Tuhan sertamu. Terpujilah engkau di antara wanita, dan terpujilah buah tubuhmu, Yesus. Santa Maria, Bunda Allah, doakanlah kami yang berdosa ini, sekarang dan waktu kami mati. Amin. P: Aku ini hamba Tuhan. U: Terjadilah padaku menurut perkataanmu. Salam Maria, penuh rahmat, Tuhan sertamu. Terpujilah engkau di antara wanita, dan terpujilah buah tubuhmu, Yesus. Santa Maria, Bunda Allah, doakanlah kami yang berdosa ini, sekarang dan waktu kami mati. Amin. P: Sabda sudah menjadi daging. U: Dan tinggal di antara kita. Salam Maria, penuh rahmat, Tuhan sertamu. Terpujilah engkau di antara wanita, dan terpujilah buah tubuhmu, Yesus. Santa Maria, Bunda Allah, doakanlah kami yang berdosa ini, sekarang dan waktu kami mati. Amin. P: Doakanlah kami, ya Santa Bunda Allah. U: Supaya kami dapat menikmati janji Kristus. Marilah berdoa. Ya Allah, karena kabar malaikat kami mengetahui bahwa Yesus Kristus Putramu menjadi manusia. Curahkanlah rahmatmu ke dalam hati kami, supaya karena sengsara dan salibnya kami dibawa kepada kebangkitan yang mulia. Demi Kristus, Tuhan kami. Amin.",
+      "sha256": "96acdaf93f5dc01dc641558ac0fe7b9fba2cd8223ed12a6dccb481db8e2b0c39"
+    },
+    "mystery-joy-5.mp3": {
+      "key": "83821df11b2019831e5553eb9eae466f6b420088ce94728e2f3755c0b6fe8b96",
+      "text": "Yesus ditemukan di Bait Allah. Yesus mendengar dan bertanya, lalu pulang bersama orang tuanya.",
+      "sha256": "05c0de43601bbf805d122c955dc5d17e8a226065bb5bcc58b2c930463aaedf6e"
+    },
+    "mystery-light-1.mp3": {
+      "key": "acd1af9a6b81d88f6853cb5fdb16f9aaa56a1215992f9712686a9cbdc6d3dbec",
+      "text": "Yesus dibaptis di Sungai Yordan. Yesus adalah Anak yang dikasihi Bapa.",
+      "sha256": "097f8baf1b86969627d3c7d84c13fc2c3107398b622680e63fc0fe2b8ae3b9c7"
+    },
+    "mystery-light-2.mp3": {
+      "key": "12b089782b2941ddc8d1720403c9cb44f19d430be04d16c9d8f24073833fe022",
+      "text": "Yesus menyatakan diri di Kana. Tanda di Kana membantu murid-murid percaya kepadanya.",
+      "sha256": "702cb6e5b9959e8e3b34f5077f5ffdd60074d485848e5cec44b9ae39b7ae41a0"
+    },
+    "mystery-light-3.mp3": {
+      "key": "120985810b45c4c6baec0483945b770e4d1aacc0d68bf9f0a21f9318b4503125",
+      "text": "Yesus mewartakan Kerajaan Allah dan pertobatan. Yesus mengajak kita percaya dan mengubah hati.",
+      "sha256": "7acb2636fcd2ea48babd6bad3620cfba3493ba330008ce8df39e6871d31a764f"
+    },
+    "mystery-light-4.mp3": {
+      "key": "28677973003e72ee16247447e7401516ebfa222ba2e70eb44a9804dc1d41f739",
+      "text": "Yesus menampakkan kemuliaannya. Para murid melihat kemuliaan Yesus di gunung.",
+      "sha256": "87549beed382a841227a2f115a1fa22eb18b965cdc9d1f733cc97ada8446cea1"
+    },
+    "mystery-light-5.mp3": {
+      "key": "9b4d292e41cce98fbf0e0bc9b84bc387d1154d74fd025e9b931bf2cccaca0f5b",
+      "text": "Yesus menetapkan Ekaristi. Yesus memberikan dirinya dan meminta kita mengenangnya.",
+      "sha256": "f42962fd862491ebb908cf7369aaafcacfb00395abf0fa64b993c24825b1054c"
+    },
+    "mystery-sorrow-1.mp3": {
+      "key": "25b942f7851a4978d8c71c5d13a496304c497ec5aee6eb9e1042e1bfdbdd2982",
+      "text": "Yesus berdoa di Getsemani. Saat sedih, Yesus berdoa kepada Bapa.",
+      "sha256": "71db498a179eca8f770e49061726ee5683750dd26476ef7b43093778dc3892bc"
+    },
+    "mystery-sorrow-2.mp3": {
+      "key": "6bf76943071f7777a01e9c0953990cdc2166acf7348229db5a8501ed8ce4cd94",
+      "text": "Yesus didera. Yesus mengalami perlakuan yang menyakitkan. Kita mendoakan yang menderita.",
+      "sha256": "21a3d9b45822f78962f645f16dec5de1e3d29c3513080346000d59ee8434d9a7"
+    },
+    "mystery-sorrow-4.mp3": {
+      "key": "14426e238f1ace7b8f11ee747dc0f650034cd8a1d357d80f882de92c79539612",
+      "text": "Yesus memanggul salib. Yesus tetap setia di tengah penderitaan.",
+      "sha256": "7f41a21cd308a247169ec3cd26494040d5c9e77f7f1a39459cb718ad01497fdd"
+    },
+    "mystery-sorrow-3.mp3": {
+      "key": "41104272e69d05b2da38995f147336e436daa70ca2ffa15a5f6b34c262c79459",
+      "text": "Yesus dimahkotai duri. Yesus direndahkan. Kita belajar menghormati sesama.",
+      "sha256": "35652f039bd36e34f25e67c0a4d9deb16eb01ea88d965fe754c8c438300b2d80"
+    },
+    "mystery-sorrow-5.mp3": {
+      "key": "d187f6f7320fe0e23eac1016a285e99f2aa7ec01becf5523da08ba89d08b793e",
+      "text": "Yesus wafat di salib. Yesus menyerahkan diri kepada Bapa. Bacalah bersama pendamping.",
+      "sha256": "7050905e72c8376d1358deb1f8ee18032a9764504d77094dbd3218795fd4a711"
+    },
+    "mystery-glory-2.mp3": {
+      "key": "adf9ebb2b888739448d56794eb68254a1495c3cb9d817c170a90adb5ce5e2f0a",
+      "text": "Yesus naik ke surga. Yesus kembali kepada Bapa.",
+      "sha256": "4d8d475f2ce46f879dd7cab5d7174ca5af31bedcaf4ec9bc396a5a41f9b08807"
+    },
+    "mystery-glory-1.mp3": {
+      "key": "3658c5cbb77d9276c1e126d979621ca0c62c143ee604ab841262bfe1b21d1a3e",
+      "text": "Yesus bangkit. Yesus bangkit dan membawa pengharapan.",
+      "sha256": "0351a96081f69e6cf39caa71bed6aa60b55fe3d6197db355fe979e00d3155d44"
+    },
+    "mystery-glory-4.mp3": {
+      "key": "585577399b7b7b805ebb4520c829eada21e06addbf864a026d20c8a779b74af7",
+      "text": "Maria diangkat ke surga. Gereja mengimani Maria diangkat ke surga dengan jiwa dan raga.",
+      "sha256": "7ea5af4aab3206bfcaac8e589f5191080e13e38bf83bd1c2e4ab7940c7bb67fa"
+    },
+    "mystery-glory-3.mp3": {
+      "key": "6f4f182406ee09d8f6bfa67e32af8fd3b676a29354649cbb0b7453e38ce0e2c3",
+      "text": "Roh Kudus turun atas para rasul. Roh Kudus menguatkan para murid.",
+      "sha256": "21e01891e8b68f5c1700d2534e47a499378124cecf86cafe2caf026d03344ebe"
+    },
+    "mystery-glory-5.mp3": {
+      "key": "561bf5b9f0de9e6fc9edc766a23191548c31efcded419f29ed586d21dbda4ebd",
+      "text": "Maria dimahkotai di surga. Gereja menghormati Maria sebagai Ratu yang bersatu dengan Putranya.",
+      "sha256": "f6dd71af356d17eb270ac0878507bc987b53f5589b53c0fdf88fdb6394c2c647"
+    }
+  }
+}

@@ -12,13 +12,6 @@ import edge_tts
 VOICE = 'id-ID-GadisNeural'
 RATE = '-8%'
 VERSION = 'id-neural-1'
-LETTER_SPEECH = {'e': 'é', 'be': 'bé', 'ce': 'cé', 'de': 'dé', 'ef': 'éf', 'ge': 'gé', 'je': 'jé', 'el': 'él', 'em': 'ém', 'en': 'én', 'pe': 'pé', 'er': 'ér', 'es': 'és', 'te': 'té', 've': 'vé', 'we': 'wé', 'eks': 'éks', 'ye': 'yé', 'zet': 'zét'}
-
-
-def letter_text(name):
-    return LETTER_SPEECH.get(name, name) + '.'
-
-
 def prepare_text(text):
     text = unicodedata.normalize('NFC', text)
     text = re.sub(r'([A-Za-z]+)-(Nya|Ku|Mu)\b', lambda match: match[1] + match[2].lower(), text)

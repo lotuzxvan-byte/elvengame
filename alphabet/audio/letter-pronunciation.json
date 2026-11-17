@@ -1,0 +1,348 @@
+{
+  "version": "id-letters-5",
+  "key": "34a04f0d5ce6416f78c904fa87011f97aba95215c65d8842e008e0a09a5051b7",
+  "voices": [
+    "Piper id_ID-news_tts-medium",
+    "id-ID-GadisNeural"
+  ],
+  "locale": "id-ID",
+  "lengthScale": 1.25,
+  "reference": "https://ejaan.kemendikdasmen.go.id/eyd/penggunaan-huruf/huruf-abjad/",
+  "modelCard": "https://huggingface.co/rhasspy/piper-voices/resolve/main/id/id_ID/news_tts/medium/MODEL_CARD",
+  "method": "Preserve existing correct recordings; synthesize replacement Indonesian letter phonemes with silence padding",
+  "clips": {
+    "letter-a.mp3": {
+      "letter": "A",
+      "name": "a",
+      "pronunciation": "a",
+      "text": "a.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6080272108843536,
+      "sha256": "c888c310f20445380dacfbd3bf4d1b707a680059bd609bff3872e00477995d08"
+    },
+    "letter-b.mp3": {
+      "letter": "B",
+      "name": "be",
+      "pronunciation": "be",
+      "text": "be.",
+      "phonemes": [
+        "b",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 1.0314285714285714,
+      "sha256": "d47b0ad57aa6809c6b6287b224b7f35d36e0d94dab2a12910a849abfbee36a61"
+    },
+    "letter-c.mp3": {
+      "letter": "C",
+      "name": "ce",
+      "pronunciation": "ce",
+      "text": "ce.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6560090702947845,
+      "sha256": "022b3c096c0c8f4b52ba3dd41f39d8b4dd7ec2c1f7dc93336bc5cf1ed05c2c6e"
+    },
+    "letter-d.mp3": {
+      "letter": "D",
+      "name": "de",
+      "pronunciation": "de",
+      "text": "de.",
+      "phonemes": [
+        "d",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.9501587301587302,
+      "sha256": "0aaf825013d9327c68a7e152f2673c83b89947b54c87afa0eaffd04779bcae06"
+    },
+    "letter-e.mp3": {
+      "letter": "E",
+      "name": "e",
+      "pronunciation": "e",
+      "text": "e.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.4640362811791383,
+      "sha256": "dd33cc4fe5ea2abb7ceda4a3d523523515eda7beefecfbcd2fabc5f530b2fea9"
+    },
+    "letter-f.mp3": {
+      "letter": "F",
+      "name": "ef",
+      "pronunciation": "ef",
+      "text": "ef.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.8480272108843538,
+      "sha256": "e2bfe786468e3de44af2f29ee464fe34765ea74346f8902241b7f3d0c6d9129d"
+    },
+    "letter-g.mp3": {
+      "letter": "G",
+      "name": "ge",
+      "pronunciation": "ge",
+      "text": "ge.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "7e0753ea35dfdfce106f9d38807e2f003ced4d891fef747202097877dab1a53b"
+    },
+    "letter-h.mp3": {
+      "letter": "H",
+      "name": "ha",
+      "pronunciation": "ha",
+      "text": "ha.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.7519727891156462,
+      "sha256": "0bc5aca5396b5b8f8c287b5623bae1065e9fc49704d9fcc64b00e4cadc973184"
+    },
+    "letter-i.mp3": {
+      "letter": "I",
+      "name": "i",
+      "pronunciation": "i",
+      "text": "i.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "0ce11a66436d604954397d74b5a883918148390e9e636bda098c00b62d53a12e"
+    },
+    "letter-j.mp3": {
+      "letter": "J",
+      "name": "je",
+      "pronunciation": "je",
+      "text": "je.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "284e53ffe070cc0b02a63e4a799ac9cb9a7ff191808f2a7ba5344dc168842f26"
+    },
+    "letter-k.mp3": {
+      "letter": "K",
+      "name": "ka",
+      "pronunciation": "ka",
+      "text": "ka.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.8719727891156464,
+      "sha256": "7fa2b6d9a0fad72134a77ffd57846102925a781aeb808ab80f3379b97dc4e2f1"
+    },
+    "letter-l.mp3": {
+      "letter": "L",
+      "name": "el",
+      "pronunciation": "el",
+      "text": "el.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6560090702947845,
+      "sha256": "aa3e66f2b409e999f72de6a13c17df1fc225b7c477898184fe60c832037f8b82"
+    },
+    "letter-m.mp3": {
+      "letter": "M",
+      "name": "em",
+      "pronunciation": "em",
+      "text": "em.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "7931ef2f0c85944496a33969907fbda3b0c2469aa322aa97e1ccf665c401596c"
+    },
+    "letter-n.mp3": {
+      "letter": "N",
+      "name": "en",
+      "pronunciation": "en",
+      "text": "en.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6080272108843536,
+      "sha256": "378fe661bacb4bd14337669e9db47be56c3c48f2a1af20c53041b9a8883438b7"
+    },
+    "letter-o.mp3": {
+      "letter": "O",
+      "name": "o",
+      "pronunciation": "o",
+      "text": "o.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "afa78d040cdd703d5ec06daabb04e7ead2e54b56d9593e99ec1a0a5c28ad2317"
+    },
+    "letter-p.mp3": {
+      "letter": "P",
+      "name": "pe",
+      "pronunciation": "pe",
+      "text": "pe.",
+      "phonemes": [
+        "p",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.9501587301587302,
+      "sha256": "e10f566e0796ea9e0861e2420f41fd469f374e05d9530af0754c5b045af09b94"
+    },
+    "letter-q.mp3": {
+      "letter": "Q",
+      "name": "qi",
+      "pronunciation": "ki",
+      "text": "ki.",
+      "phonemes": [
+        "k",
+        "ˈ",
+        "i",
+        "ː",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 1.0082086167800453,
+      "sha256": "1ce24bea485e9f1483768ce5a4e288c2fd5e7067c96bad2ac6566f7ff7a1b6bb"
+    },
+    "letter-r.mp3": {
+      "letter": "R",
+      "name": "er",
+      "pronunciation": "er",
+      "text": "er.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.7280272108843537,
+      "sha256": "5e568d941cf3612aad08c31231d3c4f18a24fd624c4a59f151a5e39dab60659b"
+    },
+    "letter-s.mp3": {
+      "letter": "S",
+      "name": "es",
+      "pronunciation": "es",
+      "text": "es.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.8960090702947845,
+      "sha256": "0f116682a829e7138881b78fd94ead327a8f9588c45496bbccb5cb2840818d8a"
+    },
+    "letter-t.mp3": {
+      "letter": "T",
+      "name": "te",
+      "pronunciation": "te",
+      "text": "te.",
+      "phonemes": [
+        "t",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.903718820861678,
+      "sha256": "93dfeea4371169528f3bcbae0af596ab24b77e8934b673b6c358ebdc3dd50025"
+    },
+    "letter-u.mp3": {
+      "letter": "U",
+      "name": "u",
+      "pronunciation": "u",
+      "text": "u.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.6319727891156464,
+      "sha256": "71fda255557e1747bcfa040af6bb8d92c51b978fb4f41b60ca72a2d6a356decd"
+    },
+    "letter-v.mp3": {
+      "letter": "V",
+      "name": "ve",
+      "pronunciation": "fe",
+      "text": "fe.",
+      "phonemes": [
+        "f",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.9617687074829931,
+      "sha256": "3ab77a339c4943fd6cad18ad2b44e1043dcf249f8d9ddfa6cdb2ce3d69d17705"
+    },
+    "letter-w.mp3": {
+      "letter": "W",
+      "name": "we",
+      "pronunciation": "we",
+      "text": "we.",
+      "phonemes": [
+        "w",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.9965986394557823,
+      "sha256": "32e233dcfccf16487f58cd7b6d81f84958b049113f617c0a108e511635c87796"
+    },
+    "letter-x.mp3": {
+      "letter": "X",
+      "name": "eks",
+      "pronunciation": "eks",
+      "text": "eks.",
+      "voice": "id-ID-GadisNeural",
+      "method": "preserved recording",
+      "version": "id-letters-5",
+      "duration": 1.8240362811791384,
+      "sha256": "e82ce3012f4b3a57a9a78a1bd52c628129741877001dda4c2b24867d679cde95"
+    },
+    "letter-y.mp3": {
+      "letter": "Y",
+      "name": "ye",
+      "pronunciation": "ye",
+      "text": "ye.",
+      "phonemes": [
+        "j",
+        "ˈ",
+        "ɛ",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.9849886621315193,
+      "sha256": "dc772d8947c230337a7a854f693f5050b94da71e8be09b3722e2fa7596130308"
+    },
+    "letter-z.mp3": {
+      "letter": "Z",
+      "name": "zet",
+      "pronunciation": "zet",
+      "text": "zet.",
+      "phonemes": [
+        "z",
+        "ˈ",
+        "ɛ",
+        "t",
+        "."
+      ],
+      "voice": "Piper id_ID-news_tts-medium",
+      "version": "id-letters-5",
+      "duration": 0.7992290249433106,
+      "sha256": "189c808552e4240b8fd37e62ebfe976457f61304f9233134c2e412b964dd4d1a"
+    }
+  }
+}

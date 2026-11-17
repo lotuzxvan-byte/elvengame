@@ -6,7 +6,7 @@ const leaveDialog=document.querySelector('#leave-dialog');
 let selectedButton;
 function openGame(type,button){
  if(type!=='prayers'&&window.GameScores&&!window.GameScores.ready()){window.GameScores.ask(()=>openGame(type,button));return}
- const games={adventure:{path:'adventure/index.html?v=runner-1',name:'Taman Bermain'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html?v=id-letters-4',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'},prayers:{path:'prayers/index.html?v=prayers-crucifix-1',name:'Doa Katolik'}};
+ const games={adventure:{path:'adventure/index.html?v=runner-1',name:'Taman Bermain'},math:{path:'math/index.html',name:'Taman Angka'},alphabet:{path:'alphabet/index.html?v=word-zh-1',name:'Taman Kata'},bible:{path:'bible/index.html',name:'Jejak Kasih'},prayers:{path:'prayers/index.html?v=prayers-crucifix-1',name:'Doa Katolik'}};
  const game=games[type];if(!game)return;
  selectedButton=button;
  const frame=document.createElement('iframe');

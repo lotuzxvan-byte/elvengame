@@ -4,6 +4,15 @@ import {createApp} from '../server.mjs';
 import {mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
+test('Mandarin sessions preserve language tags and reject invalid suffixes',async()=>{
+ const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Mandarin Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
+  for(const difficulty of ['1:all:zh','2:keluarga:zh','3:sekolah:zh','1:all:en','1:all']){const response=await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'alphabet',difficulty})});assert.equal(response.status,201);const run=await response.json();assert.equal((await fetch(base+'/api/runs/'+run.id+'/finish',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({score:800,firstTry:8,status:'completed'})})).status,200)}
+  for(const difficulty of ['1:all:xx','1:all:zh:en','4:all:zh'])assert.equal((await fetch(base+'/api/runs',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify({game:'alphabet',difficulty})})).status,400);
+  for(const file of ['mandarin.js','mandarin-audio.js','audio/zh-word-01.mp3','audio/zh-sentence-48.mp3'])assert.equal((await fetch(base+'/alphabet/'+file)).status,200);
+ }finally{await new Promise(r=>server.close(r))}
+});
 test('runner difficulties coexist with historical adventure scores',async()=>{
  const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
  try{

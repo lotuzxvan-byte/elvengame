@@ -70,7 +70,7 @@ export function createApp(options={}){
     if(route==='/api/runs'&&req.method==='POST'){
      rate(req,'runs',300);const p=player(req);if(!p)fail('Profil pemain belum terdaftar.',401);const b=await body(req);
      const difficulties={adventure:['santai','waktu','runner-santai','runner-normal'],math:['easy:add','easy:subtract','easy:multiply','easy:divide','easy:mix','normal:add','normal:subtract','normal:multiply','normal:divide','normal:mix'],alphabet:['1:all','1:keluarga','1:sekolah','2:all','2:keluarga','2:sekolah','3:all','3:keluarga','3:sekolah'],bible:bibleBooks.map(book=>book.id)};
-     const checkedDifficulty=b.game==='alphabet'&&typeof b.difficulty==='string'&&b.difficulty.endsWith(':en')?b.difficulty.slice(0,-3):b.difficulty;
+     const checkedDifficulty=b.game==='alphabet'&&typeof b.difficulty==='string'&&/:(en|zh)$/.test(b.difficulty)?b.difficulty.slice(0,-3):b.difficulty;
      if(!difficulties[b.game]?.includes(checkedDifficulty))fail('Game atau tingkat tidak valid.');const id=randomUUID(),started_at=new Date().toISOString();db.prepare('INSERT INTO runs(id,player_id,game,difficulty,total,started_at) VALUES(?,?,?,?,?,?)').run(id,p.id,b.game,b.difficulty,b.game==='math'?12:b.game==='alphabet'?8:b.game==='bible'?2:20,started_at);return json(res,201,{id,started_at});
     }
     if(/^\/api\/runs\/[a-f0-9-]{36}\/finish$/.test(route)&&req.method==='POST'){

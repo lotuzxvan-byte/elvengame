@@ -1,0 +1,392 @@
+{
+  "locale": "zh-CN",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-10%",
+  "version": "zh-words-1",
+  "clips": {
+    "zh-word-01.mp3": {
+      "text": "妈妈",
+      "sha256": "eb378cf530c8d3820eb439ca786eb7f974f697ab9d5d58dbee47578bb3217d94"
+    },
+    "zh-sentence-01.mp3": {
+      "text": "妈妈爱我。",
+      "sha256": "c21334cb21c8a558f0732633bc7372e4e64f5286d0ae1998d8c03897f03e532b"
+    },
+    "zh-word-02.mp3": {
+      "text": "爸爸",
+      "sha256": "4b784dd9f99bee5d5c63ab96f22c554ea2458ce206f1142c54fa1d3f240914b4"
+    },
+    "zh-sentence-02.mp3": {
+      "text": "爸爸回家了。",
+      "sha256": "c18f9a39e7169de980899616cc8377bb9f22cf97cef9f2306d8e5cf19bff0fa9"
+    },
+    "zh-word-03.mp3": {
+      "text": "哥哥",
+      "sha256": "a5e75a05f459db6aba55aefeb3de61cb37a7817a8c58d358ca34a6f408a418ee"
+    },
+    "zh-sentence-03.mp3": {
+      "text": "哥哥看书。",
+      "sha256": "925c4d65a2c8f3c2d436b0957ba8e5059b10b8c9deb535e3e65a0fe400766205"
+    },
+    "zh-word-04.mp3": {
+      "text": "姐姐",
+      "sha256": "e36a06bad0c88ab72dd8a74d1172b9823a0309a8bde88b1fddbb9a424f0f917a"
+    },
+    "zh-sentence-04.mp3": {
+      "text": "姐姐画画。",
+      "sha256": "e5a28b79883032dcd9729a97cb94813bd8f15271bb84ede712fca5f7203dc2a2"
+    },
+    "zh-word-05.mp3": {
+      "text": "弟弟",
+      "sha256": "5f7cbcfe1c067f686bd4e4f5c81b6ec085c485a805e16cc338054cc9b4036e27"
+    },
+    "zh-sentence-05.mp3": {
+      "text": "弟弟玩球。",
+      "sha256": "dceb5a07793239b9260eff1e2b649ded48877c97b61da6d495c36fde348c78f2"
+    },
+    "zh-word-06.mp3": {
+      "text": "妹妹",
+      "sha256": "5be309cc495815585202640a9d26643c2eef561178cf95df851abedfc215d3b4"
+    },
+    "zh-sentence-06.mp3": {
+      "text": "妹妹笑了。",
+      "sha256": "5694f1b3c0874319d899640f315134d5ec988200dd73e4a1783b7bb7fbdc69cd"
+    },
+    "zh-word-07.mp3": {
+      "text": "家",
+      "sha256": "d24480f205908b705a9ed4a25b90e6bce640a12134e12b1bd70cf2975d85f57c"
+    },
+    "zh-sentence-07.mp3": {
+      "text": "我爱我的家。",
+      "sha256": "16efa22ea65671b987b70bd33560c3a57f33430cda516111c688c81420050e3c"
+    },
+    "zh-word-08.mp3": {
+      "text": "爱",
+      "sha256": "cfdca4a3e803a80a1279fa1d60705933e916e93a0032219c58cd417db254e152"
+    },
+    "zh-sentence-08.mp3": {
+      "text": "我爱妈妈。",
+      "sha256": "7a2ef23b6a53c1bdc3526deb1bb4d945ab053edc5194c7ce64d989a95a82ff0f"
+    },
+    "zh-word-09.mp3": {
+      "text": "书",
+      "sha256": "c4b7159e413605ccf5fadefd5bb7e5a8271f438458d0127cbf6c088c000f1a65"
+    },
+    "zh-sentence-09.mp3": {
+      "text": "这是我的书。",
+      "sha256": "efa6c157efc10fe772af090c92dc983e1f00044546eade477eebf9ac861118af"
+    },
+    "zh-word-10.mp3": {
+      "text": "笔",
+      "sha256": "34f245f51aa0c9516fa28847605541561c5624a34ecb7f0cf51e8a4ae686498c"
+    },
+    "zh-sentence-10.mp3": {
+      "text": "这是我的笔。",
+      "sha256": "92a6a2eee180970144f0892e91ef87ac481e2f5763bb494a25423d90b9d68930"
+    },
+    "zh-word-11.mp3": {
+      "text": "纸",
+      "sha256": "a34272fd1ffcd2a2a336e502eb55d113dce9b645f82f7690cd0adb4577d56573"
+    },
+    "zh-sentence-11.mp3": {
+      "text": "纸是白色的。",
+      "sha256": "c6f599347ca0290eb54049797d1cab7d5472d5aab4eae0f6d01706335432b507"
+    },
+    "zh-word-12.mp3": {
+      "text": "门",
+      "sha256": "f8121ec2d17e5d40a18b18c9b9d92ac283605b7238cfb1bcdafd3da4721731bc"
+    },
+    "zh-sentence-12.mp3": {
+      "text": "请开门。",
+      "sha256": "f2ec7d16c956308913ba81bd11664252f98a1f69b7625dd5244744dfba575ee0"
+    },
+    "zh-word-13.mp3": {
+      "text": "水",
+      "sha256": "42771bcd73bfeb1b0f1b1630d6782816cca09005f52374cf96b32d46cbde9e5a"
+    },
+    "zh-sentence-13.mp3": {
+      "text": "我喝水。",
+      "sha256": "ccb0ae37faea15c8ccb66b57b9858ee1f8e999113026081ef0bc377ec04601ba"
+    },
+    "zh-word-14.mp3": {
+      "text": "球",
+      "sha256": "0caa2e61596e099715a97d2910307cb5832ef212c0c35781829d9e53dc442ba7"
+    },
+    "zh-sentence-14.mp3": {
+      "text": "我们玩球。",
+      "sha256": "ff233965440f94fa1c8de507958f117c9a3b9b1bfdf2abce42a5979f9fbfeebb"
+    },
+    "zh-word-15.mp3": {
+      "text": "桌子",
+      "sha256": "65f6edfb74fb5c457c6be29873e1bb1c9b0868c0ef63136a5f0f5036fca90beb"
+    },
+    "zh-sentence-15.mp3": {
+      "text": "书在桌子上。",
+      "sha256": "128ffb96e63b45735783516ca1b6715c370fb8f203c9bbbf58400ee6186c1447"
+    },
+    "zh-word-16.mp3": {
+      "text": "椅子",
+      "sha256": "e5d1542118438b2a30cfb85c5bdb186b82b0ac6c60728e64bbee3e770d2c79b0"
+    },
+    "zh-sentence-16.mp3": {
+      "text": "这是小椅子。",
+      "sha256": "69b9ad96ae98da91c16f32080e88809c2a72df863de547673a6d7caa113c1d8b"
+    },
+    "zh-word-17.mp3": {
+      "text": "爷爷",
+      "sha256": "9a2d3e5a832a19fd895b9c90b09a4d5d9b302243460a87d0cd052744a47c9ba4"
+    },
+    "zh-sentence-17.mp3": {
+      "text": "爷爷讲故事。",
+      "sha256": "d17985a1a0b1efc3eb8ceb5e0444d8e3b46b032babb30da48cef638b10c1bf89"
+    },
+    "zh-word-18.mp3": {
+      "text": "奶奶",
+      "sha256": "e757b3f16e26a8c57963be8c0df6b5d0a92e452c729d6bc5874f23e637ce69a5"
+    },
+    "zh-sentence-18.mp3": {
+      "text": "奶奶做饭。",
+      "sha256": "91166c652a2646f0e14a3f3c705771ffde1a8aae96c75b9268501efa71635db4"
+    },
+    "zh-word-19.mp3": {
+      "text": "外公",
+      "sha256": "635d1aa073326835423e26771f33a03a9e590a21056a96c0dd2075ef1fe4b628"
+    },
+    "zh-sentence-19.mp3": {
+      "text": "外公来看我。",
+      "sha256": "b5b1bf3656b940554f0da673b07f315ce8c0558422ef19f4b71db76bc8d688ca"
+    },
+    "zh-word-20.mp3": {
+      "text": "外婆",
+      "sha256": "7b61be0f72364c6fd998b6a6bf0eb5eba34a1d9fd1ec3613bf7e3caef2eafa01"
+    },
+    "zh-sentence-20.mp3": {
+      "text": "外婆给我苹果。",
+      "sha256": "cebf9820f42f9176dfde8fc5b4ab4e1099a173b7a82785d70ca157a826bfd595"
+    },
+    "zh-word-21.mp3": {
+      "text": "家人",
+      "sha256": "e7b910b49f99223f5a4376ffbd47498ef5e341305eddb5432cf7f2ec8a01a7a3"
+    },
+    "zh-sentence-21.mp3": {
+      "text": "我和家人在一起。",
+      "sha256": "a8b079425b5d72411551c2a97f16d2071fdfed43def3dc388ac86c0c290cc3ef"
+    },
+    "zh-word-22.mp3": {
+      "text": "生日",
+      "sha256": "d8a4dd8683bb0f81156f332408656be5dad9d7ff83e5018287988bdf8a70fb53"
+    },
+    "zh-sentence-22.mp3": {
+      "text": "今天是我的生日。",
+      "sha256": "cbeea240501e4f3ed74a93284d3277c3bbf9509d4b6bffcc91ee3775dae1988c"
+    },
+    "zh-word-23.mp3": {
+      "text": "早餐",
+      "sha256": "b9b93f9ab28c33a083ddc8c021471d11f6c6e4d2ad713887ca40841de084a9c5"
+    },
+    "zh-sentence-23.mp3": {
+      "text": "我们一起吃早餐。",
+      "sha256": "e98626a488776c8341f89fa6cda4010d2529a066a1ecf08772b09785c02a7171"
+    },
+    "zh-word-24.mp3": {
+      "text": "快乐",
+      "sha256": "b18bdf94e60df2f7c3df20b1f044a9731f3f837ce9a42395c995b89cdddb7463"
+    },
+    "zh-sentence-24.mp3": {
+      "text": "我很快乐。",
+      "sha256": "301f7892a3132a9d651c6ddc3e673ed81065e2af38853a0b6c21ec9503e3c144"
+    },
+    "zh-word-25.mp3": {
+      "text": "老师",
+      "sha256": "2d4923714d243bd04f2a7f7e53eb105a75ccbbe01ab9149f6bb96f50cf86f55a"
+    },
+    "zh-sentence-25.mp3": {
+      "text": "老师教我们读书。",
+      "sha256": "b4ceca9757e8cc551c9c564a622242174fd7865222da11433c926541708760c8"
+    },
+    "zh-word-26.mp3": {
+      "text": "学校",
+      "sha256": "62edbd7693c7f71f231c95403ca3db971a074c20490a839ae9a4daf8fd6d1a6c"
+    },
+    "zh-sentence-26.mp3": {
+      "text": "我喜欢学校。",
+      "sha256": "83ef2fff5995ea5cd2bdbdf45a41346d3fd88a92017b6739e9f338177917a564"
+    },
+    "zh-word-27.mp3": {
+      "text": "学生",
+      "sha256": "077fccd9c5fc1f32c331cae4b826e563d5a556336ce5f9508ea3c91cfcbd265c"
+    },
+    "zh-sentence-27.mp3": {
+      "text": "我是一名学生。",
+      "sha256": "851690b98c9806d0bde1c4cba82a3093bdf9e99cf69f6511d4919e6819f0c321"
+    },
+    "zh-word-28.mp3": {
+      "text": "同学",
+      "sha256": "283779c1a976984d3107c1b462bd43c91db7b7cc9f32e9fe363592298f28f7ff"
+    },
+    "zh-sentence-28.mp3": {
+      "text": "同学和我一起玩。",
+      "sha256": "76cb29db7436ae344a3baa54a4cf8e0118c79ada5e3ba390436b87cd46acee22"
+    },
+    "zh-word-29.mp3": {
+      "text": "书包",
+      "sha256": "ef2f448e2e2d7f33fdcf3df4f50994d4ab47d03b2110f38c05f3738d742d5c96"
+    },
+    "zh-sentence-29.mp3": {
+      "text": "书在书包里。",
+      "sha256": "a79d67844a992fcd03792992715fa5fac1870c9820f748f2b94135a63bbd8e1d"
+    },
+    "zh-word-30.mp3": {
+      "text": "铅笔",
+      "sha256": "b971baf62b3afd3cb5f227ea2bdae4b4a79834e42975ce11fd9578514acfc1e0"
+    },
+    "zh-sentence-30.mp3": {
+      "text": "我用铅笔写字。",
+      "sha256": "09e326118de124eaf303556269fafb9808b6b581876a327541e7e4fee767513a"
+    },
+    "zh-word-31.mp3": {
+      "text": "教室",
+      "sha256": "8edb24bfc4b4333c5a3c86e35bce895f058a974c1867c97fe0b603cd211318d4"
+    },
+    "zh-sentence-31.mp3": {
+      "text": "教室很干净。",
+      "sha256": "8d962a877f15cb6a8294ffb791fe683e1bca5576ce4a5ea13cde2f27737b9084"
+    },
+    "zh-word-32.mp3": {
+      "text": "学习",
+      "sha256": "65bd56cfd936a866ec65a3368bf217191ec17f17db47882e64b7f823274c9b15"
+    },
+    "zh-sentence-32.mp3": {
+      "text": "我们一起学习。",
+      "sha256": "d7e5ee7903f06abb84ec9370cdac9c516929ba10b5fe083a8cbb094d80c3e921"
+    },
+    "zh-word-33.mp3": {
+      "text": "照顾",
+      "sha256": "86e75df131b32e9e2d0f0afbc415575e7c9b456089018e83dd8e33d8335c9bb9"
+    },
+    "zh-sentence-33.mp3": {
+      "text": "我照顾妹妹。",
+      "sha256": "52a461383dcccf977f4a77b4f120f8248d32bc80a1ac7b80cd91b3e67bf0886e"
+    },
+    "zh-word-34.mp3": {
+      "text": "帮助",
+      "sha256": "99bfc8a52e99ea25280d27a44794879142367d346e56abc48bee93af8a108c01"
+    },
+    "zh-sentence-34.mp3": {
+      "text": "我帮助爸爸。",
+      "sha256": "3b483cbbccb134723d2985f947bd3c07a65715b35f18e08658ad77c162875ef5"
+    },
+    "zh-word-35.mp3": {
+      "text": "分享",
+      "sha256": "40e6817df533c20591aff17354b29135e0e597fcd0a61514255df6a11ffd2732"
+    },
+    "zh-sentence-35.mp3": {
+      "text": "我和姐姐分享玩具。",
+      "sha256": "9fca9f028cd79b1bea2bfa867d69585dcfdc58a5807d0681caeef3ef9f40f82e"
+    },
+    "zh-word-36.mp3": {
+      "text": "尊重",
+      "sha256": "d57869d60ab795bcea68b9ff0cc7d2f692fbe5e01b9b5e84e99f93ecea3a0857"
+    },
+    "zh-sentence-36.mp3": {
+      "text": "我们尊重家人。",
+      "sha256": "bf8bcc7edd3cd55eafbaf50c30be714560ae9cf85a19c276eb92de3c9f1955b1"
+    },
+    "zh-word-37.mp3": {
+      "text": "团圆",
+      "sha256": "3208c72394d182c5117ed67970573de80d3aab50a4f641a465654600d77c897b"
+    },
+    "zh-sentence-37.mp3": {
+      "text": "我们回家团圆。",
+      "sha256": "0d04eb54d6914dfcb30ef3aa3eb3c6b16cb1b30d364d2e4a57768060bc935290"
+    },
+    "zh-word-38.mp3": {
+      "text": "幸福",
+      "sha256": "4ad08c6fb025d06cdf96145299fd76ab7ee07a2aa01551809bbb4ea09b03f659"
+    },
+    "zh-sentence-38.mp3": {
+      "text": "我们一家很幸福。",
+      "sha256": "3053d51c58b201616e019a161bac1c3fe971d9805d60246316b896a8ff1fc495"
+    },
+    "zh-word-39.mp3": {
+      "text": "亲戚",
+      "sha256": "fc7027094893511ad8e3cb7345d1d43ca30f8d136f7686b5b35d92f13e3a5673"
+    },
+    "zh-sentence-39.mp3": {
+      "text": "亲戚来我们家。",
+      "sha256": "3b4fcb3bcffb3ff41d682ba72770d3f9cf2aeed541c0efa6292d193b5f87c907"
+    },
+    "zh-word-40.mp3": {
+      "text": "庆祝",
+      "sha256": "000267b5a2b45256bcfefcbabb648fcdf30e2d7c7ccdc28c7529af827cf1e0da"
+    },
+    "zh-sentence-40.mp3": {
+      "text": "我们庆祝奶奶的生日。",
+      "sha256": "f7312238d7ca33ffac3e511081161a44534c1a3da69ce124cb5adadf99337f34"
+    },
+    "zh-word-41.mp3": {
+      "text": "图书馆",
+      "sha256": "d91a65f0d3171c53911e69065a8a98cf0f1b26bd21d7595331849d910eddefbf"
+    },
+    "zh-sentence-41.mp3": {
+      "text": "我在图书馆看书。",
+      "sha256": "8d3018ce5fe8509a3f7f43d504b21fb01e88125a3f84914605668c0dcf8f57e3"
+    },
+    "zh-word-42.mp3": {
+      "text": "数学",
+      "sha256": "485ca982061cb12733e0cedb38e69723d1808897763032ec9569a9c0c37cdf35"
+    },
+    "zh-sentence-42.mp3": {
+      "text": "我喜欢数学。",
+      "sha256": "e66755b33c5e39ba70c8a3e320c47c12d4a80ef2b72657b7e5633fe4e458fd49"
+    },
+    "zh-word-43.mp3": {
+      "text": "科学",
+      "sha256": "368d1df284d9ea0c46d26b4ed2344835b36a3069dffbd5fff8855ebbf93ed7cd"
+    },
+    "zh-sentence-43.mp3": {
+      "text": "科学很有趣。",
+      "sha256": "ed8d2287a7aecb61315233d5d576784ca1045fe36f59aef417204ccc3fc7fa96"
+    },
+    "zh-word-44.mp3": {
+      "text": "运动场",
+      "sha256": "e9426a3c7b5c6fbe26710529cac0184536fbb465ce5e61384657d6dd5d8ab7de"
+    },
+    "zh-sentence-44.mp3": {
+      "text": "我们在运动场跑步。",
+      "sha256": "edbd75a0b74763c5efa929fe42700260839d16d4ad00e86465aab59187799ef0"
+    },
+    "zh-word-45.mp3": {
+      "text": "橡皮擦",
+      "sha256": "3a9240577fdd982f48b0cadbaa2248c9661e7c052a9d0506a45deb226063e8b6"
+    },
+    "zh-sentence-45.mp3": {
+      "text": "我用橡皮擦。",
+      "sha256": "e778aeaabee9a74cae24345aab89a80307d9abe8c2ca3b2febb39212a2f089a1"
+    },
+    "zh-word-46.mp3": {
+      "text": "课程表",
+      "sha256": "4d1543670160c8a368a69fa474a3b3c4484221c9f6d4c41f36bcf69b4b52ce1c"
+    },
+    "zh-sentence-46.mp3": {
+      "text": "我看看课程表。",
+      "sha256": "2395df325e788ae7086b564d9507a9faca9c255ee8be1435141028442bd75be1"
+    },
+    "zh-word-47.mp3": {
+      "text": "普通话",
+      "sha256": "7b00984b4bbc2632daa37f46d0e8f78477f4e38cc8a1f43a8ebc19634682595a"
+    },
+    "zh-sentence-47.mp3": {
+      "text": "我们学习普通话。",
+      "sha256": "41fac7c42d6da85f9eb8ac0c19e78c1c9e6775af80d6a2b9657e0fbd8a744018"
+    },
+    "zh-word-48.mp3": {
+      "text": "好朋友",
+      "sha256": "624f7e466374f265ea2b0658989514628b426b1aa15e95b21a5aabecd762e34a"
+    },
+    "zh-sentence-48.mp3": {
+      "text": "你是我的好朋友。",
+      "sha256": "a7480b005ea99a193d14d1eead40d3b85d6f31a02b1ccfbccc4ba14292ea63b0"
+    }
+  }
+}

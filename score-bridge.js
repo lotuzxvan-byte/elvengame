@@ -13,7 +13,7 @@
   for(const id of ['start','again'])wrapStart(id,null,()=>document.querySelector('#difficulty').value+':'+document.querySelector('#operation').value);
   const original=finish;finish=function(){original();report({score:points,firstTry,status:'completed'})};
  }else if(game==='alphabet'){
-  for(const id of ['open-words','go-words','again'])wrapStart(id,null,()=>document.querySelector('#level').value+':'+document.querySelector('#category').value+(document.querySelector('#language')?.value==='en'?':en':''));
+  for(const id of ['open-words','go-words','again'])wrapStart(id,null,()=>document.querySelector('#level').value+':'+document.querySelector('#category').value+(['en','zh'].includes(document.querySelector('#language')?.value)?':'+document.querySelector('#language').value:''));
   const button=document.querySelector('#next'),original=button.onclick;button.onclick=function(event){original.call(this,event);if(mode==='result')report({score:points,firstTry,status:'completed'})};
  }else if(game==='bible'){
   addEventListener('bible-session-start',event=>begin(event.detail.book));

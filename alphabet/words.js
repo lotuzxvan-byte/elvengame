@@ -1,7 +1,8 @@
 'use strict';
 let WordGarden=(()=>{
  const alphabet='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
- const letterNames=['a','be','ce','de','e','ef','ge','ha','i','je','ka','el','em','en','o','pe','ki','er','es','te','u','ve','we','eks','ye','zet'];
+ const letterNames=['a','be','ce','de','e','ef','ge','ha','i','je','ka','el','em','en','o','pe','qi','er','es','te','u','ve','we','eks','ye','zet'];
+ const letterPronunciations=['a','be','ce','de','e','ef','ge','ha','i','je','ka','el','em','en','o','pe','ki','er','es','te','u','fe','we','eks','ye','zet'];
  const rows=[
  ['keluarga',1,'ibu','i-bu','👩','Ibu membaca buku.'],['keluarga',1,'ayah','a-yah','👨','Ayah mengantar ke sekolah.'],['keluarga',1,'adik','a-dik','🧒','Adik bermain bersama kakak.'],['keluarga',1,'kakak','ka-kak','🧑','Kakak membantu adik.'],['keluarga',1,'nenek','ne-nek','👵','Nenek bercerita di rumah.'],['keluarga',1,'kakek','ka-kek','👴','Kakek menyiram tanaman.'],['keluarga',1,'om','om','👨','Om datang berkunjung.'],['keluarga',1,'tante','tan-te','👩','Tante membawa buah.'],
  ['sekolah',1,'buku','bu-ku','📚','Aku membaca buku.'],['sekolah',1,'guru','gu-ru','🧑‍🏫','Guru mengajar di kelas.'],['sekolah',1,'tas','tas','🎒','Buku ada di dalam tas.'],['sekolah',1,'meja','me-ja','🪑','Buku diletakkan di meja.'],['sekolah',1,'pena','pe-na','🖊️','Aku menulis dengan pena.'],['sekolah',1,'lem','lem','🧴','Aku menempel kertas dengan lem.'],['sekolah',1,'bola','bo-la','⚽','Kami bermain bola di sekolah.'],['sekolah',1,'kelas','ke-las','🏫','Kami belajar di kelas.'],
@@ -15,6 +16,6 @@ let WordGarden=(()=>{
  function session(category,level){const pool=words.filter(w=>(category==='all'||w.category===category)&&w.level===Number(level));if(category==='all')return shuffle([...shuffle(pool.filter(w=>w.category==='keluarga')).slice(0,4),...shuffle(pool.filter(w=>w.category==='sekolah')).slice(0,4)]);return shuffle(pool).slice(0,8)}
  function choices(word){const initial=word[0].toUpperCase();return shuffle([initial,...shuffle(alphabet.filter(l=>l!==initial)).slice(0,3)])}
  function normalize(text){return text.toLowerCase().normalize('NFKC').replace(/[^a-z\s]/g,' ').replace(/\s+/g,' ').trim()}
- return Object.freeze({alphabet,letterNames,words:Object.freeze(words),session,choices,normalize});
+ return Object.freeze({alphabet,letterNames,letterPronunciations,words:Object.freeze(words),session,choices,normalize});
 })();
 if(typeof module!=='undefined')module.exports=WordGarden;

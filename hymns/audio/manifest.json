@@ -1,0 +1,56 @@
+{
+  "version": "hymns-1",
+  "method": "New instrumental synthesis of public-domain traditional melodies; no singer recording",
+  "sampleRate": 44100,
+  "clueSeconds": 11,
+  "clips": {
+    "adeste.mp3": {
+      "song": "adeste",
+      "kind": "melody",
+      "duration": 45.98301587301587,
+      "sha256": "d04c0c73a98de7b7e9bd37e1e58311602c1401c370b68dc8a5deef38ba15992f"
+    },
+    "adeste-clue.mp3": {
+      "song": "adeste",
+      "kind": "clue",
+      "duration": 11.0,
+      "sha256": "63afd2827c2beabc1322af0e59b8ba24c3b20caa697a8cb33cbcd28957abda0a"
+    },
+    "silent.mp3": {
+      "song": "silent",
+      "kind": "melody",
+      "duration": 43.9,
+      "sha256": "f3a25763bda64df7eca501d8003e8aa1534e07d6726908dd7d691c1839f69936"
+    },
+    "silent-clue.mp3": {
+      "song": "silent",
+      "kind": "clue",
+      "duration": 11.0,
+      "sha256": "09c772109599417511655aed5904190ff460bb7a4a4132fc46e0648cb6ddfa3b"
+    },
+    "sanctissima.mp3": {
+      "song": "sanctissima",
+      "kind": "melody",
+      "duration": 42.4391156462585,
+      "sha256": "925a347854a81f2f3e3f54cbf9dd440c421aa56a9a488594f5c8102ee9bbd7eb"
+    },
+    "sanctissima-clue.mp3": {
+      "song": "sanctissima",
+      "kind": "clue",
+      "duration": 11.0,
+      "sha256": "20eccee2fe77528e25cb2735b83cd2b99fb29c53e7850f7cbc703d142b8c7201"
+    },
+    "joy.mp3": {
+      "song": "joy",
+      "kind": "melody",
+      "duration": 24.7,
+      "sha256": "68bb81d975dee4164284978a13e7cb884a617d42f96561c3493c8441b37a58b4"
+    },
+    "joy-clue.mp3": {
+      "song": "joy",
+      "kind": "clue",
+      "duration": 11.0,
+      "sha256": "8fd8a389578875acebc046eb6815f918e3aee9c190377afdf880f84b7860a9ef"
+    }
+  }
+}

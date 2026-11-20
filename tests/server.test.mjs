@@ -4,6 +4,28 @@ import {createApp} from '../server.mjs';
 import {mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
+test('Catholic hymn quiz stores bounded scores and appears in admin results',async()=>{
+ const server=createApp({dbPath:':memory:',setupToken:'hymns-test-setup'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Hymns Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];const post=(route,data)=>fetch(base+route,{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify(data)});
+  const start=await post('/api/runs',{game:'hymns',difficulty:'traditional'});assert.equal(start.status,201);const run=await start.json();for(const result of [{score:401,firstTry:4,status:'completed'},{score:400,firstTry:5,status:'completed'},{score:400,firstTry:4,status:'won'}])assert.equal((await post('/api/runs/'+run.id+'/finish',result)).status,400);assert.equal((await post('/api/runs/'+run.id+'/finish',{score:400,firstTry:4,status:'completed'})).status,200);assert.equal((await post('/api/runs',{game:'hymns',difficulty:'library'})).status,400);
+  assert.equal((await post('/api/admin/setup',{token:'hymns-test-setup',password:'hymns-unit-test-password'})).status,201);const login=await post('/api/admin/login',{password:'hymns-unit-test-password'});const adminCookie=login.headers.get('set-cookie').split(';')[0];const response=await fetch(base+'/api/admin/results?game=hymns',{headers:{Cookie:adminCookie}});assert.equal(response.status,200);const results=await response.json();assert.equal(results.summary.sessions,1);assert.equal(results.rows[0].game,'hymns');assert.equal(results.rows[0].total,4);assert.equal(results.rows[0].score,400);
+  for(const file of ['index.html','data.js','hymns.js','hymns.css','audio/silent.mp3','audio/adeste-clue.mp3'])assert.equal((await fetch(base+'/hymns/'+file)).status,200);
+ }finally{await new Promise(r=>server.close(r))}
+});
+test('Melody scores validate round counts, game difficulty and served assets',async()=>{
+ const server=createApp({dbPath:':memory:',setupToken:'melody-test-setup'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
+ try{
+  const player=await fetch(base+'/api/player',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({nickname:'Melody Test'})});const cookie=player.headers.get('set-cookie').split(';')[0];
+  const post=(route,data)=>fetch(base+route,{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:cookie},body:JSON.stringify(data)});
+  for(const [difficulty,total] of [['easy',6],['normal',8]]){const start=await post('/api/runs',{game:'melody',difficulty});assert.equal(start.status,201);const run=await start.json();assert.equal((await post('/api/runs/'+run.id+'/finish',{score:total*100+1,firstTry:total,status:'completed'})).status,400);assert.equal((await post('/api/runs/'+run.id+'/finish',{score:total*100,firstTry:total+1,status:'completed'})).status,400);assert.equal((await post('/api/runs/'+run.id+'/finish',{score:total*100,firstTry:total,status:'won'})).status,400);assert.equal((await post('/api/runs/'+run.id+'/finish',{score:total*100,firstTry:total,status:'completed'})).status,200)}
+  assert.equal((await post('/api/runs',{game:'melody',difficulty:'free'})).status,400);
+  assert.equal((await post('/api/admin/setup',{token:'melody-test-setup',password:'melody-unit-test-password'})).status,201);
+  const login=await post('/api/admin/login',{password:'melody-unit-test-password'});assert.equal(login.status,200);const adminCookie=login.headers.get('set-cookie').split(';')[0];
+  const response=await fetch(base+'/api/admin/results?game=melody',{headers:{Cookie:adminCookie}});assert.equal(response.status,200);const results=await response.json();assert.equal(results.summary.sessions,2);assert.deepEqual(results.rows.map(r=>r.total).sort(),[6,8]);assert.ok(results.rows.every(r=>r.game==='melody'));
+  for(const file of ['index.html','engine.js','melody.js','melody.css'])assert.equal((await fetch(base+'/melody/'+file)).status,200);
+ }finally{await new Promise(r=>server.close(r))}
+});
 test('Mandarin sessions preserve language tags and reject invalid suffixes',async()=>{
  const server=createApp({dbPath:':memory:'});await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;
  try{

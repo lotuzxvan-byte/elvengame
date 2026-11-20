@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Kebun Melodi — Game Elven</title><link rel="stylesheet" href="melody.css?v=melody-1"></head>
+<body><main>
+<header><a href="../index.html" id="direct-home">← Pilih game</a><span>GAME ELVEN · PETUALANGAN MUSIK</span><button id="sound" aria-pressed="true">♪ Suara aktif</button></header>
+<section class="garden" aria-labelledby="title">
+<div class="mist" aria-hidden="true"></div><div class="moon" aria-hidden="true"></div>
+<div class="intro"><p class="eyebrow">SAAT SENJA, BUNGA-BUNGA BISA BERNYANYI</p><h1 id="title">Kebun <em>Melodi</em></h1><p class="subtitle">Dengar. Ingat. Mekarkan tamanmu.</p></div>
+<div class="companion"><p id="guide">Bantu aku membangunkan bunga!<br>Setiap bunga punya nada sendiri.</p><img src="../assets/character.png" alt="Elven, dengan wajah karakter asli"></div>
+<div class="garden-hud"><span id="round">Kebunmu menunggu</span><span id="score">0 poin</span></div>
+<div class="flowers" id="flowers" role="group" aria-label="Piano lima bunga"></div>
+<div class="prompt"><span id="phase-label">MUSIK KECIL, KEAJAIBAN BESAR</span><h2 id="status" role="status" aria-live="polite">Siap mendengar bunga bernyanyi?</h2><div id="sequence" class="sequence" aria-label="Kemajuan urutan nada"></div></div>
+<div class="lantern-path" id="path" aria-label="Bunga yang berhasil dimekarkan"></div>
+<section class="controls" id="setup"><div><label for="difficulty">Petualanganmu</label><select id="difficulty"><option value="easy">Tunas kecil · 6 bunga</option><option value="normal">Kebun ajaib · 8 bunga</option></select></div><button id="start" class="primary">Bangunkan kebun ✦</button><button id="free" class="secondary">Main musik bebas ♪</button></section>
+<section class="controls" id="play-controls" hidden><button id="replay" class="secondary">Dengar lagi</button><button id="next-round" class="primary" hidden>Bunga berikutnya →</button><button id="again" class="primary" hidden>Kebun baru ✦</button><button id="back-setup" class="quiet">Ganti permainan</button></section>
+<div class="options"><label><input id="slow" type="checkbox"> Contoh lebih pelan</label><span>Ketuk bunga atau tekan tombol 1–5</span></div>
+<div class="instructions"><span><b>01</b> Lihat bunga yang menyala.</span><span><b>02</b> Tirukan urutan yang sama.</span><span><b>03</b> Setiap urutan menumbuhkan bunga.</span></div>
+<p class="fineprint">Tanpa batas waktu. Salah? Coba lagi, kebunmu tetap aman. Saat giliranmu, salah atau Dengar lagi mengurangi 20 poin per putaran (minimum 40). Bisa dimainkan tanpa suara dengan mengikuti cahaya dan nomor bunga. Mode bebas tidak mencatat skor.</p>
+</section>
+<dialog id="exit-dialog"><h2>Kembali ke pilihan?</h2><p>Petualangan yang belum selesai tidak dicatat sebagai hasil. Bunga yang sudah selesai dalam sesi ini akan dimulai ulang.</p><button id="exit-cancel" class="secondary">Lanjut main</button><button id="exit-confirm" class="primary">Ganti permainan</button></dialog>
+</main><script src="engine.js?v=melody-1"></script><script src="melody.js?v=melody-1"></script></body></html>

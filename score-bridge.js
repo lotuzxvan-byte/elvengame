@@ -15,6 +15,12 @@
  }else if(game==='alphabet'){
   for(const id of ['open-words','go-words','again'])wrapStart(id,null,()=>document.querySelector('#level').value+':'+document.querySelector('#category').value+(['en','zh'].includes(document.querySelector('#language')?.value)?':'+document.querySelector('#language').value:''));
   const button=document.querySelector('#next'),original=button.onclick;button.onclick=function(event){original.call(this,event);if(mode==='result')report({score:points,firstTry,status:'completed'})};
+ }else if(game==='hymns'){
+  addEventListener('hymns-session-start',event=>begin(event.detail.difficulty));
+  addEventListener('hymns-session-finish',event=>report(event.detail));
+ }else if(game==='melody'){
+  addEventListener('melody-session-start',event=>begin(event.detail.difficulty));
+  addEventListener('melody-session-finish',event=>report(event.detail));
  }else if(game==='bible'){
   addEventListener('bible-session-start',event=>begin(event.detail.book));
   addEventListener('bible-session-finish',event=>report({score:event.detail.score,firstTry:event.detail.firstTry,status:event.detail.status}));
